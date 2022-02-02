@@ -1,0 +1,13 @@
+// Driver Code
+int main()
+{
+
+    Graph g(100); // Create Graph
+    g.Add_Edge(1,0); // Add Edge
+    g.print(); // Print Graph
+
+    g.BFS(1); // BFS from node 1
+    g.DFS(1); // DFS from node 1
+
+    return 0;
+}

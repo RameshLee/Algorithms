@@ -46,9 +46,7 @@ void buildHeap(int arr[])
 int main() 
 { 
     // Sample array
-    int arr[] = { 1, 5, 6, 8, 9, 7, 3}; 
-
-    // calculating size of array
+    int arr[] = { 1, 5, 6, 8, 9, 7, 3};
     n = sizeof(arr) / sizeof(arr[0]); 
 
     cout << "Array representation before buildHeap is: "<<endl; 

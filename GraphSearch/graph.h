@@ -30,14 +30,16 @@ class Graph
 public:
     int V; //no.of.vertices
     vector<int> *Edge;
+    int *visited;
 
     Graph(int total_vertices)
     {
         V = total_vertices;
         Edge = new vector<int>[total_vertices];
+        visited = new int[V];
     }
 
-    ~Graph() { delete[] Edge;}
+    ~Graph() { delete[] Edge; delete[] visited;}
 
     void Add_Edge(int a, int b)
     {
@@ -57,7 +59,6 @@ public:
     {
         vector<int> BFS_array;
         // 1) mark all nodes as unvisited
-        int *visited = new int[V];
         for (int i=0; i<V; i++)
             visited[i] = 0;
 
@@ -92,7 +93,36 @@ public:
             printf("%d ", BFS_array[i]);
         printf("\n");
 
-        delete[] visited;
+    }
+
+    void clear_visited_array()
+    {
+          // 1) mark all nodes as not visited
+          for (int i=0; i<V; i++)
+              visited[i] = 0;
+
+    }
+
+    void DFS_main(int s)
+    {
+        if (visited[s] == 0)
+        {
+            visited[s] = 1;
+            printf("%d ", s);
+            // go through neighbor/adjacent nodes
+            for (int j=0; j<Edge[s].size(); j++)
+            {
+                int l = Edge[s][j];
+                //recursively explore adjacent edge
+                DFS(l);
+            }
+        }
+    }
+
+    void DFS(int s)
+    {
+        clear_visited_array();
+        DFS_main(s);
     }
 };
 
