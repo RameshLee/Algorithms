@@ -13,12 +13,13 @@ int main()
     int arr[] = { 7,5,1,4,8,2};//1, 5, 6, 8, 9, 7, 3};
     int n = sizeof(arr) / sizeof(arr[0]);
 
-    heap h(n, arr);
+    maxHeap h(n, arr);
     h.print();
-    h.buildHeap(1);
+    h.buildHeap();
     h.print();
     h.deleteRoot();
     h.insertNode(11);
-
+    h.deleteNode(5);
+    //h.deleteNode(11);
     return 0; 
 } 

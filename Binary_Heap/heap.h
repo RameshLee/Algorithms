@@ -1,12 +1,12 @@
 // C++ header file for binary heap
 
-class heap
+class maxHeap
 {
 public:
     vector<int> arr;
     int n;
 
-    heap(int size, int input[])
+    maxHeap(int size, int input[])
     {
         n = size;
         for (int i=0; i<size; i++)
@@ -14,7 +14,7 @@ public:
 
     }
 
-    ~heap() {}
+    ~maxHeap() {}
 
     void print()
     {
@@ -44,38 +44,11 @@ public:
         }
     }
 
-    void min_heapify(int i)
+    void buildHeap()
     {
-        int smallest = i;
-        int l = 2*i + 1; //left-child
-        int r = 2*i + 2; //right-child
+        for (int i = n/2; i >= 0; i--)
+            max_heapify(i);
 
-        if (l < n && arr[l] < arr[smallest])
-            smallest = l;
-
-         if (r < n && arr[r] < arr[smallest])
-            smallest = r;
-
-        if (smallest != i)
-        {
-            swap(arr[i], arr[smallest]);
-            min_heapify(smallest);
-        }
-    }
-
-    void buildHeap(int option)
-    {
-        // option 0: minHeap, else, maxHeap
-        if (option == 0)
-        {
-            for (int i = n/2; i >= 0; i--)
-                min_heapify(i);
-        }
-        else
-        {
-            for (int i = n/2; i >= 0; i--)
-                max_heapify(i);
-        }
     }
 
     void deleteRoot()
@@ -87,8 +60,24 @@ public:
         n--;
 
         // 3) heapify the root node
-        //min_heapify(1);
         max_heapify(0);
+        print();
+    }
+
+    void deleteNode(int s)
+    {
+        // 1) find index of element s and swap it with last element
+        int index;
+        for (index=0; index<n; index++)
+            if (arr[index] == s)
+                break;
+        swap(arr[n-1], arr[index]);
+
+        // 2) delete the node s
+        n--;
+
+        // 3) heapify the inserted node
+        max_heapify(index);
         print();
     }
 
@@ -101,10 +90,20 @@ public:
         arr[n-1] = s;
 
         // 3) heapify the inserted node
-        //min_heapify(n-1);
-        //bubble_up(n-1);
-        buildHeap(1);
+        bubble_up(n-1);
         print();
     }
+
+    void bubble_up(int i)
+    {
+        //find parent
+        int parent = (i-1)/2; //index
+        if (arr[parent] < arr[i])
+        {
+            swap(arr[parent], arr[i]);
+            bubble_up(parent);
+        }
+    }
+
 };
 

@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="Push from pycharm !">
-      <change afterPath="$PROJECT_DIR$/GraphSearch/main.cpp" afterDir="false" />
+    <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/breadth_first_search.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Heap/Run" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Heap/Run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Heap/TestRun" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Heap/heap.h" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Heap/heap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Heap/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Heap/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +41,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/GraphSearch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Binary_Heap" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Binary_Heap" />
       <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
   </component>
@@ -66,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643830526770</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="BFS added in graph.h!">
+      <created>1643836625238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643836625238</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,16 +95,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Push from pycharm !" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push from pycharm !" />
+    <MESSAGE value="BFS added in graph.h!" />
+    <option name="LAST_COMMIT_MESSAGE" value="BFS added in graph.h!" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="432" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1643832537651">
+    <state x="432" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1643846390691">
       <screen x="46" y="0" width="1394" height="900" />
     </state>
-    <state x="432" y="259" key="#com.intellij.fileTypes.FileTypeChooser/46.0.1394.900@46.0.1394.900" timestamp="1643832537651" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1643830532875">
+    <state x="432" y="259" key="#com.intellij.fileTypes.FileTypeChooser/46.0.1394.900@46.0.1394.900" timestamp="1643846390691" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1643863592362">
       <screen x="46" y="0" width="1394" height="900" />
     </state>
+    <state x="229" y="89" key="SettingsEditor/46.0.1394.900@46.0.1394.900" timestamp="1643863592362" />
+    <state x="318" y="177" key="Vcs.Push.Dialog.v2" timestamp="1643836626987">
+      <screen x="43" y="0" width="1397" height="900" />
+    </state>
+    <state x="318" y="177" key="Vcs.Push.Dialog.v2/43.0.1397.900@43.0.1397.900" timestamp="1643836626987" />
     <state x="320" y="177" key="Vcs.Push.Dialog.v2/46.0.1394.900@46.0.1394.900" timestamp="1643830532875" />
     <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1643832529358">
       <screen x="46" y="0" width="1394" height="900" />
