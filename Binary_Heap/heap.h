@@ -105,5 +105,10 @@ public:
         }
     }
 
+    void peek()
+    {
+        printf("Peek: %d\n", arr[0]);
+    }
+
 };
 

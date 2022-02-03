@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
+      <change afterPath="$PROJECT_DIR$/Binary_Heap/find_k_largest_elements_in_array.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binary_Heap/Run" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Heap/Run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binary_Heap/TestRun" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Binary_Heap/heap.h" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Heap/heap.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binary_Heap/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Heap/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
