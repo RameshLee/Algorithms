@@ -1,4 +1,4 @@
-// C++ program for building Heap from Array 
+// C++ program for Merge Sort using Queue
 
 #include <iostream>
 #include <vector>
@@ -53,10 +53,9 @@ public:
     }
 
     void merge_sort()
-    {   int i = 0;
-
+    {
         vector<int> A; vector<int> B;
-        while (1)//queue.q.size() == 1)
+        while (1)
         {
             A.clear(); B.clear();
             A = queue.pop();
@@ -75,55 +74,27 @@ public:
         int left_index = 0;
         int right_index = 0;
 
-        while(left_index <= A.size() || right_index <= B.size())
+        int initial_size_A = (int)A.size();
+        int initial_size_B = (int)B.size();
+
+        while(left_index < initial_size_A || right_index < initial_size_B)
         {
-
-           /* printf("left_index: %d, right_index: %d\n", left_index, right_index);
-
-            printf("BEFORE:\n");
-            printf("A-Vector(%d): ", A.size());
-            for (int i=0; i<A.size(); i++)
-                printf("%d ", A[i]);
-            printf("\n");
-            printf("B-Vector(%d): ", B.size());
-            for (int i=0; i<B.size(); i++)
-                printf("%d ", B[i]);
-            printf("\n");*/
-
-            if (A.size() == 0)
+            if (left_index == initial_size_A)//(int)A.size() == 0)
             {
-                new_vec.push_back(B[right_index]);
-                B.erase(B.begin());
-                right_index++;
+                new_vec.push_back(B[right_index++]);
             }
-            else if (B.size() == 0)
+            else if (right_index == initial_size_B)//(int)B.size() == 0)
             {
-                new_vec.push_back(A[left_index]);
-                A.erase(A.begin());
-                left_index++;
+                new_vec.push_back(A[left_index++]);
             }
             else if (A[left_index] < B[right_index])
             {
-                new_vec.push_back(A[left_index]);
-                A.erase(A.begin());
-                left_index++;
+                new_vec.push_back(A[left_index++]);
             }
             else if (A[left_index] > B[right_index])
             {
-                new_vec.push_back(B[right_index]);
-                B.erase(B.begin());
-                right_index++;
+                new_vec.push_back(B[right_index++]);
             }
-
-            /*printf("AFTER:\n");
-            printf("A-Vector(%d): ", A.size());
-            for (int i=0; i<A.size(); i++)
-                printf("%d ", A[i]);
-            printf("\n");
-            printf("B-Vector(%d): ", B.size());
-            for (int i=0; i<B.size(); i++)
-                printf("%d ", B[i]);
-            printf("\n\n");*/
         }
         return new_vec;
     }
@@ -134,9 +105,10 @@ public:
 int main() 
 {
 
-    int arr[] = {8, 22, 5, 1, 13, 0, 6, 3, 4, 2};
+    int arr[] = {0, 9, 7, 3, 6, 5, 1, 4, 2};
+    int size = sizeof(arr)/sizeof(arr[0]);
     MergeSort MS;
-    MS.fill_input(10, arr);
+    MS.fill_input(size, arr);
     MS.queue.print();
     MS.merge_sort();
     MS.queue.print();

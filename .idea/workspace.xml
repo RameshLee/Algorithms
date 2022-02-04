@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Binary_Heap/merge_k_sorted_arrays.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sorting/Run" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/Run" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/Run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/merge_sort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/merge_sort.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
