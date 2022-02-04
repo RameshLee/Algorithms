@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Binary_Heap/find_k_largest_elements_in_array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Heap/merge_k_sorted_arrays.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/Run" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binary_Heap/Run" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Heap/Run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binary_Heap/heap.h" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Heap/heap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphSearch/graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/graph.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +43,13 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Binary_Heap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Minimum_Spanning_Tree" />
       <recent name="$PROJECT_DIR$/Binary_Heap" />
       <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
@@ -111,9 +113,9 @@
     </state>
     <state x="318" y="177" key="Vcs.Push.Dialog.v2/43.0.1397.900@43.0.1397.900" timestamp="1643836626987" />
     <state x="320" y="177" key="Vcs.Push.Dialog.v2/46.0.1394.900@46.0.1394.900" timestamp="1643830532875" />
-    <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1643832529358">
+    <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1643945661363">
       <screen x="46" y="0" width="1394" height="900" />
     </state>
-    <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/46.0.1394.900@46.0.1394.900" timestamp="1643832529358" />
+    <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/46.0.1394.900@46.0.1394.900" timestamp="1643945661363" />
   </component>
 </project>

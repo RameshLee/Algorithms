@@ -18,7 +18,7 @@ public:
      void print()
      {
         printf("q-contents(%lu): ", q.size());
-        //for (int i = 0; q.size(); i++)
+        //for (int i = 0; i < q.size(); i++)
           //  printf("%d ", q[i]);
         printf("\n");
      }
@@ -29,7 +29,7 @@ class Graph
 {
 public:
     int V; //no.of.vertices
-    vector<int> *Edge;
+    vector<int> *Edge; //adjacency_list
     int *visited;
 
     Graph(int total_vertices)
