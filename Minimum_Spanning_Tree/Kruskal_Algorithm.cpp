@@ -7,13 +7,19 @@ using namespace std;
 class edge
 {
 public:
-    int node;
+    int start_node;
+    int end_node;
     int weight;
 
-    edge(int n, int w) {node = n; weight = w;}
+    edge(int a=0, int b=0, int w=0) {start_node = a; end_node = b, weight = w;}
     ~edge() {}
 
-    void refurbish(int n, int w) {node = n; weight = w;}
+    void update(edge Edge) {start_node = Edge.start_node; end_node = Edge.end_node, weight = Edge.weight;}
+
+    void print()
+    {
+        printf("Edge[%d][%d]=%d\n", start_node, end_node, weight);
+    }
 };
 
 class vertex
@@ -28,7 +34,11 @@ struct Graph
     vertex *Vertex;
     int n;
 
-    Graph(int total_vertices)
+    Graph() {}
+
+    ~Graph() {delete[] Vertex;}
+
+    void Add_Vertices(int total_vertices)
     {
         n = total_vertices;
         Vertex = new vertex[n];
@@ -36,12 +46,10 @@ struct Graph
             Vertex[i].ID = i;
     }
 
-    ~Graph() {delete[] Vertex;}
-
     void Add_Edge(int a, int b, int value)
     {
-        Vertex[a].Edge.push_back(edge(b,value));
-        Vertex[b].Edge.push_back(edge(a,value));
+        Vertex[a].Edge.push_back(edge(a,b,value));
+        Vertex[b].Edge.push_back(edge(b,a,value));
     }
 
     void print()
@@ -49,7 +57,7 @@ struct Graph
         printf("Total Vertices: %d\n", n);
         for (int i=0; i<n; i++)
             for (int j=0; j<Vertex[i].Edge.size(); j++)
-                printf("Edge: [%d,%d]=%d\n", i,Vertex[i].Edge[j].node, Vertex[i].Edge[j].weight);
+                printf("Edge: [%d,%d]=%d\n", Vertex[i].Edge[j].start_node,Vertex[i].Edge[j].end_node, Vertex[i].Edge[j].weight);
     }
 };
 
@@ -61,15 +69,16 @@ public:
     int *group;
     int Next_available_group_id;
 
-    UnionFind()
+    UnionFind(int size)
     {
+        n = size;
         Next_available_group_id = 1;
         group = new int[n];
     }
 
     ~UnionFind() {delete[] group;}
 
-    void makeset()
+    void makeSet()
     {
         for (int i=0; i<n; i++)
             group[i] = 0; //0-no group has been alloted yet
@@ -101,27 +110,126 @@ public:
                 if (group[i] == label_2)
                     group[i] = label_1;
         }
+        else if (find(v) > 0 && find(w) > 0 && find(v) == find(w))//v & w in same group
+        {
+            // do nothing
+        }
 
     }
 };
 
-void Kruskal()
-{
 
-}
+class Kruskal
+{
+public:
+    Graph *g;
+
+    Kruskal() {g = new Graph;}
+    ~Kruskal() {delete g;}
+
+    void solve()
+    {
+        //1) find total edges
+        int total_edges = 0;
+        for (int i=0; i<g[0].n; i++)
+            total_edges += (int)g[0].Vertex[i].Edge.size();
+
+        //2) store edges in an array
+        edge *Edges = new edge[total_edges];
+        int edge_number = 0;
+        for (int i=0; i<g[0].n; i++)
+        {
+            for (int j=0; j<g[0].Vertex[i].Edge.size(); j++)
+            {
+                Edges[edge_number].update(g[0].Vertex[i].Edge[j]);
+                edge_number++;
+            }
+        }
+
+        // 3) insertion sort
+        for (int i=0; i<total_edges; i++)
+            for (int j=i; j<total_edges; j++)
+                if (Edges[i].weight > Edges[j].weight)
+                {
+                    edge Temp = Edges[i];
+                    Edges[i] = Edges[j];
+                    Edges[j] = Temp;
+                }
+
+        printf("Sorted Edges:\n");
+        for (int i=0; i<total_edges; i++)
+            Edges[i].print();
+
+        // 4) kruskal algorithm
+
+            vector<edge> MST_Edges;
+            // 4.1) makeset()
+            UnionFind UF(g[0].n);
+            UF.makeSet();
+
+            // 4.2) for loop in sorted edge order
+            for (int i=0; i<total_edges; i++)
+            {
+                int u = Edges[i].start_node; int v = Edges[i].end_node;
+
+                if ( (UF.find(u) != UF.find(v)) ||  (UF.find(u) == 0 && UF.find(v) == 0) )
+                {
+                    MST_Edges.push_back(Edges[i]);
+                    UF.unify(u,v);
+                }
+            }
+
+            // 4.3) calculate MST length
+            int MST_Length = 0;
+            for (int i=0; i<MST_Edges.size(); i++)
+                MST_Length += MST_Edges[i].weight;
+
+            printf("MST Edges:\n");
+            for (int i=0; i<MST_Edges.size(); i++)
+                MST_Edges[i].print();
+            printf("MST Length: %d\n", MST_Length);
+
+
+
+
+
+
+
+
+
+
+        delete[] Edges;
+    }
+
+};
 
 // Driver Code 
 int main() 
 { 
-    Graph g(9);
-    g.Add_Edge(1,0,12);
-    g.Add_Edge(1,2,20);
-    g.Add_Edge(1,3,21);
-    g.Add_Edge(1,4,19);
-    g.print();
+    Kruskal krusk;
+    /*krusk.g[0].Add_Vertices(4);
+    krusk.g[0].Add_Edge(0,1,10);
+    krusk.g[0].Add_Edge(0,2,21);
+    krusk.g[0].Add_Edge(1,2,18);
+    krusk.g[0].Add_Edge(1,3,22);
+    krusk.g[0].Add_Edge(2,3,13);*/
+
+    krusk.g[0].Add_Vertices(6);
+    krusk.g[0].Add_Edge(0,1,4);
+    krusk.g[0].Add_Edge(0,2,4);
+    krusk.g[0].Add_Edge(1,2,2);
+    krusk.g[0].Add_Edge(2,3,3);
+    krusk.g[0].Add_Edge(2,4,2);
+    krusk.g[0].Add_Edge(2,5,4);
+    krusk.g[0].Add_Edge(3,5,3);
+    krusk.g[0].Add_Edge(4,5,3);
+
+    krusk.g[0].print();
+
+    krusk.solve();
 
 
-    printf("Exiting program! \n\n");
+    printf("\nExiting program! \n\n");
 
     return 0; 
 } 

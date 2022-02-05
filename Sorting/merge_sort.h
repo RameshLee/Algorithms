@@ -1,9 +1,4 @@
-// C++ program for Merge Sort using Queue
-
-#include <iostream>
-#include <vector>
-using namespace std;
-
+// C++ header file for Merge Sort using Queue
 
 class Queue
 {
@@ -95,17 +90,21 @@ public:
             {
                 new_vec.push_back(B[right_index++]);
             }
+            else if (A[left_index] == B[right_index])
+            {
+                new_vec.push_back(B[right_index++]);
+            }
         }
         return new_vec;
     }
 };
 
 
-// Driver Code 
-int main() 
+// Driver Code
+/*int main()
 {
 
-    int arr[] = {0, 9, 7, 3, 6, 5, 1, 4, 2};
+    int arr[] = {0, 9, 6, 4, 1, 4, 22, 17, 3, 7, 7};
     int size = sizeof(arr)/sizeof(arr[0]);
     MergeSort MS;
     MS.fill_input(size, arr);
@@ -114,5 +113,5 @@ int main()
     MS.queue.print();
 
     printf("Exiting program! \n\n");
-    return 0; 
-} 
+    return 0;
+}*/
