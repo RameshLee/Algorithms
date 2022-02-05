@@ -61,60 +61,65 @@ struct Graph
     }
 };
 
+struct node
+{
+    int ID;
+    int rank;
+    int root;
+
+    void initialize(int i)
+    {
+        ID = i;
+        root = i;
+        rank = 0;
+    }
+};
 
 class UnionFind
 {
 public:
     int n;
-    int *group;
+    node *Node;
     int Next_available_group_id;
 
     UnionFind(int size)
     {
         n = size;
         Next_available_group_id = 1;
-        group = new int[n];
+        Node = new node[n];
     }
 
-    ~UnionFind() {delete[] group;}
+    ~UnionFind() {delete[] Node;}
 
     void makeSet()
     {
         for (int i=0; i<n; i++)
-            group[i] = 0; //0-no group has been alloted yet
+            Node[i].initialize(i); //0-no group has been alloted yet
     }
 
-    int find(int v)
+    int parent(int i)
     {
-        return group[v];
+        //find parent
+        while (i != Node[i].root)
+        {
+            Node[i].root = Node[ Node[i].root ].root;
+            i = Node[i].root;
+        }
+        return i;
     }
 
-    void unify(int v, int w)
+    void unify(int i, int j)
     {
-        if (find(v) == 0 && find(w) == 0) //both v & w doesn't have a group
+        if (Node[i].rank > Node[j].rank) //i will become parent of j
         {
-            group[v] = Next_available_group_id;
-            group[w] = Next_available_group_id;
-            Next_available_group_id++;
+            Node[parent(j)].root = i;
+            Node[i].rank += 1;
         }
-        else if (find(v) == 0 && find(w) > 0)//v doesn't have a group
-            group[v] = group[w];
-        else if (find(v) > 0 && find(w) == 0)//w doesn't have a group
-            group[w] = group[v];
-        else if (find(v) > 0 && find(w) > 0 && find(v) != find(w))//v & w in diff group
+        else //j will become parent of i
         {
-            int label_1 = find(v);
-            int label_2 = find(w);
-            //merge all elements in both groups into a single group
-            for (int i=0; i<n; i++)
-                if (group[i] == label_2)
-                    group[i] = label_1;
+           Node[parent(i)].root = j;
+           Node[j].rank += 1;
         }
-        else if (find(v) > 0 && find(w) > 0 && find(v) == find(w))//v & w in same group
-        {
-            // do nothing
-        }
-
     }
 };
 
@@ -146,6 +151,9 @@ public:
             }
         }
 
+        //3) Remove self loops
+        
+
         // 3) insertion sort
         for (int i=0; i<total_edges; i++)
             for (int j=i; j<total_edges; j++)
@@ -171,8 +179,7 @@ public:
             for (int i=0; i<total_edges; i++)
             {
                 int u = Edges[i].start_node; int v = Edges[i].end_node;
-
-                if ( (UF.find(u) != UF.find(v)) ||  (UF.find(u) == 0 && UF.find(v) == 0) )
+                if (UF.parent(u) != UF.parent(v))
                 {
                     MST_Edges.push_back(Edges[i]);
                     UF.unify(u,v);
@@ -189,15 +196,6 @@ public:
                 MST_Edges[i].print();
             printf("MST Length: %d\n", MST_Length);
 
-
-
-
-
-
-
-
-
-
         delete[] Edges;
     }
 
@@ -207,14 +205,15 @@ public:
 int main() 
 { 
     Kruskal krusk;
-    /*krusk.g[0].Add_Vertices(4);
+    krusk.g[0].Add_Vertices(4);
     krusk.g[0].Add_Edge(0,1,10);
     krusk.g[0].Add_Edge(0,2,21);
     krusk.g[0].Add_Edge(1,2,18);
     krusk.g[0].Add_Edge(1,3,22);
-    krusk.g[0].Add_Edge(2,3,13);*/
+    krusk.g[0].Add_Edge(2,3,13);
+    //MST=41
 
-    krusk.g[0].Add_Vertices(6);
+    /*krusk.g[0].Add_Vertices(6);
     krusk.g[0].Add_Edge(0,1,4);
     krusk.g[0].Add_Edge(0,2,4);
     krusk.g[0].Add_Edge(1,2,2);
@@ -222,7 +221,31 @@ int main()
     krusk.g[0].Add_Edge(2,4,2);
     krusk.g[0].Add_Edge(2,5,4);
     krusk.g[0].Add_Edge(3,5,3);
-    krusk.g[0].Add_Edge(4,5,3);
+    krusk.g[0].Add_Edge(4,5,3);*/
+    //MST=14
+
+    /*krusk.g[0].Add_Vertices(5);
+    krusk.g[0].Add_Edge(0,1,1);
+    krusk.g[0].Add_Edge(0,2,7);
+    krusk.g[0].Add_Edge(0,3,10);
+    krusk.g[0].Add_Edge(0,4,5);
+    krusk.g[0].Add_Edge(1,2,3);
+    krusk.g[0].Add_Edge(2,3,4);
+    krusk.g[0].Add_Edge(3,4,2);*/
+    //MST=10
+
+    /*krusk.g[0].Add_Vertices(6);
+    krusk.g[0].Add_Edge(4,3,9);
+    krusk.g[0].Add_Edge(4,0,4);
+    krusk.g[0].Add_Edge(3,0,1);
+    krusk.g[0].Add_Edge(3,2,5);
+    krusk.g[0].Add_Edge(3,1,3);
+    krusk.g[0].Add_Edge(0,1,2);
+    krusk.g[0].Add_Edge(2,1,3);
+    krusk.g[0].Add_Edge(2,5,8);
+    krusk.g[0].Add_Edge(1,5,7);*/
+    //MST=17
+
 
     krusk.g[0].print();
 
