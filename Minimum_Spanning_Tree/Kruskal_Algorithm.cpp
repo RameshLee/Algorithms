@@ -110,15 +110,14 @@ public:
 
     void unify(int i, int j)
     {
-        if (Node[i].rank > Node[j].rank) //i will become parent of j
-        {
+        if (Node[parent(i)].rank > Node[parent(j)].rank) //parent of i will point to parent of j
             Node[parent(j)].root = i;
-            Node[i].rank += 1;
-        }
-        else //j will become parent of i
+        else if (Node[parent(i)].rank < Node[parent(j)].rank) //parent of j will point to parent of i
+            Node[parent(i)].root = parent(j);
+        else if (Node[parent(i)].rank == Node[parent(j)].rank)
         {
-           Node[parent(i)].root = j;
-           Node[j].rank += 1;
+            Node[parent(i)].root = parent(j);
+            Node[parent(j)].rank += 1;
         }
     }
 };
@@ -205,12 +204,12 @@ public:
 int main() 
 { 
     Kruskal krusk;
-    krusk.g[0].Add_Vertices(4);
+    /*krusk.g[0].Add_Vertices(4);
     krusk.g[0].Add_Edge(0,1,10);
     krusk.g[0].Add_Edge(0,2,21);
     krusk.g[0].Add_Edge(1,2,18);
     krusk.g[0].Add_Edge(1,3,22);
-    krusk.g[0].Add_Edge(2,3,13);
+    krusk.g[0].Add_Edge(2,3,13);*/
     //MST=41
 
     /*krusk.g[0].Add_Vertices(6);
@@ -234,7 +233,7 @@ int main()
     krusk.g[0].Add_Edge(3,4,2);*/
     //MST=10
 
-    /*krusk.g[0].Add_Vertices(6);
+    krusk.g[0].Add_Vertices(6);
     krusk.g[0].Add_Edge(4,3,9);
     krusk.g[0].Add_Edge(4,0,4);
     krusk.g[0].Add_Edge(3,0,1);
@@ -243,7 +242,7 @@ int main()
     krusk.g[0].Add_Edge(0,1,2);
     krusk.g[0].Add_Edge(2,1,3);
     krusk.g[0].Add_Edge(2,5,8);
-    krusk.g[0].Add_Edge(1,5,7);*/
+    krusk.g[0].Add_Edge(1,5,7);
     //MST=17
 
 
