@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
+      <change afterPath="$PROJECT_DIR$/Shortest Path Tree/Dijkstra_Algorithm.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shortest Path Tree/script.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minimum_Spanning_Tree/Kruskal_Algorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Minimum_Spanning_Tree/Kruskal_Algorithm.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minimum_Spanning_Tree/Run" beforeDir="false" afterPath="$PROJECT_DIR$/Minimum_Spanning_Tree/Run" afterDir="false" />
@@ -42,13 +44,13 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Sorting" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Sorting" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Sorting" />
       <recent name="$PROJECT_DIR$/Minimum_Spanning_Tree" />
       <recent name="$PROJECT_DIR$/Binary_Heap" />
       <recent name="$PROJECT_DIR$/GraphSearch" />
