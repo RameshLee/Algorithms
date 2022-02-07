@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Shortest Path Tree/Dijkstra_Algorithm.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shortest Path Tree/script.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minimum_Spanning_Tree/Kruskal_Algorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Minimum_Spanning_Tree/Kruskal_Algorithm.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minimum_Spanning_Tree/Run" beforeDir="false" afterPath="$PROJECT_DIR$/Minimum_Spanning_Tree/Run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shortest_Path_Tree/Dijkstra_Algorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Shortest_Path_Tree/Dijkstra_Algorithm.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shortest_Path_Tree/Run" beforeDir="false" afterPath="$PROJECT_DIR$/Shortest_Path_Tree/Run" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
