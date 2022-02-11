@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/Knapsack.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/Longest_Common_Subsequence.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic_Programming/Edit_Distance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/Edit_Distance.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dynamic_Programming/Run" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/Run" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minimum_Spanning_Tree/Kruskal_Algorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Minimum_Spanning_Tree/Kruskal_Algorithm.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minimum_Spanning_Tree/Run" beforeDir="false" afterPath="$PROJECT_DIR$/Minimum_Spanning_Tree/Run" afterDir="false" />
