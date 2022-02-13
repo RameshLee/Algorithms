@@ -245,13 +245,25 @@ int main()
     krusk.g[0].Add_Edge(1,5,7);*/
     //MST=17
 
-    krusk.g[0].Add_Vertices(5);
+    /*krusk.g[0].Add_Vertices(5);
     krusk.g[0].Add_Edge(0,1,4);
     krusk.g[0].Add_Edge(0,2,5);
     krusk.g[0].Add_Edge(1,3,6);
     krusk.g[0].Add_Edge(2,3,5);
-    krusk.g[0].Add_Edge(3,4,4);
+    krusk.g[0].Add_Edge(3,4,4);*/
     //MST=18
+
+    krusk.g[0].Add_Vertices(6);
+    krusk.g[0].Add_Edge(0,1,4);
+    krusk.g[0].Add_Edge(0,2,1);
+    krusk.g[0].Add_Edge(0,3,3);
+    krusk.g[0].Add_Edge(1,3,4);
+    krusk.g[0].Add_Edge(1,2,4);
+    krusk.g[0].Add_Edge(2,3,2);
+    krusk.g[0].Add_Edge(2,5,4);
+    krusk.g[0].Add_Edge(3,5,6);
+    krusk.g[0].Add_Edge(5,4,5);
+    //MST=16
 
     krusk.g[0].print();
 
