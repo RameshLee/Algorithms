@@ -87,6 +87,8 @@ public:
 
     int find_next_node_to_traverse_with()
     {
+        // use priority queue here for better time complexity
+
         int min_dist = 0;
         int min_k;
         for (int i=0; i<g[0].n; i++)
@@ -113,7 +115,7 @@ public:
         g[0].Vertex[starting_node].dist = 0;
         for (int i=0; i<g[0].n; i++)
         {
-            // 1) pick the min dist valued node
+            // 1) pick the min dist valued unvisited node
             int k;
             if (i == 0)
                 k = starting_node;
@@ -137,7 +139,7 @@ public:
                 }
             }
 
-            // 3) mark the current node as visited
+            // 3) mark the current node k as visited
             g[0].Vertex[k].visited = 1;
         }
 
