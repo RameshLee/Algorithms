@@ -1,4 +1,4 @@
-// C++ Program to find Strongly Connected Components (SCC) in a Graph using Kosaraju Algorithm with O(E+V) time complexity
+// C++ Program to find the Strongly Connected Components (SCC) in a Graph using Kosaraju Algorithm with O(E+V) time complexity
 
 #include <iostream>
 #include <vector>

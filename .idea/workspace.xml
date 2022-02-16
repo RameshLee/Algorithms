@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/GraphSearch/Depth_First_Search.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphSearch/script.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dynamic_Programming/Edit_Distance.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Dynamic_Programming/Run" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/Run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/ReadMe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/TestRun" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/graph.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/Kosaraju_Algorithm_for_Strongly_Connected_Components.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphSearch/Kosaraju_Algorithm_for_Strongly_Connected_Components.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/Kosaraju_Algorithm_for_Strongly_Connected_Components.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minimum_Spanning_Tree/Run" beforeDir="false" afterPath="$PROJECT_DIR$/Minimum_Spanning_Tree/Run" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shortest_Path_Tree/Dijkstra_Algorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Shortest_Path_Tree/Dijkstra_Algorithm.cpp" afterDir="false" />
     </list>
