@@ -31,15 +31,20 @@ public:
     int V; //no.of.vertices
     vector<int> *Edge; //adjacency_list
     int *visited;
+    vector<int> DFS_array;
 
-    Graph(int total_vertices)
+    Graph() {}
+    ~Graph() {}
+
+    void Allocate(int total_vertices)
     {
         V = total_vertices;
         Edge = new vector<int>[total_vertices];
         visited = new int[V];
+        DFS_array.clear();
     }
 
-    ~Graph() { delete[] Edge; delete[] visited;}
+    void Destroy() { delete[] Edge; delete[] visited;}
 
     void Add_Edge(int a, int b)
     {
@@ -108,13 +113,13 @@ public:
         if (visited[s] == 0)
         {
             visited[s] = 1;
-            printf("%d ", s);
+            DFS_array.push_back(s);
             // go through neighbor/adjacent nodes
             for (int j=0; j<Edge[s].size(); j++)
             {
                 int l = Edge[s][j];
                 //recursively explore adjacent edge
-                DFS(l);
+                DFS_main(l);
             }
         }
     }
@@ -123,6 +128,11 @@ public:
     {
         clear_visited_array();
         DFS_main(s);
+
+        // print DFS array
+        printf("DFS: ");
+        for (int i=0; i<DFS_array.size(); i++)
+            printf("%d ", DFS_array[i]);
     }
 };
 
