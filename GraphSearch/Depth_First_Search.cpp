@@ -10,8 +10,7 @@ using namespace std;
 int main() 
 { 
 
-    Graph g;
-    g.Allocate(100);
+    Graph g(100);
     g.Add_Edge(1,0);
     g.Add_Edge(1,2);
     g.Add_Edge(1,3);
@@ -22,12 +21,10 @@ int main()
     g.Add_Edge(2,9);
     g.print();
 
-    g.BFS(1);
-    g.DFS(1);
+    //g.BFS(1);
+    //g.DFS(1); //argument is source node
+    //g.print_DFS();
 
-    g.Destroy();
-
-    printf("Exiting program! \n\n");
 
     return 0; 
 } 
