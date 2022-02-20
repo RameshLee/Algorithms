@@ -20,12 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Linear_Programming/baking_ingredients.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/Max_Array_Sum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linear_Programming/chocolate_factory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic_Programming/Run" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/Run" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GraphSearch/Run" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/Run" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GraphSearch/graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/graph.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GraphSearch/script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/script.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linear_Programming/baking_ingredients.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linear_Programming/baking_ingredients.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +47,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dynamic_Programming" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Dynamic_Programming" />
+      <recent name="$PROJECT_DIR$/Linear_Programming" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/GraphSearch" />
-      <recent name="$PROJECT_DIR$/Dynamic_Programming" />
       <recent name="$PROJECT_DIR$/Sorting" />
-      <recent name="$PROJECT_DIR$/Minimum_Spanning_Tree" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -131,5 +133,16 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1644985418980" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Linear_Programming/chocolate_factory.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
