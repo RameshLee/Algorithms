@@ -47,6 +47,17 @@ public:
         }
     }
 
+    void fill_input(int size, vector<int> input)
+    {
+        n = size;
+        for (int i=0; i<n; i++)
+        {
+            v.clear();
+            v.push_back(input[i]);
+            queue.push(v);
+        }
+    }
+
     void merge_sort()
     {
         vector<int> A; vector<int> B;

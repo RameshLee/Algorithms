@@ -26,6 +26,7 @@
       <change beforePath="$PROJECT_DIR$/GraphSearch/graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/graph.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GraphSearch/script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/script.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Linear_Programming/baking_ingredients.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linear_Programming/baking_ingredients.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/merge_sort.h" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/merge_sort.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
