@@ -31,12 +31,11 @@ struct DisjointSet
 
     void print()
     {
-        for (int i=0; i<row*col; i++)
+        for (int i=0; i<row; i++)
         {
-            if (i> 1 && i%col == 0)
-                printf("\n");
-            //printf("%d ", node[i].value);
-            printf("%d ", find_parent(i));
+            for (int j=0; j<col; j++)
+                printf("%d ", node[i*col+j].value);//find_parent(i*col+j));
+            printf("\n");
         }
     }
 
@@ -66,6 +65,67 @@ struct DisjointSet
         }
     }
 
+    void Count_Islands()
+    {
+        for (int i=0; i<row; i++)
+        {
+            for (int j=0; j<col; j++)
+            {
+                //check 8 corners
+                //1) right
+                /*if (j+1 < col && node[i*col+j].value == 1)
+                    printf("right: %d\n", node[(i*col)+(j+1)].value);
+                else
+                    printf("right: deadend\n");*/
+
+
+                //2) left
+                /*if (j-1 >= 0 && node[i*col+j].value == 1)
+                    printf("left: %d\n", node[(i*col)+(j-1)].value);
+                else
+                    printf("left: deadend\n");*/
+
+
+                //3) top
+                /*if ((i-1) >= 0 && node[i*col+j].value == 1)
+                    printf("top: %d\n", node[((i-1)*col)+j].value);
+                else
+                    printf("top: deadend\n");*/
+
+                //4) bottom
+                /*if ((i+1) < row && node[i*col+j].value == 1)
+                    printf("bottom: %d\n", node[((i+1)*col)+j].value);
+                else
+                    printf("bottom: deadend\n");*/
+
+                //5) bottom-left
+                /*if ((i+1) < row && (j-1) >= 0 && node[i*col+j].value == 1)
+                    printf("bottom-left: %d\n", node[((i+1)*col)+j-1].value);
+                else
+                    printf("bottom-left: deadend\n");*/
+
+                //6) bottom-right
+                /*if ((i+1) < row && (j+1) < col && node[i*col+j].value == 1)
+                    printf("bottom-right: %d\n", node[((i+1)*col)+j+1].value);
+                else
+                    printf("bottom-right: deadend\n");*/
+
+                //7) top-left
+                /*if ((i-1) >= 0 && (j-1) >= 0 && node[i*col+j].value == 1)
+                    printf("top-left: %d\n", node[((i-1)*col)+j-1].value);
+                else
+                    printf("top-left: deadend\n");*/
+
+                //8) top-right
+                if ((i-1) >= 0 && (j+1) < col && node[i*col+j].value == 1)
+                    printf("top-right: %d\n", node[((i-1)*col)+j+1].value);
+                else
+                    printf("top-right: deadend\n");
+            }
+            printf("\n");
+        }
+    }
+
 };
 
 int main()
@@ -80,6 +140,7 @@ int main()
     DisjointSet DS;
     DS.makeset(row, col, Matrix);
     DS.print();
+    DS.Count_Islands();
 
     printf("\nExited the Program!\n\n");
     return 0;
