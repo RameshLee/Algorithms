@@ -22,7 +22,7 @@ int main()
     g.print();
 
     //g.BFS(1);
-    //g.DFS(1); //argument is source node
+    g.DFS(1); //argument is source node
     //g.print_DFS();
 
 
