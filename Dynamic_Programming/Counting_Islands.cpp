@@ -1,65 +1,86 @@
 // C++ program for counting islands problem using Disjoint set algorithm
 
 #include <iostream>
-#include <utility>
 #include <vector>
 using namespace std;
 
-struct node
+#define max(a,b) a>b?a:b
+
+struct Node
 {
-    pair<int,int> index;
-    pair<int,int> root;
+    int value; //1-land,0-water
     int rank;
+    int root;
 
-    node() {rank=0;}
-    ~node() {}
-
+    Node(int a, int b) {value=a; root=b; rank=0;}
+    ~Node() {}
 };
 
-class UnionFind
+struct DisjointSet
 {
-public:
-    int n;
-    node *Node;
-    int Next_available_group_id;
+    vector<Node> node;
+    int row; int col;
 
-    UnionFind(int size)
+    void makeset(int n, int m, vector<vector<int>> M)
     {
-        n = size;
-        Next_available_group_id = 1;
-        Node = new node[n];
+        row = n; col = m;
+        for (int i=0; i<row; i++)
+            for (int j=0; j<col; j++)
+                node.push_back(Node(M[i][j],i*col+j));
     }
 
-    ~UnionFind() {delete[] Node;}
-
-    void makeSet()
+    void print()
     {
-        for (int i=0; i<n; i++)
-            Node[i].initialize(i); //0-no group has been alloted yet
-    }
-
-    pair parent(pair i)
-    {
-        //find parent
-        while (i.first != Node[i].root.first)
+        for (int i=0; i<row*col; i++)
         {
-            Node[i].root = Node[ Node[i].root ].root;
-            i = Node[i].root;
+            if (i> 1 && i%col == 0)
+                printf("\n");
+            //printf("%d ", node[i].value);
+            printf("%d ", find_parent(i));
+        }
+    }
+
+    int find_parent(int i)
+    {
+        while(node[i].root != i)
+        {
+            node[i].root = node[ node[i].root ].root;
+            i = node[i].root;
         }
         return i;
     }
 
     void unify(int i, int j)
     {
-        // "path-compression" can be used to further improve the time complexity of Union-Find
-        if (Node[parent(i)].rank > Node[parent(j)].rank) //parent of i will point to parent of j
-            Node[parent(j)].root = i;
-        else if (Node[parent(i)].rank < Node[parent(j)].rank) //parent of j will point to parent of i
-            Node[parent(i)].root = parent(j);
-        else if (Node[parent(i)].rank == Node[parent(j)].rank)
+        int x = find_parent(i);
+        int y = find_parent(j);
+
+        if (node[x].rank > node[y].rank)
+            node[y].root = x;
+        else if (node[x].rank < node[y].rank)
+            node[x].root = y;
+        else if (node[x].rank == node[y].rank)
         {
-            Node[parent(i)].root = parent(j);
-            Node[parent(j)].rank += 1;
+            node[x].root = y;
+            node[y].rank++;
         }
     }
+
 };
+
+int main()
+{
+    int row = 5; int col = 5;
+     vector<vector<int>> Matrix = {{1, 1, 0, 0, 0},
+                         {0, 1, 0, 0, 1},
+                         {1, 0, 0, 1, 1},
+                         {0, 0, 0, 0, 0},
+                         {1, 0, 1, 0, 1}};
+
+    DisjointSet DS;
+    DS.makeset(row, col, Matrix);
+    DS.print();
+
+    printf("\nExited the Program!\n\n");
+    return 0;
+}
