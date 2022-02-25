@@ -1,4 +1,4 @@
-// C++ program for counting islands problem using Disjoint set algorithm with O(log(n)) worst-case time complexity
+// C++ program for counting islands problem using Disjoint set algorithm with O(row*col) worst-case time complexity
 
 // Problem statement:
 //Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.
