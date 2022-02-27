@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/Coin_Change_Problem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/1557_LeetCode_Min_Vertices_to_reach_all_nodes.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/Majority_Element_2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/script.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphSearch/Check_Bipartite_Graph.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic_Programming/Coin_Change_Problem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/Coin_Change_Problem.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dynamic_Programming/Run" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/Run" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GraphSearch/Run" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/Run" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GraphSearch/graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/graph.h" afterDir="false" />
@@ -47,19 +51,19 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dynamic_Programming" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Dynamic_Programming" />
-      <recent name="$PROJECT_DIR$/Linear_Programming" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/GraphSearch" />
-      <recent name="$PROJECT_DIR$/Sorting" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GraphSearch" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Array" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/GraphSearch" />
+      <recent name="$PROJECT_DIR$/Dynamic_Programming" />
+      <recent name="$PROJECT_DIR$/Linear_Programming" />
     </key>
   </component>
   <component name="SvnConfiguration">
