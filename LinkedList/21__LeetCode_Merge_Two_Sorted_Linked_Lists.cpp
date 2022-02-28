@@ -1,13 +1,6 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
+// Problem: https://leetcode.com/problems/merge-two-sorted-lists/
+// Solution: Merge Two Sorted Linked List at O(n+m) time complexity
+
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2)
