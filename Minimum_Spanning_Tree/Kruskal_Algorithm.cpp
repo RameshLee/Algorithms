@@ -110,6 +110,7 @@ public:
 
     void unify(int i, int j)
     {
+        // "path-compression" can be used to further improve the time complexity of Union-Find
         if (Node[parent(i)].rank > Node[parent(j)].rank) //parent of i will point to parent of j
             Node[parent(j)].root = i;
         else if (Node[parent(i)].rank < Node[parent(j)].rank) //parent of j will point to parent of i
