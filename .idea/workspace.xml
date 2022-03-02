@@ -20,15 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/LinkedList/138_LeetCode_Copy_LinkedList_with_Random_Pointers.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shortest_Path_Tree/LeetCode_Shortest_Dist_From_All_Buildings.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/189_LeetCode_Rotate_Array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/278_LeetCode_First_Bad_Version.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/35_LeetCode_Search_Insert_Position.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/704_LeetCode_Binary_Search.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shortest_Path_Tree/317_LeetCode_Shortest_Dist_From_All_Buildings.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic_Programming/Run" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/Run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/Run" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/Run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/script.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphSearch/Check_Bipartite_Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/785_LeetCode_Is_Graph_Bipartite.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shortest_Path_Tree/LeetCode_Shortest_Dist_From_All_Buildings.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Shortest_Path_Tree/Run" beforeDir="false" afterPath="$PROJECT_DIR$/Shortest_Path_Tree/Run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shortest_Path_Tree/script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Shortest_Path_Tree/script.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,18 +48,18 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Shortest_Path_Tree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/GraphSearch" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Shortest_Path_Tree" />
       <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Array" />
+      <recent name="$PROJECT_DIR$/GraphSearch" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
   </component>
