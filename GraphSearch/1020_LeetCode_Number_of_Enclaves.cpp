@@ -1,11 +1,10 @@
-// Link: https://leetcode.com/problems/number-of-enclaves/
+// Link: https://leetcode.com/problems/number-of-closed-islands/
 
 class Solution {
 public:
     int LockedLands = 0;
     int TotalLockedLands = 0;
     int foundWayOut = 0;
-    vector<vector<int>> visited;
     int x[4] = {1,-1,0,0};
     int y[4] = {0,0,1,-1};
     int row;
@@ -29,13 +28,13 @@ public:
 
     void DFS(vector<vector<int>>& grid, int i, int j)
     {
-        if (visited[i][j] == 0)
+        if (grid[i][j])
         {
             LockedLands++;
             if ( isCornerDetected(i,j) )
                 foundWayOut = 1;
 
-            visited[i][j] = 1;
+            grid[i][j] = 0; //mark as visited
             for (int k=0; k<4; k++)
                 if ( isSafe(i + x[k], j + y[k]) )
                     if (grid[i + x[k]][j + y[k]])
@@ -46,11 +45,10 @@ public:
     int numEnclaves(vector<vector<int>>& grid)
     {
         row = grid.size(); col = grid[0].size();
-        visited.resize(grid.size(), vector<int>(grid[0].size(), 0));
 
-        for (int i=0; i<grid.size(); i++)
-            for (int j=0; j<grid[0].size(); j++)
-                if (grid[i][j] && !visited[i][j])
+        for (int i=0; i<row; i++)
+            for (int j=0; j<col; j++)
+                if (grid[i][j])
                 {
                     LockedLands = 0;
                     foundWayOut = 0;
