@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/557_LeetCode_Reverse_Words_in_a_String_III.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphSearch/1162_LeetCode_As_Far_From_Land_As_Possible.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphSearch/417_LeetCode_Pacific_Atlantic_WaterFlow.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphSearch/1091_LeetCode_Shortest_Path_in_Binary_Matrix.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphSearch/542_LeetCode_01_Matrix.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/19_Remove_nth_Node_from_End_of_LinkedList.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/Run" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/Run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/script.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,15 +47,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/GraphSearch" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GraphSearch" />
+      <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Shortest_Path_Tree" />
-      <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
   </component>
   <component name="SvnConfiguration">
