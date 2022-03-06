@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/GraphSearch/1091_LeetCode_Shortest_Path_in_Binary_Matrix.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphSearch/542_LeetCode_01_Matrix.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/19_Remove_nth_Node_from_End_of_LinkedList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/567_LeetCode_Permutation_in_String.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +41,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/GraphSearch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/GraphSearch" />
       <recent name="$PROJECT_DIR$/LinkedList" />
-      <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Shortest_Path_Tree" />
       <recent name="$PROJECT_DIR$" />
     </key>
