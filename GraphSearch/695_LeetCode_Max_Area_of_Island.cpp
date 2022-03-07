@@ -2,19 +2,16 @@
 
 class Solution {
 public:
+    int row; int col;
     int maxArea = 0;
     int localArea = 0;
     int x[4] = {1,-1,0,0};
     int y[4] = {0,0,1,-1};
-    int row;
-    int col;
 
     bool isSafe(int i, int j)
     {
-        if (i>=0 && j>=0 && i<row && j<col)
-            return true;
-        else
-            return false;
+        if (i>=0 && j>=0 && i<row && j<col) return true;
+        else return false;
     }
 
     void DFS(vector<vector<int>>& grid, int i, int j)
@@ -39,8 +36,7 @@ public:
                 {
                     localArea = 0;
                     DFS(grid, i, j);
-                    if (localArea > maxArea)
-                        maxArea = localArea;
+                    maxArea = max(maxArea, localArea);
                 }
 
         return maxArea;
