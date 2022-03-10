@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/GraphSearch/1319_LeetCode_Number_of_Operations_to_make_Network_Connected.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphSearch/994_LeetCode_Rotting_Oranges.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/141_LeetCode_LinkedList_Cycle.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphSearch/1466 LeetCode Reorder Routes to Make All Paths Lead to the City Zero.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphSearch/802_LeetCode_Find_Eventually_Safe_States.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/206_LeetCode_Reverse_LinkedList.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/19_Remove_nth_Node_from_End_of_LinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/19_LeetCode_Remove_nth_Node_from_End_of_LinkedList.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
