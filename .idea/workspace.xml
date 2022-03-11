@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/GraphSearch/1466 LeetCode Reorder Routes to Make All Paths Lead to the City Zero.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphSearch/802_LeetCode_Find_Eventually_Safe_States.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/206_LeetCode_Reverse_LinkedList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/2_Add_Two_Numbers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/61_Rotate_LinkedList.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,19 +42,19 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/GraphSearch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LinkedList" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GraphSearch" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/LinkedList" />
+      <recent name="$PROJECT_DIR$/GraphSearch" />
       <recent name="$PROJECT_DIR$/Tree" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Array" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
   </component>
   <component name="SvnConfiguration">
