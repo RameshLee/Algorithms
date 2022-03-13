@@ -2,7 +2,7 @@
 
 # our comment is here
 
-g++ -std=c++11 733* -o Run &&
+g++ -std=c++11 Dummy* -o Run &&
 
 ./Run
 

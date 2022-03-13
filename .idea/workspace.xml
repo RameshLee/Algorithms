@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/1_LeetCode_Two_Sum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/46_LeetCode_Permutations.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/70_Climbing_Stairs.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphSearch/LeetCode_Count Artifacts That Can Be Extracted.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/21__LeetCode_Merge_Two_Sorted_Linked_Lists.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/21__LeetCode_Merge_Two_Sorted_Linked_Lists.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphSearch/Run" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/Run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphSearch/script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/script.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/GraphSearch" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -51,9 +52,9 @@
       <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GraphSearch" />
       <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/LinkedList" />
-      <recent name="$PROJECT_DIR$/GraphSearch" />
       <recent name="$PROJECT_DIR$/Tree" />
       <recent name="$PROJECT_DIR$" />
     </key>
