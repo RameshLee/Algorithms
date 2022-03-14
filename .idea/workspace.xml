@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/70_Climbing_Stairs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphSearch/LeetCode_Count Artifacts That Can Be Extracted.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/20_LeetCode_Valid_Parenthesis.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/88 LeetCode Merge Sorted Array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/24 LeetCode Swap Nodes in Pairs.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/82 LeetCode Remove Duplicates from Sorted List II.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/83 LeetCode Remove Duplicates from Sorted List.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/Run" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/Run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/script.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphSearch/LeetCode_Count Artifacts That Can Be Extracted.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/LeetCode_Count Artifacts That Can Be Extracted.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +46,19 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/GraphSearch" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Array" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/LinkedList" />
+      <recent name="$PROJECT_DIR$/GraphSearch" />
+      <recent name="$PROJECT_DIR$/Tree" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GraphSearch" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/GraphSearch" />
-      <recent name="$PROJECT_DIR$/Array" />
-      <recent name="$PROJECT_DIR$/LinkedList" />
-      <recent name="$PROJECT_DIR$/Tree" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -114,10 +116,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1644391229932" />
-    <state x="189" y="89" key="SettingsEditor" timestamp="1645039439275">
+    <state x="289" y="128" key="SettingsEditor" timestamp="1647225491446">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="189" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1645039439275" />
+    <state x="289" y="128" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1647225491446" />
     <state x="229" y="89" key="SettingsEditor/46.0.1394.900@46.0.1394.900" timestamp="1643863592362" />
     <state x="230" y="89" key="SettingsEditor/47.0.1393.900@47.0.1393.900" timestamp="1644096314880" />
     <state x="318" y="177" key="Vcs.Push.Dialog.v2" timestamp="1643836626987">
