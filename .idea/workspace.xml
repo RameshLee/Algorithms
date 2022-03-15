@@ -20,24 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/217 LeetCode Contains Duplicate.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/232 LeetCode Implement Queue using Stacks.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/242 LeetCode Valid Anagram.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/350 LeetCode Intersection of Two Arrays II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/203 LeetCode Remove Linked List Elements.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/102_LeetCode_BinaryTree_LevelOrderTraversal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/104 LeetCode Maximum Depth of Binary Tree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/112 LeetCode Path Sum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/226 LeetCode Invert Binary Tree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/653 LeetCode Two Sum IV - Input is a BST.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/700 LeetCode Search in a Binary Search Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/1491 LeetCode Average Salary Excluding the Minimum and Maximum Salary.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/1523 LeetCode Count Odd Numbers in an Interval Range.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/98 LeetCode Validate Binary Search Tree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/102_BinaryTree_LevelOrderTraversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/101 LeetCode Symmetric Tree.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/144_BinaryTree_PreOrderTraversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/144_LeetCode__BinaryTree_PreOrderTraversal.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/145_BinaryTree_PostOrderTraversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/145_LeetCode__BinaryTree_PostOrderTraversal.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/617_Merge_Two_BinaryTrees.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/617_LeetCode__Merge_Two_BinaryTrees.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/94_BinaryTree_InOrderTraversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/94_LeetCode_BinaryTree_InOrderTraversal.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/Run" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +43,13 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Tree" />
       <recent name="$PROJECT_DIR$/Array" />
+      <recent name="$PROJECT_DIR$/Tree" />
       <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/GraphSearch" />
