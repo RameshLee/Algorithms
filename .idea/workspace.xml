@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/121 LeetCode Best Time to Buy and Sell Stock .cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/701 LeetCode Insert into a Binary Search Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/1249 LeetCode Minimum Remove to Make Valid Parentheses.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/1281 LeetCode Subtract the Product and Sum of Digits of an Integer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bit_Manipulation/191. Number of 1 Bits.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/1137 LeetCode N-th Tribonacci Number.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/509 LeetCode Fibonacci Number.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,16 +45,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dynamic_Programming" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Dynamic_Programming" />
+      <recent name="$PROJECT_DIR$/Bit_Manipulation" />
       <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Tree" />
       <recent name="$PROJECT_DIR$/LinkedList" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GraphSearch" />
