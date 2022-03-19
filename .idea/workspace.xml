@@ -20,18 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/118 LeetCode Pascal's Triangle.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/1790 LeetCode Check if One String Swap Can Make Strings Equal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/119 LeetCode Pascal's Triangle II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/206 LeetCode Reverse Linked List.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/21 LeetCode Merge Two Sorted Lists.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/24 LeetCode Swap Nodes in Pairs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/344 LeetCode Reverse String.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/509 LeetCode Fibonacci Number.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/70 LeetCode Climbing_Stairs.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/1232 LeetCode Check If It Is a Straight Line.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursion/148 LeetCode MergeSort List.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursion/589 LeetCode N-ary Tree Preorder Traversal.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursion/704 LeetCode Binary Search.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursion/912 LeetCode Sort an Array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursion/98 LeetCode Validate Binary Search Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/148 LeetCode MergeSort List.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/912 LeetCode Sort an Array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/589 LeetCode N-ary Tree Preorder Traversal.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic_Programming/70 LeetCode Climbing_Stairs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/70 LeetCode Climbing_Stairs.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/21__LeetCode_Merge_Two_Sorted_Linked_Lists.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/21__LeetCode_Merge_Two_Sorted_Linked_Lists.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/704_LeetCode_Binary_Search.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/704_LeetCode_Binary_Search.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +50,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Recursion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Recursion" />
-      <recent name="$PROJECT_DIR$/Dynamic_Programming" />
       <recent name="$PROJECT_DIR$/Array" />
-      <recent name="$PROJECT_DIR$/LinkedList" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Tree" />
+      <recent name="$PROJECT_DIR$/Recursion" />
+      <recent name="$PROJECT_DIR$/Sorting" />
+      <recent name="$PROJECT_DIR$/Dynamic_Programming" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Dynamic_Programming" />
