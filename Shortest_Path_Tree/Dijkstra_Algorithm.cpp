@@ -1,4 +1,4 @@
-// C++ program for building Heap from Array 
+// C++ program for Dijikstra Algorithm
 
 #include <iostream>
 #include <vector>

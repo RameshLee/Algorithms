@@ -2,7 +2,7 @@
 
 # our comment is here
 
-g++ -std=c++11 LeetCode* -o Run &&
+g++ -std=c++11 Dijkstra_Algorithm_us* -o Run &&
 
 ./Run
 

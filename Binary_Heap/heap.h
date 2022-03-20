@@ -1,26 +1,26 @@
 // C++ header file for binary heap
 
+
 class maxHeap
 {
 public:
-    vector<int> arr;
+    vector<float> nums;
     int n;
 
     maxHeap(int size, int input[])
     {
         n = size;
-        for (int i=0; i<size; i++)
-            arr.push_back(input[i]);
-
+        for (int i=0; i<n; i++)
+            nums.push_back(input[i]);
     }
 
     ~maxHeap() {}
 
     void print()
     {
-        printf("arr: ");
-        for (int i=0; i<n; i++)
-            printf("%d ", arr[i]);
+        printf("nums: ");
+        for (int i=0; i<nums.size(); i++)
+            printf("%0.0f ", nums[i]);
         printf("\n");
     }
 
@@ -31,15 +31,15 @@ public:
         int l = 2*i + 1; //left-child
         int r = 2*i + 2; //right-child
 
-        if (l < n && arr[l] > arr[largest])
+        if (l < n && nums[l] > nums[largest])
             largest = l;
 
-         if (r < n && arr[r] > arr[largest])
+         if (r < n && nums[r] > nums[largest])
             largest = r;
 
         if (largest != i)
         {
-            swap(arr[i], arr[largest]);
+            swap(nums[i], nums[largest]);
             max_heapify(largest);
         }
     }
@@ -54,9 +54,10 @@ public:
     void deleteRoot()
     {
         // 1) delete top, i.e., swap first and last element
-        swap(arr[0], arr[n-1]);
+        swap(nums[0], nums[n-1]);
 
         // 2) delete last element
+        nums.pop_back();
         n--;
 
         // 3) heapify the root node
@@ -64,16 +65,17 @@ public:
         print();
     }
 
-    void deleteNode(int s)
+    void deleteNode(float s)
     {
         // 1) find index of element s and swap it with last element
         int index;
         for (index=0; index<n; index++)
-            if (arr[index] == s)
+            if (nums[index] == s)
                 break;
-        swap(arr[n-1], arr[index]);
+        swap(nums[n-1], nums[index]);
 
         // 2) delete the node s
+        nums.pop_back();
         n--;
 
         // 3) heapify the inserted node
@@ -81,13 +83,13 @@ public:
         print();
     }
 
-    void insertNode(int s)
+    void insertNode(float s)
     {
         // 1) increase heap size
         n++;
 
         // 2) insert new node at end of the heap
-        arr[n-1] = s;
+        nums.push_back(s);
 
         // 3) heapify the inserted node
         bubble_up(n-1);
@@ -98,17 +100,16 @@ public:
     {
         //find parent
         int parent = (i-1)/2; //index
-        if (arr[parent] < arr[i])
+        if (nums[parent] < nums[i])
         {
-            swap(arr[parent], arr[i]);
+            swap(nums[parent], nums[i]);
             bubble_up(parent);
         }
     }
 
     void peek()
     {
-        printf("Peek: %d\n", arr[0]);
+        printf("Peek: %0.02f\n", nums[0]);
     }
 
 };
-
