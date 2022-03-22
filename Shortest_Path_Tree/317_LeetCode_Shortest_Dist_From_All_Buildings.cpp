@@ -8,26 +8,37 @@
 #include <time.h>
 using namespace std;
 
+
 class Solution
 {
+public:
     int building_count = 0;
-    int building_count_so_far = 0;
+    int Marker = 0;
     vector<pair<int,int>> building_position;
     vector<vector<int>> cumulative_dist; //from all buildings to all lands
     vector<vector<int>> dist; //from one building to all lands
     vector<vector<int>> visited;
     vector<vector<int>> trace;
-public:
+
+    int row; int col;
+    int x[4] ={1,-1,0,0};
+    int y[4] ={0,0,1,-1};
+
+    bool isSafe(int i, int j){
+        if (i>=0 && j>=0 && i<row && j<col) return true;
+        else return false;
+    }
+
     void BFS(pair<int,int> source, vector<vector<int>> &grid)
     {
 
-        building_count_so_far++;
+        Marker++;
 
         // 1) BFS to find min dist to all lands(0) from source building(1)
         vector<pair<int,int>> queue;
         int a = source.first; int b = source.second;
         queue.push_back(make_pair(a,b));
-        visited[a][b] = building_count_so_far;
+        visited[a][b] = Marker;
         dist[a][b] = 0;
 
         while (!queue.empty())
@@ -36,45 +47,17 @@ public:
             int j = queue[0].second;
             queue.erase(queue.begin());
 
-            if (i-1 >= 0 && grid[i-1][j] == 0) // up
-                if (visited[i-1][j] != building_count_so_far)
-                {
-                    dist[i-1][j] = 1 + dist[i][j];
-                    cumulative_dist[i-1][j] += dist[i-1][j];
-                    queue.push_back(make_pair(i-1,j));
-                    visited[i-1][j] = building_count_so_far;
-                    trace[i-1][j]++;
-                }
+            for (int k=0; k<4; k++)
+                if (isSafe( i+x[k], j+y[k] ))
+                     if (trace[i+x[k]][j+y[k]] == Marker-1)
+                         if (visited[i+x[k]][j+y[k]] != Marker){
 
-            if (j-1 >= 0 && grid[i][j-1] == 0) // left
-                if (visited[i][j-1] != building_count_so_far)
-                {
-                    dist[i][j-1] = 1 + dist[i][j];
-                    cumulative_dist[i][j-1] += dist[i][j-1];
-                    queue.push_back(make_pair(i,j-1));
-                    visited[i][j-1] = building_count_so_far;
-                    trace[i][j-1]++;
-                }
-
-            if (i+1 < grid.size() && grid[i+1][j] == 0) // down
-                if (visited[i+1][j] != building_count_so_far)
-                {
-                    dist[i+1][j] = 1 + dist[i][j];
-                    cumulative_dist[i+1][j] += dist[i+1][j];
-                    queue.push_back(make_pair(i+1,j));
-                    visited[i+1][j] = building_count_so_far;
-                    trace[i+1][j]++;
-                }
-
-            if (j+1 < grid[0].size() && grid[i][j+1] == 0) // right
-                if (visited[i][j+1] != building_count_so_far)
-                {
-                    dist[i][j+1] = 1 + dist[i][j];
-                    cumulative_dist[i][j+1] += dist[i][j+1];
-                    queue.push_back(make_pair(i,j+1));
-                    visited[i][j+1] = building_count_so_far;
-                    trace[i][j+1]++;
-                }
+                            dist[i+x[k]][j+y[k]] = 1 + dist[i][j];
+                            cumulative_dist[i+x[k]][j+y[k]] += dist[i+x[k]][j+y[k]];
+                            queue.push_back(make_pair(i+x[k], j+y[k]));
+                            visited[i+x[k]][j+y[k]] = Marker;
+                            trace[i+x[k]][j+y[k]]++;
+                        }
         }
     }
 
@@ -83,6 +66,7 @@ public:
 
         // 1) initilization
         int result;
+        row = grid.size(); col = grid[0].size();
         cumulative_dist.resize(grid.size());
         dist.resize(grid.size());
         visited.resize(grid.size());
@@ -136,13 +120,12 @@ public:
 
         for (int i=0; i<grid.size(); i++)
             for (int j=0; j<grid[i].size(); j++)
-                if (grid[i][j] == 0)
-                    if (trace[i][j] == building_count)
-                        if (cumulative_dist[i][j] < Min_Distance)
-                        {
-                            Min_Distance = cumulative_dist[i][j];
-                            Optimal_Land = make_pair(i,j);
-                        }
+                if (trace[i][j] == building_count)
+                    if (cumulative_dist[i][j] < Min_Distance)
+                    {
+                        Min_Distance = cumulative_dist[i][j];
+                        Optimal_Land = make_pair(i,j);
+                    }
 
         if (Min_Distance == INT_MAX)
             Min_Distance = -1;

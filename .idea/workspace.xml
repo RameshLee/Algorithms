@@ -20,17 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/1572 LeetCode Matrix Diagonal Sum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/215 LeetCode Kth Largest Element in an Array.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/2210 LeetCode Count Hills and Valleys in an Array.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/2211 LeetCode Count Collisions on a Road.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/240 LeetCode Search a 2D Matrix II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/9 LeetCode Palindrome Number .cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Heap/215 LeetCode Kth Largest Element in an Array.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Heap/Dijkstra_Algorithm_using_PriorityQueue.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/9 LeetCode Palindrome Number .cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/103 LeetCode Binary Tree Zigzag Level Order Traversal.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/1678 LeetCode Goal Parser Interpretation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/1768 LeetCode Merge Strings Alternately.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/389 LeetCode Find the Difference.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/17 LeetCode Letter Combinations of a Phone Number.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/46_LeetCode_Permutations.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/489 LeetCode Robot Room Cleaner.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/52 LeetCode N-Queens II.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/77 LeetCode Combinations.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursion/1768 LeetCode Merge Strings Alternately.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/46_LeetCode_Permutations.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/46_LeetCode_Permutations.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shortest_Path_Tree/317_LeetCode_Shortest_Dist_From_All_Buildings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Shortest_Path_Tree/317_LeetCode_Shortest_Dist_From_All_Buildings.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +51,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Backtracking" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Backtracking" />
       <recent name="$PROJECT_DIR$/Array" />
-      <recent name="$PROJECT_DIR$/Tree" />
-      <recent name="$PROJECT_DIR$/Binary_Heap" />
       <recent name="$PROJECT_DIR$/Recursion" />
-      <recent name="$PROJECT_DIR$/Shortest_Path_Tree" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Tree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Dynamic_Programming" />
