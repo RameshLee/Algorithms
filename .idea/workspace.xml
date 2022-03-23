@@ -20,18 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/1678 LeetCode Goal Parser Interpretation.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/1768 LeetCode Merge Strings Alternately.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/389 LeetCode Find the Difference.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/17 LeetCode Letter Combinations of a Phone Number.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/46_LeetCode_Permutations.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/489 LeetCode Robot Room Cleaner.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/52 LeetCode N-Queens II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/77 LeetCode Combinations.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/1768 LeetCode Merge Strings Alternately.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/709 LeetCode To Lower Case.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Heap/Pair_as_Key_in_Map_STL.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Minimum_Spanning_Tree/1584 LeetCode Min Cost to Connect All Points.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Minimum_Spanning_Tree/200_LeetCode_Number_of_Islands.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Array/46_LeetCode_Permutations.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/46_LeetCode_Permutations.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shortest_Path_Tree/317_LeetCode_Shortest_Dist_From_All_Buildings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Shortest_Path_Tree/317_LeetCode_Shortest_Dist_From_All_Buildings.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minimum_Spanning_Tree/Kruskal_Algorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Minimum_Spanning_Tree/Kruskal_Algorithm.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minimum_Spanning_Tree/Run" beforeDir="false" afterPath="$PROJECT_DIR$/Minimum_Spanning_Tree/Run" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +47,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Backtracking" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Binary_Heap" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Backtracking" />
+      <recent name="$PROJECT_DIR$/Binary_Heap" />
       <recent name="$PROJECT_DIR$/Array" />
+      <recent name="$PROJECT_DIR$/Minimum_Spanning_Tree" />
+      <recent name="$PROJECT_DIR$/Backtracking" />
       <recent name="$PROJECT_DIR$/Recursion" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Tree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Dynamic_Programming" />
