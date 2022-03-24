@@ -1,7 +1,14 @@
 
+// Template example
+template<typename T>
+T maximum(T i, T j){
+    if (i>j) return i;
+    return j;
+}
 
 int main()
 {
+    // Map in which key is a pair.
     map<pair<string,string>,int> Map =
     {
         {{"Hash","Map"},2011},
@@ -16,6 +23,9 @@ int main()
 
      pair<string,string> p = make_pair("Hash","Map");
         printf("Here: %d\n", Map[p]);
+
+    int i=2; int j=4;
+    printf("Max value among (%d,%d) is %d\n", i,j, maximum<int>(i,j));
 
     return 0;
 }
