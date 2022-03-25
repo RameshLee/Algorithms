@@ -10,7 +10,7 @@ public:
         int closest=99999;
         int n=nums.size();
 
-        sort(nums.begin(),nums.end());
+        sort(nums.begin(),nums.end()); // Sorting is essential to apply 2-pointer approach
 
         for(int i=0; i<n-2; i++){ // Fix the first ele & apply 2-pointer approach to find the other two elements
 

@@ -20,21 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/1309 LeetCode Decrypt String from Alphabet to Integer Mapping.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/16 LeetCode 3Sum Closest.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/31 LeetCode Next Permutation.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/4 LeetCode Median of Two Sorted Arrays.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/84 LeetCode Largest Rectangle in Histogram.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Heap/23 LeetCode Merge k Sorted Lists.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/100 LeetCode Same Tree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/426 LeetCode Convert Binary Search Tree to Sorted Doubly Linked List.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/100 LeetCode Same Tree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/426 LeetCode Convert Binary Search Tree to Sorted Doubly Linked List.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/139 LeetCode Word Break.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/22 LeetCode Generate Parentheses.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/1290 LeetCode Convert Binary Number in a Linked List to Integer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/270 LeetCode Closest Binary Search Tree Value.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/404 LeetCode Sum of Left Leaves.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/15 LeetCode 3Sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/15 LeetCode 3Sum.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/17 LeetCode Letter Combinations of a Phone Number.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/17 LeetCode Letter Combinations of a Phone Number.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binary_Heap/Pair_as_Key_in_Map_STL.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Heap/Pair_as_Key_in_Map_STL.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/102_LeetCode_BinaryTree_LevelOrderTraversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/102_LeetCode_BinaryTree_LevelOrderTraversal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/16 LeetCode 3Sum Closest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/16 LeetCode 3Sum Closest.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,16 +46,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Backtracking" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Backtracking" />
+      <recent name="$PROJECT_DIR$/Tree" />
+      <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Binary_Heap" />
-      <recent name="$PROJECT_DIR$/Tree" />
-      <recent name="$PROJECT_DIR$/Recursion" />
-      <recent name="$PROJECT_DIR$/Minimum_Spanning_Tree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Dynamic_Programming" />
