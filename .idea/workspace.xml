@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Binary_Heap/253 LeetCode Meeting Rooms II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sorting/Custom_Sort_STL.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/System_Design/1603 LeetCode Design Parking System.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/2215 LeetCode Find the Difference of Two Arrays.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/2216 LeetCode Minimum Deletions to Make Array Beautiful.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Heap/1167 LeetCode Minimum Cost to Connect Sticks.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/250 LeetCode Count Univalue Subtrees.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/112 LeetCode Path Sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/112 LeetCode Path Sum.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Binary_Heap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tree" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -52,11 +54,11 @@
       <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tree" />
       <recent name="$PROJECT_DIR$/Binary_Heap" />
+      <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Sorting" />
       <recent name="$PROJECT_DIR$/System_Design" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Backtracking" />
     </key>
   </component>
   <component name="SvnConfiguration">

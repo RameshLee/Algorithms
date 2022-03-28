@@ -13,22 +13,22 @@
  */
 class Solution {
 public:
-    int height = 0;
-    bool output = false;
+    int sum = 0; bool output = false;
+
     bool hasPathSum(TreeNode* root, int targetSum) {
 
-        if (root == NULL) return false;
+        if (!root) return false;
 
-        height += root->val;
+        sum += root->val;
 
         hasPathSum(root->left, targetSum);
         hasPathSum(root->right, targetSum);
 
-        if (root->left==NULL && root->right==NULL)
-            if (height == targetSum)
+        if (!root->left && !root->right)
+            if (sum == targetSum)
                 output = true;
 
-        height -= root->val;
+        sum -= root->val;
 
         return output;
     }
