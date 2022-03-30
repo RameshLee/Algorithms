@@ -1,6 +1,6 @@
 // Link: https://leetcode.com/problems/linked-list-cycle/
 
-//Algo: LinkedList consist of a cycle if slow & fast pointers meet at some point.
+//Concept: LinkedList consist of a cycle if slow & fast pointers meet at some point.
 
 /**
  * Definition for singly-linked list.
@@ -10,23 +10,18 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+
+ // 1) Two pointers approach: T=O(n), S=O(1)
+
 class Solution
 {
 public:
-    bool hasCycle(ListNode *head)
-    {
-        if (head == NULL) return false;
-        if (head->next == NULL) return false;
-        if (head->next->next == NULL) return false;
+    bool hasCycle(ListNode *head){
 
-        ListNode* fast = head;
-        ListNode* slow = head;
+        ListNode* slow = head; ListNode* fast = head;
 
-        while (fast != NULL)
-        {
-            slow = slow->next;
-            fast = (fast->next == NULL)?fast->next:fast->next->next;
-
+        while (fast && fast->next){
+            slow = slow->next, fast = fast->next->next;
             if (slow == fast) return true;
         }
 

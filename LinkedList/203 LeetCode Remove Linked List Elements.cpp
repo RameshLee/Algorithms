@@ -10,6 +10,9 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+// 1) SentinelHead approach: T=O(n), S=O(1)
+
 class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {
@@ -19,13 +22,11 @@ public:
         ListNode* prev = SentinelHead;
 
         while(temp!= NULL){
-
             if (temp->val == val) {
-                prev->next = temp->next;
-                temp = temp->next;
+                prev->next = temp->next, temp = temp->next;
             }
-            else {
-                prev=prev->next;temp=temp->next;
+            else{
+                 prev = prev->next, temp = temp->next;
             }
         }
 
