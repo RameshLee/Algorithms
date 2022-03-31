@@ -20,21 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/724 LeetCode Find Pivot Index.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/747 LeetCode Largest Number At Least Twice of Others.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/142 LeetCode Linked List Cycle II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/160 LeetCode Intersection of Two Linked Lists.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/234 LeetCode Palindrome Linked List.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/328 LeetCode Odd Even Linked List.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/707 LeetCode Design Linked List.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/708 LeetCode Insert into a Sorted Circular Linked List.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/Design_Linked_List.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/136 LeetCode Single Number.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/14 LeetCode Longest Common Prefix.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/151 LeetCode Reverse Words in a String.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/26 LeetCode Remove Duplicates from Sorted Array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/27 LeetCode Remove Element.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/28 LeetCode Implement strStr().cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/344 LeetCode Reverse String.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/349 LeetCode Intersection of Two Arrays.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/485 LeetCode Max Consecutive Ones.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/54 LeetCode Spiral Matrix.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/557 LeetCode Reverse Words in a String III.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/561 LeetCode Array Partition I.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/66 LeetCode Plus One.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/67 LeetCode Add Binary.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/705 LeetCode Design HashSet.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/Design HashSet.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/Robotic Movement in a Matrix.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/141_LeetCode_LinkedList_Cycle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/141_LeetCode_LinkedList_Cycle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/203 LeetCode Remove Linked List Elements.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/203 LeetCode Remove Linked List Elements.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/206_LeetCode_Reverse_LinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/206_LeetCode_Reverse_LinkedList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/876_LeetCode_Middle_of_Linked_List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/876_LeetCode_Middle_of_Linked_List.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/105 LeetCode Construct Binary Tree from Preorder and Inorder Traversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/105 LeetCode Construct Binary Tree from Preorder and Inorder Traversal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/118 LeetCode Pascal's Triangle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/118 LeetCode Pascal's Triangle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/167_LeetCode_Two_Sum_II_Input_Array_Is_Sorted.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/167_LeetCode_Two_Sum_II_Input_Array_Is_Sorted.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/1_LeetCode_Two_Sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/1_LeetCode_Two_Sum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/344 LeetCode Reverse String.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Recursion/344 LeetCode Reverse String.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +71,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Array" />
+      <recent name="$PROJECT_DIR$/Backtracking" />
       <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$/Tree" />
       <recent name="$PROJECT_DIR$/Binary_Heap" />
-      <recent name="$PROJECT_DIR$/Sorting" />
     </key>
   </component>
   <component name="SvnConfiguration">
