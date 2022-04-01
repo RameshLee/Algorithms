@@ -20,28 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/136 LeetCode Single Number.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/14 LeetCode Longest Common Prefix.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/151 LeetCode Reverse Words in a String.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/26 LeetCode Remove Duplicates from Sorted Array.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/27 LeetCode Remove Element.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/28 LeetCode Implement strStr().cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/344 LeetCode Reverse String.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/349 LeetCode Intersection of Two Arrays.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/485 LeetCode Max Consecutive Ones.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/54 LeetCode Spiral Matrix.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/557 LeetCode Reverse Words in a String III.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/561 LeetCode Array Partition I.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/66 LeetCode Plus One.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/67 LeetCode Add Binary.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/705 LeetCode Design HashSet.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Design HashSet.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/Robotic Movement in a Matrix.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/170 LeetCode Two Sum III - Data structure design.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/205 LeetCode Isomorphic Strings.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/219 LeetCode Contains Duplicate II.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/3 LeetCode Longest Substring Without Repeating Characters.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/36 LeetCode Valid Sudoku.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/49 LeetCode Group Anagrams.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/599 LeetCode Minimum Index Sum of Two Lists.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/771 LeetCode Jewels and Stones.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/HashMap.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/System_Design/146 LeetCode LRU Cache.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/118 LeetCode Pascal's Triangle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/118 LeetCode Pascal's Triangle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/167_LeetCode_Two_Sum_II_Input_Array_Is_Sorted.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/167_LeetCode_Two_Sum_II_Input_Array_Is_Sorted.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/1_LeetCode_Two_Sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/1_LeetCode_Two_Sum.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursion/344 LeetCode Reverse String.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Recursion/344 LeetCode Reverse String.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/146 LeetCode LRU Cache.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/146 LeetCode LRU Cache.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +51,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/System_Design" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -70,11 +60,11 @@
       <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/System_Design" />
       <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Backtracking" />
       <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$/Tree" />
-      <recent name="$PROJECT_DIR$/Binary_Heap" />
     </key>
   </component>
   <component name="SvnConfiguration">
