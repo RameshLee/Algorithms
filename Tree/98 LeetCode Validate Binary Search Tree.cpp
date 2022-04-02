@@ -1,18 +1,23 @@
 // Link: https://leetcode.com/problems/validate-binary-search-tree/
 
-//In-order traversal of a BST gives a sorted array
+// 1) full recursive approach
 
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
+class Solution {
+public:
+    bool isValidBST(TreeNode* root, TreeNode *min=NULL, TreeNode* max=NULL) {
+
+        if (!root) return true;
+
+        if (min && root->val <= min->val) return false;
+        if (max && root->val >= max->val) return false;
+
+        return ( isValidBST(root->left, min, root) && isValidBST(root->right, root, max) );
+    }
+};
+
+
+// 2) exploiting property: In-order traversal of a BST gives a sorted array
+
 class Solution {
 public:
     vector<int> vec;

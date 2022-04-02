@@ -1,33 +1,24 @@
 // Link: https://leetcode.com/problems/number-of-provinces/
 
-class Solution
-{
+class Solution {
 public:
-    int Count = 0;
-    vector<int> visited;
-
-    void DFS(vector<vector<int>>& isConnected, int i)
-    {
-        if (visited[i] == 0)
-        {
+    void DFS(vector<vector<int>>& isConnected, vector<int>& visited, int i){
+        if (visited[i] == 0){
             visited[i] = 1;
             for (int j=0; j<isConnected[i].size(); j++)
                 if (isConnected[i][j] == 1)
-                    DFS(isConnected, j);
+                    DFS(isConnected, visited, j);
         }
     }
 
-    int findCircleNum(vector<vector<int>>& isConnected)
-    {
-        visited.resize(isConnected.size(), 0);
-
+    int findCircleNum(vector<vector<int>>& isConnected){
+        vector<int> visited(isConnected.size(), 0);
+        int Provinces = 0;
         for (int i=0; i<isConnected.size(); i++)
-            if (visited[i] == 0)
-            {
-                DFS(isConnected, i);
-                Count++;
+            if (visited[i] == 0){
+                DFS(isConnected, visited, i);
+                Provinces++;
             }
-
-        return Count;
+        return Provinces;
     }
 };

@@ -20,18 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/170 LeetCode Two Sum III - Data structure design.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/205 LeetCode Isomorphic Strings.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/219 LeetCode Contains Duplicate II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/3 LeetCode Longest Substring Without Repeating Characters.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/36 LeetCode Valid Sudoku.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/49 LeetCode Group Anagrams.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/599 LeetCode Minimum Index Sum of Two Lists.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/771 LeetCode Jewels and Stones.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/HashMap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/System_Design/146 LeetCode LRU Cache.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/235 LeetCode Lowest Common Ancestor of a Binary Search Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/285 LeetCode Inorder Successor in BST.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/429 LeetCode N-ary Tree Level Order Traversal.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/559 LeetCode Maximum Depth of N-ary Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/590 LeetCode N-ary Tree Postorder Traversal.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/146 LeetCode LRU Cache.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/146 LeetCode LRU Cache.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphSearch/547_LeetCode_Number_of_Provinces.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/547_LeetCode_Number_of_Provinces.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/589 LeetCode N-ary Tree Preorder Traversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/589 LeetCode N-ary Tree Preorder Traversal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/98 LeetCode Validate Binary Search Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/98 LeetCode Validate Binary Search Tree.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/System_Design" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tree" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -60,11 +57,11 @@
       <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tree" />
       <recent name="$PROJECT_DIR$/System_Design" />
       <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Backtracking" />
       <recent name="$PROJECT_DIR$/LinkedList" />
-      <recent name="$PROJECT_DIR$/Tree" />
     </key>
   </component>
   <component name="SvnConfiguration">

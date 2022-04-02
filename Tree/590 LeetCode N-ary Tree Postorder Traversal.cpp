@@ -1,4 +1,4 @@
-// Link: https://leetcode.com/problems/n-ary-tree-preorder-traversal/
+// Link: https://leetcode.com/problems/n-ary-tree-postorder-traversal/
 
 /*
 // Definition for a Node.
@@ -22,19 +22,19 @@ public:
 
 class Solution {
 public:
-
-    void preOrderTraversal(Node* root, vector<int>& vec){
+    void postOrderTraversal(Node* root, vector<int>& vec) {
 
         if (!root) return;
-        vec.push_back(root->val);
         for (auto it:root->children){
-            preOrderTraversal(it,vec);
+            postOrderTraversal(it, vec);
         }
+        vec.push_back(root->val);
+
     }
 
-    vector<int> preorder(Node* root) {
+    vector<int> postorder(Node* root) {
         vector<int> vec;
-        preOrderTraversal(root, vec);
+        postOrderTraversal(root,vec);
         return vec;
     }
 };
