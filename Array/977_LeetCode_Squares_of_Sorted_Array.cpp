@@ -1,72 +1,31 @@
-// C++ program for to find squares of sorted at O(n) time complexity
+// Link: https://leetcode.com/problems/squares-of-a-sorted-array/
 
-//Problem statement: https://leetcode.com/problems/squares-of-a-sorted-array/
-#include <iostream>
-#include <vector>
-#include <math.h>
-#include <unordered_map>
-using namespace std;
+
+// One-pass algorithm: Find the middle element, and merge the two sorted arrays going in opp directions.
+// T=O(n), S=O(n)
 
 class Solution {
 public:
-    vector<int> sortedSquares(vector<int>& nums)
-    {
-        if (nums.size() == 1)
-        {
-            nums[0] = (nums[0]*nums[0]);
-            return nums;
+    vector<int> sortedSquares(vector<int>& nums){
+
+        vector<int> ret(nums.size());
+
+        // find the first indices (l,r) for two vectors going in opposite direction
+        int l=-1;
+        for (int i=0; i<nums.size(); i++) if (nums[i] < 0) l = i;
+        int r=l+1;
+
+        // square all numbers
+        for (auto& it:nums) it=pow(it,2);
+
+        // similar to merging two sorted vectors
+        int index = 0;
+        while (l>=0 || r<nums.size()){
+            if (l<0)                        ret[index++] = nums[r], r++;
+            else if (r>=nums.size())        ret[index++] = nums[l], l--;
+            else if (nums[l] < nums[r])     ret[index++] = nums[l], l--;
+            else                            ret[index++] = nums[r], r++;
         }
-        else
-        {
-            vector<int> output(nums.size());
-            int output_index = 0;
-            int pivot = 0;
-
-            for (int i=0; i<nums.size(); i++) //O(n)
-            {
-                if (nums[i] < 0)
-                {
-                     nums[i] = (nums[i]*nums[i]);
-                     pivot++;
-                }
-                else
-                {
-                    int square_nums = nums[i]*nums[i];
-                    if (pivot == 0)
-                        output[output_index++] = square_nums;
-                    else if (pivot > 0 && nums[pivot-1] <= square_nums)
-                    {
-                        output[output_index++] = nums[pivot-1];
-                        pivot--;
-                        i -= 1;
-                    }
-                    else
-                        output[output_index++] = square_nums;
-
-                }
-
-            }
-
-            for (int i=pivot-1; i>=0; i--)
-                output[output_index++] = (nums[i]);
-
-            return output;
-        }
+        return ret;
     }
 };
-
-int main()
-{
-    Solution S;
-    vector<int> vec{-7,-3,2,3,11};
-
-    vector<int> final;
-    final = S.sortedSquares(vec);
-
-    printf("Sorted Squared Array: ");
-    for (int i=0; i<final.size(); i++)
-        printf("%d ", final[i]);
-
-    printf("\nExited the program!\n");
-    return 0;
-}
