@@ -20,22 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/1051 LeetCode Height Checker.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/1089 LeetCode Duplicate Zeros.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/1295 LeetCode Find Numbers with Even Number of Digits.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/1299 LeetCode Replace Elements with Greatest Element on Right Side.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/1346 LeetCode Check If N and Its Double Exist.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/2220 LeetCode Minimum Bit Flips to Convert Number.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/2221 LeetCode Find Triangular Sum of an Array.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/414 LeetCode Third Maximum Number.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/487 LeetCode Max Consecutive Ones II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/5219 LeetCode Maximum Candies Allocated to K Children.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/5235 LeetCode Find Players With Zero or One Losses.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/6055 LeetCode Minimum Number of Operations to Convert Time.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/941 LeetCode Valid Mountain Array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search/2226 LeetCode Maximum Candies Allocated to K Children.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search/374 LeetCode Guess Number Higher or Lower.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search/69 LeetCode Sqrt(x).cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/236 LeetCode Lowest Common Ancestor of a Binary Tree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/88 LeetCode Merge Sorted Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/88 LeetCode Merge Sorted Array.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/977_LeetCode_Squares_of_Sorted_Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/977_LeetCode_Squares_of_Sorted_Array.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/278_LeetCode_First_Bad_Version.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search/278_LeetCode_First_Bad_Version.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/704_LeetCode_Binary_Search.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search/704_LeetCode_Binary_Search.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/235 LeetCode Lowest Common Ancestor of a Binary Search Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/235 LeetCode Lowest Common Ancestor of a Binary Search Tree.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +47,21 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tree" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Binary_Search" />
       <recent name="$PROJECT_DIR$/Dynamic_Programming" />
       <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Tree" />
+      <recent name="$PROJECT_DIR$/Binary_Search" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/System_Design" />
-      <recent name="$PROJECT_DIR$/Backtracking" />
-      <recent name="$PROJECT_DIR$/LinkedList" />
     </key>
   </component>
   <component name="SvnConfiguration">

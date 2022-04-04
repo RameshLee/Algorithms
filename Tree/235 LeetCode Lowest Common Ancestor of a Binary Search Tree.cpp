@@ -10,7 +10,7 @@
  * };
  */
 
-// 1) Solution I (more efficient)
+// 1) Solution I (more efficient): but, works only for BST
 
 class Solution {
 public:
