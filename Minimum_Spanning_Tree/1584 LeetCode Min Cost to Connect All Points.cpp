@@ -15,20 +15,18 @@ public:
     }
 
     void unify(int i, int j){
-        int x = find(i);
-        int y = find(j);
+        int x = find(i), y = find(j);
 
-        if (x != y){
-            if (rank[x] > rank[y]) parent[y] = x;
-            else if (rank[x] < rank[y]) parent[x] = y;
-            else parent[x] = y, rank[y]++;
-        }
+        if (rank[x] > rank[y])          parent[y] = x;
+        else if (rank[x] < rank[y])     parent[x] = y;
+        else                            parent[x] = y, rank[y]++;
     }
 };
 
 class Edges{
 public:
     int x, y, weight;
+    Edges() : x(0), y(0), weight(0){}
     Edges(int _x, int _y, int _weight):x(_x),y(_y),weight(_weight){}
 };
 
@@ -41,14 +39,13 @@ public:
 
 class Solution {
 public:
-    vector<Edges> edges;
-    DisjointSet DS;
-    priority_queue<Edges, vector<Edges>, myComparator> pq;
+
 
     int minCostConnectPoints(vector<vector<int>>& p) {
 
+        vector<Edges> edges;
+
         // vectorize the edges
-        int n = p.size();
         for (int i=0; i<p.size(); i++){
             for (int j=i+1; j<p.size(); j++){
                 int weight = abs(p[i][0]-p[j][0])+abs(p[i][1]-p[j][1]);
@@ -57,18 +54,21 @@ public:
         }
 
         // make disjointset
-        DS.makeset(n);
-        for (auto& it:edges) pq.push(it);
+        DisjointSet DS;
+        DS.makeset(p.size());
 
-        // kruskal: repeatedly pick the lighest edge that doesn't produce a cycle
-        int Minimum = 0;
-        while (!pq.empty()){
-            Edges e = pq.top();
+        // make priority queue
+        priority_queue<Edges, vector<Edges>, myComparator> pq(edges.begin(), edges.end());
+
+         // kruskal: repeatedly pick the lighest edge that doesn't produce a cycle
+        int Minimum = 0, count = p.size()-1;
+        while (!pq.empty() && count>0){
+            Edges e = pq.top(); pq.pop();
             if ( DS.find(e.x) != DS.find(e.y) ){
                 Minimum += e.weight;
                 DS.unify(e.x,e.y);
+                count--;
             }
-            pq.pop();
         }
         return Minimum;
     }

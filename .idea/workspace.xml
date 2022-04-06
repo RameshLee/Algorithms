@@ -20,14 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Binary_Search/2226 LeetCode Maximum Candies Allocated to K Children.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/374 LeetCode Guess Number Higher or Lower.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/69 LeetCode Sqrt(x).cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/236 LeetCode Lowest Common Ancestor of a Binary Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/11 LeetCode Container With Most Water.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/209 LeetCode Minimum Size Subarray Sum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/448 LeetCode Find All Numbers Disappeared in an Array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/50 LeetCode Pow(x, n).cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/905 LeetCode Sort Array By Parity.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphSearch/1059 LeetCode All Paths from Source Lead to Destination.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphSearch/1101 LeetCode The Earliest Moment When Everyone Become Friends.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphSearch/1971 LeetCode Find if Path Exists in Graph.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphSearch/261 LeetCode Graph Valid Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphSearch/323 LeetCode Number of Connected Components in an Undirected Graph.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphSearch/DisjointSet_With_PathCompression.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/430 LeetCode Flatten a Multilevel Doubly Linked List.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shortest_Path_Tree/743 LeetCode Network Delay Time.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/297 LeetCode Serialize and Deserialize Binary Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/652 LeetCode Find Duplicate Subtrees .cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/278_LeetCode_First_Bad_Version.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search/278_LeetCode_First_Bad_Version.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/704_LeetCode_Binary_Search.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search/704_LeetCode_Binary_Search.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search/2226 LeetCode Maximum Candies Allocated to K Children.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search/2226 LeetCode Maximum Candies Allocated to K Children.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphSearch/547_LeetCode_Number_of_Provinces.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/547_LeetCode_Number_of_Provinces.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minimum_Spanning_Tree/1584 LeetCode Min Cost to Connect All Points.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Minimum_Spanning_Tree/1584 LeetCode Min Cost to Connect All Points.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shortest_Path_Tree/Dijkstra_Algorithm_using_PriorityQueue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Shortest_Path_Tree/Dijkstra_Algorithm_using_PriorityQueue.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tree/235 LeetCode Lowest Common Ancestor of a Binary Search Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/235 LeetCode Lowest Common Ancestor of a Binary Search Tree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/236 LeetCode Lowest Common Ancestor of a Binary Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/236 LeetCode Lowest Common Ancestor of a Binary Tree.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +61,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/GraphSearch" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -57,11 +71,11 @@
       <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Tree" />
-      <recent name="$PROJECT_DIR$/Binary_Search" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/GraphSearch" />
+      <recent name="$PROJECT_DIR$/Shortest_Path_Tree" />
       <recent name="$PROJECT_DIR$/Array" />
-      <recent name="$PROJECT_DIR$/System_Design" />
+      <recent name="$PROJECT_DIR$/LinkedList" />
+      <recent name="$PROJECT_DIR$/Tree" />
     </key>
   </component>
   <component name="SvnConfiguration">

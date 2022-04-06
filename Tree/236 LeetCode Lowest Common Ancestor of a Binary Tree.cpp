@@ -21,34 +21,28 @@
  */
 
 // 1) Recursive Approach
+
 class Solution {
 public:
-    TreeNode* LCA; int flag = 0;
+    TreeNode* LCA; bool flag = false;
 
-    bool dfs(TreeNode* root, TreeNode* p, TreeNode* q){
+    int helper(TreeNode* root, TreeNode* p, TreeNode* q){
 
-        if (!root) return false;
+        if (!root) return 0;
 
-        bool Left = dfs(root->left, p,q);
-        bool Right = dfs(root->right, p,q);
+        int Left = helper(root->left, p,q); // left subtree consists of p or q
+        int Right = helper(root->right, p,q); // right subtree consists of p or q
+        int Curr = (root->val == p->val || root->val == q->val); // curr node is p or q
 
-        if (flag == 0){
-            if (Left && Right) {
-                flag = 1; LCA = root;
-            }
-            else if ((Left || Right) && (root->val == p->val || root->val == q->val)) {
-                flag = 1; LCA = root;
-            }
-        }
+        if (Left + Right + Curr >= 2) LCA = root; // record LCA
 
-        if (root->val == p->val || root->val == q->val) return true;
-        else if (Left || Right) return true;
-        else return false;
+        if (Left || Right || Curr) return 1;
+        return 0;
     }
 
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q){
 
-        bool Bool = dfs(root,p,q);
+        helper(root,p,q);
         return LCA;
     }
 };

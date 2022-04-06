@@ -10,7 +10,7 @@
  * };
  */
 
-// 1) Solution I (more efficient): but, works only for BST
+// 1) Solution I (shortcut/efficient): but, works only for BST
 
 class Solution {
 public:
@@ -25,7 +25,34 @@ public:
     }
 };
 
-// 2) Solution II
+// 2) Solution II: recursive approach: works for any binary tree (need not to be BST)
+
+class Solution {
+public:
+    TreeNode* LCA; bool flag = false;
+
+    int helper(TreeNode* root, TreeNode* p, TreeNode* q){
+
+        if (!root) return 0;
+
+        int Left = helper(root->left, p,q); // left subtree consists of p or q
+        int Right = helper(root->right, p,q); // right subtree consists of p or q
+        int Curr = (root->val == p->val || root->val == q->val); // curr node is p or q
+
+        if (Left + Right + Curr >= 2) LCA = root; // record LCA
+
+        if (Left || Right || Curr) return 1;
+        return 0;
+    }
+
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q){
+
+        helper(root,p,q);
+        return LCA;
+    }
+};
+
+// 3) Solution III: Iterative
 
 class Solution {
 public:
