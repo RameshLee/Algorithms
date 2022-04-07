@@ -20,8 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/498 LeetCode Diagonal Traverse.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search/367 LeetCode Valid Perfect Square.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search/744 LeetCode Find Smallest Letter Greater Than Target.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/199 LeetCode Binary Tree Right Side View.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/428 LeetCode Serialize and Deserialize N-ary Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Two_Pointers/42 LeetCode Trapping Rain Water.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/297 LeetCode Serialize and Deserialize Binary Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/297 LeetCode Serialize and Deserialize Binary Tree.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +46,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tree" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -51,11 +56,11 @@
       <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Array" />
-      <recent name="$PROJECT_DIR$/GraphSearch" />
-      <recent name="$PROJECT_DIR$/Shortest_Path_Tree" />
-      <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$/Tree" />
+      <recent name="$PROJECT_DIR$/Binary_Search" />
+      <recent name="$PROJECT_DIR$/Two_Pointers" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Array" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -113,10 +118,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1644391229932" />
-    <state x="289" y="128" key="SettingsEditor" timestamp="1647225491446">
+    <state x="289" y="128" key="SettingsEditor" timestamp="1649276828052">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="289" y="128" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1647225491446" />
+    <state x="289" y="128" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1649276828052" />
     <state x="229" y="89" key="SettingsEditor/46.0.1394.900@46.0.1394.900" timestamp="1643863592362" />
     <state x="230" y="89" key="SettingsEditor/47.0.1393.900@47.0.1393.900" timestamp="1644096314880" />
     <state x="318" y="177" key="Vcs.Push.Dialog.v2" timestamp="1643836626987">
