@@ -22,55 +22,35 @@ class Solution
 public:
     Node* copyRandomList(Node* head)
     {
-        Node *curr = head;
-        Node *nextNode;
+        Node *curr;
 
         // 1) insert new nodes in between original nodes
-        while (curr != NULL)
-        {
-            nextNode = curr->next;
-            Node *NewNode = new Node(curr->val);
-            curr->next = NewNode;
-            NewNode->next = nextNode;
-            curr = curr->next->next;
-        }
-
-        //print utility
         curr = head;
-        while (curr != NULL)
-        {
-            printf("%d ", curr->val);
-            curr = curr->next;
+        while (curr != NULL){
+            Node *temp = new Node(curr->val);
+            temp->next = curr->next;
+            curr->next = temp;
+            curr = temp->next;
         }
 
         // 2) copy random pointers from original to new nodes
         curr = head;
-        while (curr != NULL)
-        {
-            nextNode = curr->next->next;
-            if (curr->random != NULL)
-                curr->next->random = curr->random->next;
-            curr = nextNode;
+        while (curr != NULL){
+            if (curr->random) curr->next->random = curr->random->next;
+            curr = curr->next->next;
         }
 
         // 3) cut off original nodes from the list
         Node *newHead = NULL;
         Node *newCurr = NULL;
+        if (head) newHead = head->next, newCurr = newHead;
+
         curr = head;
-
-        if (head != NULL)
-        {
-            newHead = head->next;
-            newCurr = newHead;
-        }
-
-        while (curr != NULL && newCurr != NULL)
-        {
+        while (curr){
             curr->next = curr->next->next;
             curr = curr->next;
 
-            if (newCurr->next != NULL)
-                newCurr->next = newCurr->next->next;
+            if (newCurr->next) newCurr->next = newCurr->next->next;
             newCurr = newCurr->next;
         }
 

@@ -6,9 +6,10 @@ class DisjointSet{
 public:
     unordered_map<int,int> parent; // node, (parent)
     unordered_map<int,int> rank; // node, (rank)
+    int groups = 0;
 
     void makeset(int n){
-        for (int i=0; i<n; i++) parent[i] = i, rank[i] = 1;
+        for (int i=0; i<n; i++) parent[i] = i, rank[i] = 1, groups++;
     }
 
     int findParent(int i){
@@ -22,10 +23,7 @@ public:
         if (rank[i] > rank[j])          parent[j] = i;
         else if (rank[i] < rank[j])     parent[i] = j;
         else                            parent[i] = j, rank[j] += 1;
-    }
-
-    void updateParents(){
-        for (int i=0; i<parent.size(); i++) parent[i] = findParent(i);
+        groups--;
     }
 };
 
@@ -44,15 +42,7 @@ public:
                     if ( DS.findParent(i) != DS.findParent(j) )
                         DS.unify(i, j);
 
-        // ensure parents are upto date
-        DS.updateParents();
-
-        // count unique provinces
-        set<int> Provinces;
-        for (auto it=DS.parent.begin(); it!=DS.parent.end(); it++)
-            Provinces.insert( (*it).second );
-
-        return Provinces.size();
+        return DS.groups;
     }
 };
 

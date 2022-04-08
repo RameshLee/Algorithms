@@ -20,13 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Binary_Search/367 LeetCode Valid Perfect Square.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/744 LeetCode Find Smallest Letter Greater Than Target.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/199 LeetCode Binary Tree Right Side View.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/428 LeetCode Serialize and Deserialize N-ary Tree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two_Pointers/42 LeetCode Trapping Rain Water.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/268 LeetCode Missing Number.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/819 LeetCode Most Common Word.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/937 LeetCode Reorder Data in Log Files.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/23 LeetCode Merge k Sorted Lists.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/297 LeetCode Serialize and Deserialize Binary Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/297 LeetCode Serialize and Deserialize Binary Tree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/20_LeetCode_Valid_Parenthesis.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/20_LeetCode_Valid_Parenthesis.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/3 LeetCode Longest Substring Without Repeating Characters.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/3 LeetCode Longest Substring Without Repeating Characters.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Heap/23 LeetCode Merge k Sorted Lists.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Heap/23 LeetCode Merge k Sorted Lists.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphSearch/547_LeetCode_Number_of_Provinces.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/547_LeetCode_Number_of_Provinces.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/138_LeetCode_Copy_LinkedList_with_Random_Pointers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/138_LeetCode_Copy_LinkedList_with_Random_Pointers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/2_Add_Two_Numbers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/2_Add_Two_Numbers.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +50,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LinkedList" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -56,11 +60,11 @@
       <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LinkedList" />
+      <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Tree" />
       <recent name="$PROJECT_DIR$/Binary_Search" />
       <recent name="$PROJECT_DIR$/Two_Pointers" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Array" />
     </key>
   </component>
   <component name="SvnConfiguration">
