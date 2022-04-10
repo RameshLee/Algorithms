@@ -1,6 +1,34 @@
 // Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
-// 1) optimized brute force: to avoid repeating calculations: T=O(n), S=O(n)
+
+// 1) sliding window approach: T(n), O(1)
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+
+        if (s.empty()) return 0;
+
+        vector<int> visited(128,0);
+        int l=0, r=0, len=0, maxLen=1;
+        for (r=0; r<s.size(); r++){
+
+            // move the right-side of the window
+            char ele = s[r];
+            visited[ele]++, len++;
+            if (visited[ele] == 1) maxLen = max(maxLen, len);
+
+            // move the left-side of the window
+            if (visited[ele] > 1){
+                while (s[l] != ele) visited[s[l]]--, l++, len--;
+                visited[s[l]]--, l++, len--;
+            }
+        }
+        return maxLen;
+    }
+};
+
+
+// 2) optimized brute force: to avoid repeating calculations: T=O(n), S=O(n)
 
 class Solution {
 public:
@@ -19,8 +47,8 @@ public:
     }
 };
 
-// 2) brute force: T=O(n^3), S=O(n)
 
+// 3) brute force: T=O(n^3), S=O(n)
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
