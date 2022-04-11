@@ -20,16 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/2231 LeetCode Largest Number After Digit Swaps by Parity.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Heap/2233 LeetCode Maximum Product After K Increments.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/2232 LeetCode Minimize Result by Adding Parentheses to Expression.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/5 LeetCode Longest Palindromic Substring.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/647 LeetCode Palindromic Substrings.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_Window/340 LeetCode Longest Substring with At Most K Distinct Characters.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_Window/76 LeetCode Minimum Window Substring.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_Window/904 LeetCode Fruit Into Baskets.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/Amazon_OA2_Apr_2022.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/3 LeetCode Longest Substring Without Repeating Characters.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sliding_Window/3 LeetCode Longest Substring Without Repeating Characters.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +41,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Binary_Heap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -60,9 +52,9 @@
       <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Binary_Heap" />
       <recent name="$PROJECT_DIR$/Dynamic_Programming" />
-      <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Sliding_Window" />
       <recent name="$PROJECT_DIR$" />
     </key>
