@@ -20,7 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/Amazon_OA2_Apr_2022.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/113 LeetCode Path Sum II.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/78 LeetCode Subsets.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/980 LeetCode Unique Paths III.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Heap/451  LeetCode Sort Characters By Frequency.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Heap/692 LeetCode Top K Frequent Words.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/113 LeetCode Path Sum II.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/124 LeetCode Binary Tree Maximum Path Sum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/129 LeetCode Sum Root to Leaf Numbers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/437 LeetCode Path Sum III.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +49,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tree" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -52,11 +60,11 @@
       <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Array" />
+      <recent name="$PROJECT_DIR$/Tree" />
       <recent name="$PROJECT_DIR$/Binary_Heap" />
+      <recent name="$PROJECT_DIR$/Backtracking" />
+      <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Dynamic_Programming" />
-      <recent name="$PROJECT_DIR$/Sliding_Window" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SvnConfiguration">
