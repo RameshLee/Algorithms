@@ -11,34 +11,52 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+// 1) swap using pointer
+
 class Solution {
 public:
-    ListNode* swapPairs(ListNode* head){
+    ListNode* helper(ListNode* prev, ListNode* curr){
 
-        if (head == NULL) return head;
-        if (head->next == NULL) return head;
+        if (!curr) return prev;
+        if (!prev) return nullptr;
 
-        ListNode *SentinelHead = new ListNode(-99, head);
+        printf("prev: %d, curr: %d\n", prev->val, curr->val);
 
-        ListNode* trail = SentinelHead;
-        ListNode* prev = head;
-        ListNode* temp = head->next;
+        ListNode* last;
+        if (prev->next->next) last = helper(prev->next->next, curr->next->next);
+        else last = nullptr;
 
-        while (temp != NULL){
+        curr->next = prev;
+        prev->next = last;
 
-            // perform swapping
-            trail->next = temp;
-            prev->next = temp->next;
-            temp->next = prev;
+        return curr;
+    }
 
-            if (prev->next == NULL) break;
-
-            // select next nodes to swap
-            trail = prev;
-            prev = prev->next;
-            temp = prev->next;
-        }
-
-        return SentinelHead->next;
+    ListNode* swapPairs(ListNode* head) {
+        if (!head || !head->next) return head;
+        return helper(head, head->next);
     }
 };
+
+// 2) swap using value
+
+/*class Solution {
+public:
+    void swap(ListNode* first, ListNode* second){
+        int tmp = first->val;
+        first->val = second->val;
+        second->val = tmp;
+
+        if (second->next && second->next->next)
+            swap(second->next, second->next->next);
+    }
+
+    ListNode* swapPairs(ListNode* head){
+
+        if (head!=NULL && head->next!=NULL)
+            swap(head, head->next);
+
+        return head;
+    }
+};*/
