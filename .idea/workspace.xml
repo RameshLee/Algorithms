@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/45 LeetCode Jump Game II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/53 LeetCode Maximum Subarray.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/55 LeetCode Jump Game.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/1644 LeetCode Lowest Common Ancestor of a Binary Tree II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/1650 LeetCode Lowest Common Ancestor of a Binary Tree III.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/543 LeetCode Diameter of Binary Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/122 LeetCode Best Time to Buy and Sell Stock II.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/92 LeetCode Reverse Linked List II.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sliding_Window/438 LeetCode Find All Anagrams in a String.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/733_LeetCode_FloodFill.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/733_LeetCode_FloodFill.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/24 LeetCode Swap Nodes in Pairs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/24 LeetCode Swap Nodes in Pairs.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Sliding_Window" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -59,11 +54,11 @@
       <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Sliding_Window" />
+      <recent name="$PROJECT_DIR$/Array" />
+      <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$/Tree" />
       <recent name="$PROJECT_DIR$/Dynamic_Programming" />
-      <recent name="$PROJECT_DIR$/Array" />
-      <recent name="$PROJECT_DIR$/Binary_Heap" />
-      <recent name="$PROJECT_DIR$/Backtracking" />
     </key>
   </component>
   <component name="SvnConfiguration">
