@@ -25,9 +25,9 @@ public:
         while (!q.empty()){
             TreeNode* node = q.front(); q.pop();
 
-            if (!node) s += "Null ";
+            if (!node) s += "Null,";
             else {
-                s += to_string(node->val) + " ";
+                s += to_string(node->val) + ",";
                 q.push(node->left);
                 q.push(node->right);
             }
@@ -40,8 +40,11 @@ public:
         stringstream str; str<<data;
         string word;
 
+        if (data.empty()) return nullptr;
+
         TreeNode* root = NULL;
-        if (str>>word){
+        if (str.good()){
+            getline(str, word, ',');
             root = new TreeNode(stoi(word));
         }
 
@@ -51,14 +54,16 @@ public:
         while (!q.empty()){
             TreeNode* node = q.front(); q.pop();
 
-            if (str>>word){
+            if (str.good()){
+                getline(str, word, ',');
                 if (word != "Null") {
                     node->left = new TreeNode(stoi(word));
                     q.push(node->left);
                 }
             }
 
-            if (str>>word){
+            if (str.good()){
+                getline(str, word, ',');
                 if (word != "Null") {
                     node->right = new TreeNode(stoi(word));
                     q.push(node->right);

@@ -20,10 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/122 LeetCode Best Time to Buy and Sell Stock II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/92 LeetCode Reverse Linked List II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_Window/438 LeetCode Find All Anagrams in a String.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/String_Parsing_STL.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search/74 LeetCode Search a 2D Matrix.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/25 LeetCode Reverse Nodes in k-Group.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursion/25 LeetCode Reverse Nodes in k-Group.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/314 LeetCode Binary Tree Vertical Order Traversal.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/508 LeetCode Most Frequent Subtree Sum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/572 LeetCode Subtree of Another Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/938 LeetCode Range Sum of BST.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/240 LeetCode Search a 2D Matrix II.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search/240 LeetCode Search a 2D Matrix II.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/297 LeetCode Serialize and Deserialize Binary Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/297 LeetCode Serialize and Deserialize Binary Tree.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,22 +50,22 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Sliding_Window" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Dynamic_Programming" />
-      <recent name="$PROJECT_DIR$/Sliding_Window" />
-      <recent name="$PROJECT_DIR$/Binary_Search" />
-      <recent name="$PROJECT_DIR$/GraphSearch" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Sliding_Window" />
       <recent name="$PROJECT_DIR$/Array" />
-      <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$/Tree" />
+      <recent name="$PROJECT_DIR$/Binary_Search" />
+      <recent name="$PROJECT_DIR$/Recursion" />
+      <recent name="$PROJECT_DIR$/LinkedList" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Binary_Search" />
       <recent name="$PROJECT_DIR$/Dynamic_Programming" />
+      <recent name="$PROJECT_DIR$/Sliding_Window" />
+      <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
   </component>
   <component name="SvnConfiguration">
