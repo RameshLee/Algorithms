@@ -1,11 +1,37 @@
 // Link: https://leetcode.com/problems/number-of-islands/
 
-// C++ program for counting islands problem using Disjoint set algorithm with O(row*col) worst-case time complexity
+// 1) using dfs: T=O(N), S=O(1)
 
-// Problem statement:
-//Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.
-//An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+class Solution {
+private: int row,col, x[4]={1,-1,0,0}, y[4]={0,0,1,-1};
+         enum Area{Water='0', Land='1', Visited='2'};
+public:
 
+    bool isSafe(int i, int j) { return (i>=0 && j>=0 && i<row && j<col) ? true : false; }
+
+    void dfs(int i, int j, vector<vector<char>>& grid){
+        if (grid[i][j] == Land){
+            grid[i][j] = Visited;
+            for (int k=0; k<4; k++){
+                if (isSafe( i+x[k], j+y[k] ))
+                    dfs(i+x[k], j+y[k], grid);
+            }
+        }
+    }
+
+    int numIslands(vector<vector<char>>& grid) {
+        row = grid.size(), col = grid[0].size();
+        int count = 0;
+        for (int i=0; i<row; i++)
+            for (int j=0; j<col; j++)
+                if (grid[i][j] == Land){
+                    dfs(i,j,grid); count++;
+                }
+        return count;
+    }
+};
+
+// 1) using disjoint set: T=O(N), S=O(N)
 
 struct Node
 {

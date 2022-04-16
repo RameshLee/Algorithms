@@ -1,43 +1,38 @@
 // Link: https://leetcode.com/problems/3sum/
 
-// 1) Two Pointers approach
+// 1) 3Sum using two-pointer approach on 2Sum function
 
 class Solution {
+private:  using vvi = vector<vector<int>>; using vi = vector<int>; set<vector<int>> output;
 public:
-    using vvi = vector<vector<int>>;
-    using svi = set<vector<int>>;
-    using vi = vector<int>;
+    void twoSum(vi &nums, int l, int r, int first){ // 2-pointer approach
+        while(l<r){
+            int sum = first+nums[l]+nums[r];
+            if(sum == 0) {
+                vi combo = {first,nums[l],nums[r]};
+                sort(combo.begin(), combo.end());
+                output.insert(combo);
+            }
+            if(sum < 0) l++;
+            else r--;
+        }
+    }
+
     vvi threeSum(vi& nums) {
 
-        svi output;
         int n=nums.size();
-        sort(nums.begin(),nums.end());
+        sort(nums.begin(),nums.end()); // sorting is essential to apply 2-pointers appraoch
 
-        for(int i=0; i<n-2; i++){ // Fix the first ele & apply 2-pointer approach to find the other two elements
-
-            if(i > 0 && nums[i] == nums[i - 1])  continue; //checking for duplicate i's
-
-            int first = nums[i];
-            int l=i+1;
-            int r=n-1;
-
-            while(l<r){ // Two-pointer approach to find second and third elements
-                int sum=first+nums[l]+nums[r];
-                if(sum == 0) {
-                    vi combo = {first,nums[l],nums[r]};
-                    sort(combo.begin(), combo.end());
-                    output.insert(combo);
-                }
-                if(sum < 0) l++;
-                else r--;
-            }
+        for(int i=0; i<n-2; i++){ // Fix the 1st ele & apply 2-pointer approach to find other 2
+            if (i>0 && nums[i] == nums[i-1]) continue; //check for duplicate i's
+            twoSum(nums, i+1, n-1, nums[i]);
         }
         return vvi(output.begin(), output.end());;
     }
 };
 
 
-// 2) using HashMap
+// 2) using hashmaps
 
 class Solution {
 public:
