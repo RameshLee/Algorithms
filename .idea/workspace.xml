@@ -20,24 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/18 LeetCode 4Sum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/454 LeetCode 4Sum II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/706 LeetCode Design HashMap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Design HashMap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphSearch/225 LeetCode Implement Stack using Queues.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphSearch/394 LeetCode Decode String.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphSearch/494 LeetCode Target Sum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphSearch/79 LeetCode Word Search.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/System_Design/227 LeetCode Basic Calculator II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/449 Leetcode Serialize and Deserialize BST.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/2239 LeetCode Find Closest Number to Zero.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/2240 LeetCode Number of Ways to Buy Pens and Pencils.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/2243 LeetCode Calculate Digit Sum of a String.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/2244 LeetCode Minimum Rounds to Complete All Tasks.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphSearch/207 LeetCode Course Schedule.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/System_Design/2241 LeetCode Design an ATM Machine.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/15 LeetCode 3Sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/15 LeetCode 3Sum.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/232 LeetCode Implement Queue using Stacks.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/232 LeetCode Implement Queue using Stacks.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/705 LeetCode Design HashSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/705 LeetCode Design HashSet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/Design HashSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/Design HashSet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/200_LeetCode_Number_of_Islands.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/200_LeetCode_Number_of_Islands.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/542_LeetCode_01_Matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/542_LeetCode_01_Matrix.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/841_LeetCode_Keys_and_Rooms.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/841_LeetCode_Keys_and_Rooms.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,16 +46,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/GraphSearch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dynamic_Programming" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/GraphSearch" />
-      <recent name="$PROJECT_DIR$/Tree" />
+      <recent name="$PROJECT_DIR$/Dynamic_Programming" />
       <recent name="$PROJECT_DIR$/Array" />
+      <recent name="$PROJECT_DIR$/GraphSearch" />
       <recent name="$PROJECT_DIR$/System_Design" />
-      <recent name="$PROJECT_DIR$/Binary_Search" />
+      <recent name="$PROJECT_DIR$/Backtracking" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GraphSearch" />
