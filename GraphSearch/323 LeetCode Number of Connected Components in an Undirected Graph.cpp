@@ -2,15 +2,11 @@
 
 // 1) using disjoint set
 
-// 1) using disjoint set
-
 class DisjointSet {
 public:
-    int groups = 0;
-    unordered_map<int,int> parent;
-    unordered_map<int,int> rank;
+    int groups = 0; unordered_map<int,int> parent, rank;
 
-    void makeset(int n){
+    DisjointSet(int n){
         for (int i=0; i<n; i++) parent[i] = i, rank[i] = 1, groups++;
     }
 
@@ -21,16 +17,10 @@ public:
 
     void unify(int x, int y){
         int i=find(x), j=find(y);
-
         if (rank[i] < rank[j])          parent[i] = j;
         else if (rank[i] > rank[j])     parent[j] = i;
-        if (rank[i] == rank[j])         parent[j] = i; rank[i] +=1;
-
+        else if (rank[i] == rank[j])    parent[j] = i, rank[i] +=1;
         groups--;
-    }
-
-    void updateParent(){
-        for (int i=0; i<parent.size(); i++) parent[i] = find(i);
     }
 };
 
@@ -38,14 +28,10 @@ class Solution {
 public:
     int countComponents(int n, vector<vector<int>>& edges) {
 
-        DisjointSet DS;
-        DS.makeset(n);
-        for (auto& it:edges){
-            int i=it[0], j=it[1];
-            if (DS.find(i) != DS.find(j))
-                DS.unify(i,j);
-        }
-        DS.updateParent();
+        DisjointSet DS(n);
+        for (auto& e:edges)
+            if (DS.find(e[0]) != DS.find(e[1]))
+                DS.unify(e[0],e[1]);
         return DS.groups;
     }
 };
