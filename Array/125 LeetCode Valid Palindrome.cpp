@@ -1,5 +1,38 @@
 // Link: https://leetcode.com/problems/valid-palindrome/
 
+
+// 1) Optimized approach: T=O(N), S=O(1)
+
+class Solution {
+public:
+    bool isPalindrome(string s) {
+
+        // in-place erase everything except digits & characters
+        int i = 0;
+        while(1){
+            if (i>=s.size()) break;
+            if (std::isalpha(s[i]) || std::isdigit(s[i])) {
+                 s[i] = std::tolower(s[i]);
+            }
+            else {
+                s.erase(s.begin()+i);
+                i--;
+            }
+            i++;
+        }
+
+        // check palindrome
+        int l=0, r=s.size()-1;
+        while (l<=r){
+            if (s[l] != s[r]) return false;
+            l++, r--;
+        }
+        return true;
+    }
+};
+
+// 2) Simple approach: T=O(N), S=O(N)
+
 class Solution {
 public:
     bool isPalindrome(string s) {

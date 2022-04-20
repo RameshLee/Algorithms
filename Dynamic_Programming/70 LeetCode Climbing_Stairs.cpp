@@ -18,7 +18,7 @@ public:
 
 
 class Solution {
-    int memo[100];
+    int memo[100] = {0};
 public:
     int climbStairs(int n, int i=0){
 

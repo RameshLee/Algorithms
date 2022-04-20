@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/125 LeetCode Valid Palindrome.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/1038 LeetCode Binary Search Tree to Greater Sum Tree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/2096 LeetCode Step-By-Step Directions From a Binary Tree Node to Another.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/230 LeetCode Kth Smallest Element in a BST.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/538 LeetCode Convert BST to Greater Tree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/99 LeetCode Recover Binary Search Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/198 LeetCode House Robber.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/740 LeetCode Delete and Earn.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSearch/802_LeetCode_Find_Eventually_Safe_States.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/802_LeetCode_Find_Eventually_Safe_States.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/125 LeetCode Valid Palindrome.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/125 LeetCode Valid Palindrome.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic_Programming/1137 LeetCode N-th Tribonacci Number.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/1137 LeetCode N-th Tribonacci Number.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic_Programming/70 LeetCode Climbing_Stairs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/70 LeetCode Climbing_Stairs.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/543 LeetCode Diameter of Binary Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/543 LeetCode Diameter of Binary Tree.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +46,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dynamic_Programming" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Dynamic_Programming" />
       <recent name="$PROJECT_DIR$/Tree" />
       <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Binary_Search" />
       <recent name="$PROJECT_DIR$/GraphSearch" />
-      <recent name="$PROJECT_DIR$/Dynamic_Programming" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GraphSearch" />
