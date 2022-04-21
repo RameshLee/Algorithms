@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/198 LeetCode House Robber.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/740 LeetCode Delete and Earn.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/1143 LeetCode Longest Common Subsequence.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/221 LeetCode Maximal Square.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/669 LeetCode Trim a Binary Search Tree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/125 LeetCode Valid Palindrome.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/125 LeetCode Valid Palindrome.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic_Programming/1137 LeetCode N-th Tribonacci Number.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/1137 LeetCode N-th Tribonacci Number.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic_Programming/70 LeetCode Climbing_Stairs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/70 LeetCode Climbing_Stairs.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/543 LeetCode Diameter of Binary Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/543 LeetCode Diameter of Binary Tree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic_Programming/Longest_Common_Subsequence.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/Longest_Common_Subsequence.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
