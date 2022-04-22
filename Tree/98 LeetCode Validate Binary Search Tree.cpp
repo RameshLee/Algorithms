@@ -1,38 +1,50 @@
 // Link: https://leetcode.com/problems/validate-binary-search-tree/
 
-// 1) full recursive approach
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+
+// Approach 1: fully recursive: T=O(N), S=O(1)
 
 class Solution {
 public:
-    bool isValidBST(TreeNode* root, TreeNode *min=NULL, TreeNode* max=NULL) {
-
+    bool isValidBST(TreeNode* root, TreeNode* Min=nullptr, TreeNode* Max=nullptr) {
         if (!root) return true;
 
-        if (min && root->val <= min->val) return false;
-        if (max && root->val >= max->val) return false;
+        if (Min && root->val <= Min->val) return false;
+        if (Max && root->val >= Max->val) return false;
 
-        return ( isValidBST(root->left, min, root) && isValidBST(root->right, root, max) );
+        return ( isValidBST(root->left,Min,root) && isValidBST(root->right,root,Max) );
     }
 };
 
 
-// 2) exploiting property: In-order traversal of a BST gives a sorted array
+// Approach 2: Exploiting property: In-order traversal of a BST gives a sorted array: T=O(N), S=O(N)
 
+/*
 class Solution {
 public:
     vector<int> vec;
-    bool output = true;
+    bool decision = true;
 
     void inOrderTraversal(TreeNode* root){
-        if (root == NULL) return;
+
+        if (decision==false) return;
+        if (!root) return;
 
         inOrderTraversal(root->left);
         vec.push_back(root->val);
 
-        if (vec.size() > 1) {
-            if (vec[vec.size()-2] >=vec[vec.size()-1])
-                output = false;
-        }
+        if (vec.size()>1 && vec[vec.size()-2] >= vec[vec.size()-1])
+            decision = false;
 
         inOrderTraversal(root->right);
     }
@@ -40,7 +52,7 @@ public:
     bool isValidBST(TreeNode* root) {
 
         inOrderTraversal(root);
-        return output;
-
+        return decision;
     }
 };
+*/

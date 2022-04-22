@@ -1,5 +1,11 @@
 // 1) Top-down DP: Recursion with Memoization
 
+// Dynamic programming: (reason: find minimum, future decisions are affected by current decisions)
+
+// state variables: taking a current step at index i
+// recurrence relation: dp(i) = cost[i] + min(dp(i-1),dp(i-2)); // reach current from previous or prev-to-prev step.
+// base-case: dp(0)=cost[0], dp(1)=cost[1];
+
 class Solution {
 public:
     int n;
