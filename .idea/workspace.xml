@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Binary_Search/153 LeetCode Find Minimum in Rotated Sorted Array.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/34 LeetCode Find First and Last Position of Element in Sorted Array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/237 LeetCode Delete Node in a Linked List.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,16 +41,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Binary_Search" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LinkedList" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$/Binary_Search" />
       <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Dynamic_Programming" />
       <recent name="$PROJECT_DIR$/Tree" />
-      <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GraphSearch" />
