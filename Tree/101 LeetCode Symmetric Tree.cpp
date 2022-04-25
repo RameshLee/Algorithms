@@ -13,18 +13,13 @@
  */
 class Solution {
 public:
-
-    bool check(TreeNode* l, TreeNode* r){
-
-        if (l == NULL && r == NULL) return true;
-        if (l == NULL || r == NULL) return false;
-
-        if (l->val != r->val) return false;
-        else return ( check(l->left, r->right) && check(l->right, r->left));
+    bool helper(TreeNode* l, TreeNode* r){
+        if (!l && !r) return true;
+        if (!l || !r) return false;
+        return ((l->val == r->val) && helper(l->left,r->right) && helper(l->right,r->left));
     }
 
-    bool isSymmetric(TreeNode* root){
-        if (root == NULL) return NULL;
-        return check(root->left, root->right);
+    bool isSymmetric(TreeNode* root) {
+        return helper(root->left, root->right);
     }
 };
