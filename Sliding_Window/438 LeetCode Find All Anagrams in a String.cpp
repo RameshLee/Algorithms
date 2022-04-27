@@ -25,6 +25,6 @@ public:
             slidingWindow[s[i+n]%26]++;
         }
         if (Map == slidingWindow) ret.push_back(s.size()-n);
-        return ret;
+        return ret;//
     }
 };
