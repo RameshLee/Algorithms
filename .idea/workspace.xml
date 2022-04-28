@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Binary_Search/154 LeetCode Find Minimum in Rotated Sorted Array II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphSearch/332 LeetCode Reconstruct Itinerary.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/1423 LeetCode Maximum Points You Can Obtain from Cards.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/337 LeetCode House Robber III.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,15 +42,15 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/GraphSearch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dynamic_Programming" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Dynamic_Programming" />
       <recent name="$PROJECT_DIR$/GraphSearch" />
       <recent name="$PROJECT_DIR$/Binary_Search" />
       <recent name="$PROJECT_DIR$/Tree" />
-      <recent name="$PROJECT_DIR$/Dynamic_Programming" />
       <recent name="$PROJECT_DIR$/Array" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
