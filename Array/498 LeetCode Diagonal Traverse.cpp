@@ -2,42 +2,42 @@
 
 class Solution {
 public:
-    int row, col;
-
-    void moveRobot(int &i, int &j, int direction){
-        switch(direction){
-            case 1: --i, ++j; break; //move up-right
-            case 2: ++i, --j; break; //move down-left
-        }
-    }
-
-    void checkSafety(int &i, int &j, int &direction){
-        if (i>=0 && j>=0 && i<row && j<col) return;
-        else {
-            if (direction == 1){ // check whether robot has moved out-of-bounds
-                if (j>=col)    --j, ++i, ++i;
-                if (i<0)       ++i;
-            }
-            else { // check whether robot has moved out-of-bounds
-                if (i>=row)    --i, ++j, ++j;
-                if (j<0)       ++j;
-            }
-            direction = (direction == 2) ? 1 : 2; // change direction
-        }
-    }
-
     vector<int> findDiagonalOrder(vector<vector<int>>& mat) {
         row = mat.size(); col = mat[0].size();
+        vector<int> result;
 
-        vector<int> vec;
-        int i=0, j=0, direction=1;
+        i=0, j=0, direction=SKY;
         while (1){
-
-            vec.push_back(mat[i][j]);
+            result.push_back(mat[i][j]);
             if (i==row-1 && j==col-1) break;
-            moveRobot(i,j,direction);
-            checkSafety(i,j,direction);
+            moveRobot();
         }
-        return vec;
+        return result;
+    }
+private:
+    int row, col; // matrix size
+    enum trajectory{SKY, GROUND}; // trajectory
+    int i,j,direction; // robot positions & direction
+
+    void moveRobot(){
+
+        // advance the robot position
+        switch(direction){
+            case SKY:    --i, ++j; break; //move up-right
+            case GROUND: ++i, --j; break; //move down-left
+        }
+
+        // if robot goes out-of-bound positions
+        if (i<0 || j<0 || i>=row || j>=col) {
+            // retract to feasible position
+            switch(direction){
+                case SKY:    if (j>=col)    --j, ++i, ++i; // goes out of right-side
+                             if (i<0)       ++i;           // goes out of top
+                case GROUND: if (i>=row)    --i, ++j, ++j; // goes out of left side
+                             if (j<0)       ++j;           // goes out of bottom
+            }
+            // change directions
+            direction = (direction == SKY) ? GROUND : SKY; // change direction
+        }
     }
 };
