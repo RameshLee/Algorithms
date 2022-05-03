@@ -1,51 +1,62 @@
-// Link: https://leetcode.com/problems/n-queens-ii/submissions/
+// Link: https://leetcode.com/problems/n-queens/
 
 class Solution {
 public:
-    int totalNQueens(int n) {
+    vector<vector<string>> solveNQueens(int n) {
         this->n = n;
-        grid.resize(n,vector<int>(n,0));
+        grid.resize(n, vector<int>(n,0));
         backtrack(0);
-        return DistinctSolutions;
+        return result;
     }
-public:
-    int n, DistinctSolutions = 0;
-    vector<vector<int>> grid;
+private:
+    int n; vector<vector<int>> grid;
+    vector<vector<string>> result;
 
     void backtrack(int i);
-    void place_queen(int i, int j);
-    void remove_queen(int i, int j);
+    void updateResult();
+    void placeQueen(int i, int j);
+    void removeQueen(int i, int j);
+    bool isValidPos(int i, int j);
     bool isSafe(int i, int j);
-    bool isValidPosition(int i, int j);
 };
 
 void Solution::backtrack(int i){
+        // base-case
+        if (i==n){
+            updateResult();
+            return;
+        }
 
-    if (i==n){ // base-case
-        DistinctSolutions++;
-        return;
-    }
-
-    for (int j=0; j<n; j++){ // for all candidates
-        if (isValidPosition(i,j)){
-            place_queen(i,j);  // make move
-            backtrack(i+1);    // backtrack
-            remove_queen(i,j); // undo move
+        // explore candidates
+        for (auto j=0; j<n; j++){
+            if (isValidPos(i,j)){
+                placeQueen(i,j); // make move
+                backtrack(i+1); // backtrack
+                removeQueen(i,j); // undo move
+            }
         }
     }
-}
+
+void Solution::updateResult(){
+        vector<string> combo;
+        for (auto row:grid){
+            string s;
+            for (auto i:row){
+                s.push_back( (i==1) ? 'Q' : '.' );
+            } combo.push_back(s);
+        }
+        result.push_back(combo);
+    }
 
 bool Solution::isSafe(int i, int j){
-    if (i>=0 && j>=0 && i<n && j<n) return true;
-    else return false;
+    return (i>=0 && j>=0 && i<n && j<n) ? true : false;
 }
 
-bool Solution::isValidPosition(int r, int c){
-    if (grid[r][c] == 0) return true;
-    else return false;
+bool Solution::isValidPos(int i, int j){
+    return (grid[i][j] == 0) ? true : false;
 }
 
-void Solution::place_queen(int i, int j){
+void Solution::placeQueen(int i, int j){
 
     // mark all attack positions
      int p,q;
@@ -60,7 +71,7 @@ void Solution::place_queen(int i, int j){
      grid[i][j] -= 7; // offset
 }
 
-void Solution::remove_queen(int i, int j){
+void Solution::removeQueen(int i, int j){
 
     // unmark all attack positions
      int p,q;
@@ -74,5 +85,3 @@ void Solution::remove_queen(int i, int j){
      p=i,q=j;   while (isSafe(p,q))     grid[p][q] -= 1, p++, q--;
      grid[i][j] += 7; // offset
 }
-
-

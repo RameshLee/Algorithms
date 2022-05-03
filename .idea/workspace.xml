@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/Polymorphism_VirtualFunc.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/450 LeetCode Delete Node in a BST.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/7 LeetCode Reverse Integer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/51 LeetCode N-Queens.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/139 LeetCode Word Break.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/System_Design/348 LeetCode Design Tic-Tac-Toe.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backtracking/52 LeetCode N-Queens II.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/52 LeetCode N-Queens II.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic_Programming/746 LeetCode Min Cost Climbing Stairs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/746 LeetCode Min Cost Climbing Stairs.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +46,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/System_Design" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/System_Design" />
+      <recent name="$PROJECT_DIR$/Backtracking" />
       <recent name="$PROJECT_DIR$/Array" />
-      <recent name="$PROJECT_DIR$/Tree" />
-      <recent name="$PROJECT_DIR$/Binary_Heap" />
-      <recent name="$PROJECT_DIR$/Recursion" />
       <recent name="$PROJECT_DIR$/Dynamic_Programming" />
+      <recent name="$PROJECT_DIR$/Tree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GraphSearch" />
