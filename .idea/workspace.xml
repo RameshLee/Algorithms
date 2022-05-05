@@ -20,13 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/380 LeetCode Insert Delete GetRandom O(1).cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/47 LeetCode Permutations II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphSearch/2104 LeetCode Sum of Subarray Ranges.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphSearch/286 LeetCode Walls and Gates.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/987 LeetCode Vertical Order Traversal of a Binary Tree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/46_LeetCode_Permutations.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/46_LeetCode_Permutations.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backtracking/22 LeetCode Generate Parentheses.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/22 LeetCode Generate Parentheses.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backtracking/77 LeetCode Combinations.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/77 LeetCode Combinations.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/144_LeetCode__BinaryTree_PreOrderTraversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/144_LeetCode__BinaryTree_PreOrderTraversal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/145_LeetCode__BinaryTree_PostOrderTraversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/145_LeetCode__BinaryTree_PostOrderTraversal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/589 LeetCode N-ary Tree Preorder Traversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/589 LeetCode N-ary Tree Preorder Traversal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/590 LeetCode N-ary Tree Postorder Traversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/590 LeetCode N-ary Tree Postorder Traversal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/94_LeetCode_BinaryTree_InOrderTraversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/94_LeetCode_BinaryTree_InOrderTraversal.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

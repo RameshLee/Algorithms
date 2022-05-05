@@ -1,32 +1,50 @@
 // Link: https://leetcode.com/problems/binary-tree-postorder-traversal/
 
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
+// 1) iterative
 class Solution {
 public:
-    vector<int> vec;
-
-    void helper(TreeNode* root)
-    {
-        if (root != NULL)
-        {
-            helper(root->left);
-            helper(root->right);
-            vec.push_back(root->val);
+    vector<int> postorderTraversal(TreeNode* root) {
+        vector<int> vec;
+        stack<TreeNode*> Stack, rightChildStack;
+        TreeNode* curr = root;
+        while (!Stack.empty() || curr) {
+            if (curr) {
+                Stack.push(curr); // push parent
+                if (curr->right) {
+                    rightChildStack.push(curr->right); // push rightChild
+                }
+                curr = curr->left; // keep going left
+            }
+            else {
+                curr = Stack.top();
+                if (!rightChildStack.empty() && curr->right == rightChildStack.top()) {
+                    rightChildStack.pop();
+                    curr = curr->right;
+                }
+                else {
+                    vec.push_back(curr->val);
+                    Stack.pop();
+                    curr = nullptr;
+                }
+            }
         }
+        return vec;
     }
+};
 
-    vector<int> postorderTraversal(TreeNode* root)
-    {
-        helper(root); return vec;
+// 2) recursive
+class Solution {
+public:
+    vector<int> postorderTraversal(TreeNode* root) {
+        helper(root);
+        return vec;
+    }
+private:
+    vector<int> vec;
+    void helper(TreeNode* root) {
+        if (!root) return;
+        helper(root->left);
+        helper(root->right);
+        vec.push_back(root->val);
     }
 };

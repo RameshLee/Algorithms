@@ -2,26 +2,24 @@
 
 class Solution {
 public:
-    using vi = vector<int>;
-    using vvi = vector<vector<int>>;
+    vector<vector<int>> combine(int n, int k) {
+        this->n = n, this->k = k;
+        backtrack(1);
+        return output;
+    }
+private:
+    int n, k; vector<int> vec; vector<vector<int>> output;
 
-    void backtrack(int curr, int &n, int &k, vvi& output, vi& vec){
-
+    void backtrack(int i){
         if (vec.size() == k){ //base-case
             output.push_back(vec);
             return;
         }
 
-        for (int j=curr; j<=n; j++){ //explore candidates
+        for (int j=i; j<=n; j++){ //explore candidates
             vec.push_back(j); // make move
-            backtrack(j+1,n,k,output,vec); // backtrack
+            backtrack(j+1); // backtrack
             vec.pop_back(); // undo move
         }
-    }
-
-    vvi combine(int n, int k) {
-        vi vec; vvi output;
-        backtrack(1,n,k,output,vec);
-        return output;
     }
 };

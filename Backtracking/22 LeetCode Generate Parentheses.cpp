@@ -4,39 +4,32 @@
 
 class Solution {
 public:
-    vector<string> output;
-    int n; string str ="";
+    vector<string> generateParenthesis(int n) {
+        this->n = n;
+        backtrack(0);
+        return output;
+    }
+private:
+    vector<string> output; string s; int n, sum=0, open=0, closed=0;
+    enum Brackets{OPEN_BRACKET='(', CLOSED_BRACKET=')'};
 
-    void backtrack(int i, int sum, int open, int closed){
+    void backtrack(int i) {
 
         if (sum<0 || open>n || closed>n) return; //solution is infeasible
 
         if (i == 2*n) { // update feasible solution
-            output.push_back(str);
+            output.push_back(s);
             return;
         }
 
-        // for all candidates
-        for (int c=0; c<2; c++){ //0-open,1-closed
+         // for all candidates
+        s.push_back(OPEN_BRACKET), sum++, open++; //add open bracket
+        backtrack(i+1); // backtrack
+        s.pop_back(), sum--, open--; //remove open bracket
 
-            // make move
-            if (c==0) str.push_back('('), sum++, open++; //add open bracket
-            else str.push_back(')'), sum--, closed++; //add closed bracket
-
-            // backtrack
-            backtrack(i+1, sum, open, closed);
-
-            // undo move
-            if (c==0) str.pop_back(), sum--, open--; //remove open bracket
-            else str.pop_back(), sum++, closed--; //remove closed bracket
-        }
+        s.push_back(CLOSED_BRACKET), sum--, closed++; //add closed bracket
+        backtrack(i+1); // backtrack
+        s.pop_back(), sum++, closed--; //remove closed bracket
     }
 
-    vector<string> generateParenthesis(int _n) {
-
-        n = _n;
-        backtrack(0,0,0,0);
-        return output;
-    }
 };
-
