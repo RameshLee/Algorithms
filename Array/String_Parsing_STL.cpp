@@ -4,8 +4,7 @@ int main() {
     stringstream ss( "1,1,1,1, or something else ,1,1,1,0" );
     vector<string> result;
 
-    while( ss.good() )
-    {
+    while( ss.good() ) {
         string substr;
         getline( ss, substr, ',' );
         result.push_back( substr );

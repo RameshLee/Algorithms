@@ -24,7 +24,6 @@ int main()
 
     // 1) put first element of each array for building a heap
 
-
     maxHeap h(n, arr);
     h.buildHeap();
     h.print();

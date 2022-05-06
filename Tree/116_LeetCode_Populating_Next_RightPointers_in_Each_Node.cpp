@@ -18,36 +18,25 @@ public:
 };
 */
 
-class Solution
-{
+class Solution {
 public:
-    Node* connect(Node* root)
-    {
-        if (root == NULL) return root;
+    Node* connect(Node* root) {
+        if (!root) return root;
 
-        queue<Node*> q;
-        q.push(root);
+        queue<Node*> q; q.push(root);
+        Node *prev = nullptr;
+        while (!q.empty()) { // BFS or level-order traversal
+            int sz = q.size();
+            for (auto i=0; i<sz; i++) {// layer-by-layer
+                Node* temp = q.front(); q.pop();
 
-        Node *prev = NULL;
-        while (!q.empty())
-        {
-            int size = q.size();
-            for (int i=0; i<size; i++) //level-order traversal
-            {
-                Node* temp = q.front();
-                q.pop();
-
-                if (temp->left != NULL) //It's a PBT! Hence, enough to check if one child is NULL.
-                {
-                    q.push(temp->left);
-                    q.push(temp->right);
-                }
+                if (temp->left)  q.push(temp->left);
+                if (temp->right) q.push(temp->right);
 
                 if (i>0) prev->next = temp;
                 prev = temp;
             }
         }
-
         return root;
     }
 };

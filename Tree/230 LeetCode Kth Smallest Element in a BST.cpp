@@ -3,20 +3,20 @@
 // Inorder traversal of BST is a sorted array: T=O(N), S=O(1)
 
 class Solution {
-private: int k, index=0, result=0;
 public:
+    int kthSmallest(TreeNode* root, int k) {
+        this->k = k;
+        helper(root);
+        return result;
+    }
+private:
+    int k, index=0, result=0;
+
     void helper(TreeNode* root){
-        if (!root) return;
-        if (result) return;
+        if (!root || result) return;
 
         helper(root->left);
         if (++index == k) result = root->val;
         helper(root->right);
-    }
-
-    int kthSmallest(TreeNode* root, int _k) {
-        k = _k;
-        helper(root);
-        return result;
     }
 };

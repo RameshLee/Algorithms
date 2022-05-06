@@ -20,14 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
+      <change afterPath="$PROJECT_DIR$/Array/326 LeetCode Power of Three.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/412 LeetCode Fizz Buzz.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Heap/295 LeetCode Find Median from Data Stream.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sliding_Window/239 LeetCode Sliding Window Maximum.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/22 LeetCode Generate Parentheses.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/22 LeetCode Generate Parentheses.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/77 LeetCode Combinations.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/77 LeetCode Combinations.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/144_LeetCode__BinaryTree_PreOrderTraversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/144_LeetCode__BinaryTree_PreOrderTraversal.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/145_LeetCode__BinaryTree_PostOrderTraversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/145_LeetCode__BinaryTree_PostOrderTraversal.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/589 LeetCode N-ary Tree Preorder Traversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/589 LeetCode N-ary Tree Preorder Traversal.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/590 LeetCode N-ary Tree Postorder Traversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/590 LeetCode N-ary Tree Postorder Traversal.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/94_LeetCode_BinaryTree_InOrderTraversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/94_LeetCode_BinaryTree_InOrderTraversal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/String_Parsing_STL.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/String_Parsing_STL.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backtracking/78 LeetCode Subsets.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/78 LeetCode Subsets.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Heap/heap.h" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Heap/heap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Heap/merge_k_sorted_arrays.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Heap/merge_k_sorted_arrays.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/912 LeetCode Sort an Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/912 LeetCode Sort an Array.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/116_LeetCode_Populating_Next_RightPointers_in_Each_Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/116_LeetCode_Populating_Next_RightPointers_in_Each_Node.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/230 LeetCode Kth Smallest Element in a BST.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/230 LeetCode Kth Smallest Element in a BST.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/429 LeetCode N-ary Tree Level Order Traversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/429 LeetCode N-ary Tree Level Order Traversal.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +52,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Sliding_Window" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Sliding_Window" />
+      <recent name="$PROJECT_DIR$/Binary_Heap" />
       <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Backtracking" />
       <recent name="$PROJECT_DIR$/GraphSearch" />
-      <recent name="$PROJECT_DIR$/Tree" />
-      <recent name="$PROJECT_DIR$/System_Design" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GraphSearch" />

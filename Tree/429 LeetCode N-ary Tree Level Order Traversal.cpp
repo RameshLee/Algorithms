@@ -20,35 +20,30 @@ public:
 };
 */
 
+
 class Solution {
 public:
-    void levelOrder(Node* head, vector<vector<int>>& vec){
+    vector<vector<int>> levelOrder(Node* root) {
+        if (!root) return vector<vector<int>>();
 
-        vec.push_back(vector<int>({head->val}));
+        vector<vector<int>> result; result.push_back(vector<int>({root->val}));
+        queue<Node*> q; q.push(root);
+
+        // level-order traversal or BFS using queue
         vector<int> level;
-        queue<Node*> q;
-        q.push(head);
-
         while (!q.empty()){
             int sz = q.size();
             for (int i=0; i<sz; i++){
-
                 Node* root = q.front(); q.pop();
-                for (int j=0; j<root->children.size(); j++){
-                    if (root->children[j]){
-                        q.push(root->children[j]);
-                        level.push_back(root->children[j]->val);
+                for (auto child:root->children)
+                    if (child){
+                        q.push(child);
+                        level.push_back(child->val);
                     }
-                }
             }
-            if (!level.empty()) vec.push_back(level);
+            if (!level.empty()) result.push_back(level);
             level.clear();
         }
-    }
-
-    vector<vector<int>> levelOrder(Node* root) {
-        vector<vector<int>> vec;
-        if (root) levelOrder(root, vec);
-        return vec;
+        return result;
     }
 };
