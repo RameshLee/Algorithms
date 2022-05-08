@@ -8,18 +8,16 @@
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
+        int n = nums.size();
+        vector<bool> canReach(n, false);
 
-        vector<bool> canReach(nums.size(), false);
-
-        int lastIndex = nums.size()-1;
-        canReach[lastIndex] = true;
-
-        for (int i=lastIndex-1; i>=0; i--){
-            for (int steps=1; steps<=nums[i]; steps++){
-                if (i+steps < nums.size())
-                    if (canReach[i+steps] == true){
-                        canReach[i] = true; break;
-                    }
+        canReach[n-1] = true;
+        for (int i=n-2; i>=0; i--) {
+            for (int steps=0; steps<=nums[i]; steps++) {
+                if (i+steps < nums.size() && canReach[i+steps]) {
+                    canReach[i] = true;
+                    break;
+                }
             }
         }
         return canReach[0];

@@ -8,26 +8,18 @@ private:
 public:
     bool isValid(string s) {
 
-        // special case: return if there are odd number of brackets
+        // corner case: return if there are odd number of brackets
         if (s.size()%2 != 0) return false;
 
-        vector<int> vec;
-        int sum = 0;
-        for (auto& it:s) {
-            sum += Map[it];
-
-            if (Map[it] < 0) {
-                if (vec.empty()) return false;
-                if (Map[it] == (-1)*vec.back()) vec.pop_back(); // remove if it is a valid pair.
+        stack<int> Stack; int sum = 0;
+        for (auto c:s) {
+            sum += Map[c];
+            if (Map[c] < 0) {
+                if (Stack.empty()) return false;
+                if (Map[c] == (-1)*Stack.top()) Stack.pop(); // remove valid pair of brackets
             }
-            else vec.push_back(Map[it]);
+            else Stack.push(Map[c]);
         }
-
-        //corner-cases
-        if (!vec.empty()) return false;
-        if (abs(sum) != 0) return false;
-
-        return true;
-
+        return (Stack.empty() && sum == 0) ? true : false;
     }
 };

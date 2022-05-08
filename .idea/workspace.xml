@@ -20,10 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Backtracking/Sample.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/Sample2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/Sample3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/73 LeetCode Set Matrix Zeroes.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Heap/56 LeetCode Merge Intervals.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/75 LeetCode Sort Colors.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/118 LeetCode Pascal's Triangle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/118 LeetCode Pascal's Triangle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/20_LeetCode_Valid_Parenthesis.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/20_LeetCode_Valid_Parenthesis.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/268 LeetCode Missing Number.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/268 LeetCode Missing Number.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backtracking/Sample.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/Sample.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Heap/253 LeetCode Meeting Rooms II.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Heap/253 LeetCode Meeting Rooms II.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic_Programming/55 LeetCode Jump Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/55 LeetCode Jump Game.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +49,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Backtracking" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Array" />
+      <recent name="$PROJECT_DIR$/Sorting" />
+      <recent name="$PROJECT_DIR$/Binary_Heap" />
       <recent name="$PROJECT_DIR$/Backtracking" />
       <recent name="$PROJECT_DIR$/Sliding_Window" />
-      <recent name="$PROJECT_DIR$/Binary_Heap" />
-      <recent name="$PROJECT_DIR$/Array" />
-      <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GraphSearch" />

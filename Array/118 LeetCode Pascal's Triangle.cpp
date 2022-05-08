@@ -5,31 +5,30 @@
 
 class Solution {
 public:
-    int helper(vector<vector<int>>& vec, int i, int j){
+    vector<vector<int>> generate(int numRows) {
 
+        // tailor the vector
+        vec.resize(numRows, vector<int>());
+        for (int i=0; i<numRows; i++) vec[i].resize(i+1,0);
+
+        // launch recursion
+        for (int i=numRows-1; i>=0; i--) {
+            for (int j=0; j<i+1; j++){
+               vec[i][j] = helper(i,j);
+            }
+        }
+        return vec;
+    }
+private:
+    vector<vector<int>> vec;
+    int helper(int i, int j){
         // base-case
         if (i<0 || j<0) return 0;
         if (j==0 || j==i) return 1;
         if (vec[i][j]) return vec[i][j];
 
         // recursion
-        vec[i][j] = helper(vec, i-1, j-1) + helper(vec, i-1, j);
-        return vec[i][j];
-    }
-
-    vector<vector<int>> generate(int numRows) {
-
-        // tailor the vector
-        vector<vector<int>> vec(numRows, vector<int>());
-        for (int i=0; i<numRows; i++) vec[i].resize(i+1,0);
-
-        // launch recursion
-        for (int i=numRows-1; i>=0; i--) {
-            for (int j=0; j<i+1; j++){
-               vec[i][j] = helper(vec,i,j);
-            }
-        }
-        return vec;
+        return vec[i][j] = helper(i-1, j-1) + helper(i-1, j);
     }
 };
 

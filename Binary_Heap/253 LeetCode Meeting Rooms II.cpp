@@ -1,28 +1,34 @@
 // Link: https://leetcode.com/problems/meeting-rooms-ii/
 
-using vi = vector<int>;
-using vvi = vector<vi>;
-class mySort{ public: bool operator()(vi &A, vi &B){ return A[0]<B[0]; } };
-class myHeap{ public: bool operator()(vi &A, vi &B){ return A[1]>B[1]; } };
+class myComparator{
+public:
+    bool operator()(vector<int> &A, vector<int> &B) const{
+        return A[1]>B[1];
+    }
+};
 
 class Solution {
 public:
-    int minMeetingRooms(vvi& intervals) {
+    int minMeetingRooms(vector<vector<int>>& intervals) {
 
-        sort(intervals.begin(), intervals.end(), mySort()); // sort intervals based on starting time
-        priority_queue<vi, vector<vi>, myHeap> pq;
+        sort(intervals.begin(), intervals.end()); // sort intervals based on starting time
+
+        using vi = vector<int>;
+        priority_queue<vi, vector<vi>, myComparator> pq;
 
         int Rooms = 0;
         for (int i=0; i<intervals.size(); i++){
             if (!pq.empty()){
 
-                int lowest_l = pq.top()[1]; // returns the earliest end time of any meeting
-                int e = intervals[i][0]; // returns the start time of the current meeting
+                int endTime = pq.top()[1]; // earliest end time of any meeting
+                int startTime = intervals[i][0]; // start time of the current meeting
 
-                if (e>=lowest_l) pq.pop(); // book this room slot for the new meeting.
-                else Rooms++; // allot a new room
+                if (startTime>=endTime) {
+                    pq.pop(); // book this existing room for the new meeting.
+                }
+                else Rooms++;
             }
-            else Rooms++;
+            else Rooms++; // allot a new room
             pq.push(intervals[i]);
         }
         return Rooms;
