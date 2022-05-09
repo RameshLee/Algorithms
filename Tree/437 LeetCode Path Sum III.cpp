@@ -14,24 +14,26 @@
  * };
  */
 class Solution {
-private: using vi = vector<long>; vi vec; int count = 0;
-public:
-    vi helper(TreeNode* root, int &targetSum){
-        if (!root) return vi();
-
-        vi left = helper(root->left, targetSum);
-        vi right = helper(root->right, targetSum);
-
-        vi vec; vec.push_back(root->val);
-        for (auto& ele:left) vec.push_back(root->val + ele);
-        for (auto& ele:right) vec.push_back(root->val + ele);
-        for (auto& ele:vec) if (ele == targetSum) count++;
-
-        return vec;
+public: int pathSum(TreeNode* root, int targetSum) {
+        this->targetSum = targetSum;
+        helper(root);
+        return count;
     }
 
-    int pathSum(TreeNode* root, int targetSum) {
-        vi vec = helper(root, targetSum);
-        return count;
+private:
+    vector<long> vec; int targetSum, count = 0;
+
+    vector<long> helper(TreeNode* root){
+        if (!root) return vector<long>();
+
+        vector<long> left  = helper(root->left);
+        vector<long> right = helper(root->right);
+
+        vector<long> vec = {root->val};
+        for (auto i:left) vec.push_back(root->val + i);
+        for (auto i:right) vec.push_back(root->val + i);
+        for (auto i:vec) if (i == targetSum) count++;
+
+        return vec;
     }
 };
