@@ -20,16 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/169 LeetCode Majority Element.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/229 LeetCode Majority Element II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/62 LeetCode Unique Paths.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphSearch/133 LeetCode Clone Graph.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding_Window/2264 LeetCode Largest 3-Same-Digit Number in String.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/2265 LeetCode Count Nodes Equal to Average of Subtree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/366 LeetCode Find Leaves of Binary Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Heap/703 LeetCode Kth Largest Element in a Stream.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/213 LeetCode House Robber II.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/110 LeetCode Balanced Binary Tree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/Majority_Element_2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/437 LeetCode Path Sum III.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/437 LeetCode Path Sum III.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backtracking/980 LeetCode Unique Paths III.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/980 LeetCode Unique Paths III.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +44,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dynamic_Programming" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Tree" />
-      <recent name="$PROJECT_DIR$/GraphSearch" />
       <recent name="$PROJECT_DIR$/Dynamic_Programming" />
+      <recent name="$PROJECT_DIR$/Tree" />
+      <recent name="$PROJECT_DIR$/Binary_Heap" />
+      <recent name="$PROJECT_DIR$/GraphSearch" />
       <recent name="$PROJECT_DIR$/Array" />
-      <recent name="$PROJECT_DIR$/Sliding_Window" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GraphSearch" />
