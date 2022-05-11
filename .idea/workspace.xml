@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Binary_Heap/703 LeetCode Kth Largest Element in a Stream.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/213 LeetCode House Robber II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/110 LeetCode Balanced Binary Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/63 LeetCode Unique Paths II.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic_Programming/72 LeetCode Edit Distance.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/980 LeetCode Unique Paths III.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/980 LeetCode Unique Paths III.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
