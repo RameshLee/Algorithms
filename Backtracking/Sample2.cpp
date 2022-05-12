@@ -12,7 +12,7 @@ while (1) {
     i++;
 }
 
-// summation of childs of the tree without siblings
+// sum of all the nodes without a sibling in the tree
 
 int sum = 0;
 
@@ -22,9 +22,8 @@ node* helper(node* root) {
     node* left = helper(root->left);
     node* right = helper(root->right);
 
-    if (!left || !right) {
-        if (left) sum += left->val;
-        if (right) sum += right->val;
-    }
+    if (left && !right) sum += left->val;
+    if (!left && right) sum += right->val;
+
     return root;
 }
