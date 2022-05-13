@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Tree/114 LeetCode Flatten Binary Tree to Linked List.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/1305 LeetCode All Elements in Two Binary Search Trees.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/863 LeetCode All Nodes Distance K in Binary Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1008 LeetCode Construct Binary Search Tree from Preorder Traversal.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1315 LeetCode Sum of Nodes with Even-Valued Grandparent.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/Sample2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/Sample2.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
