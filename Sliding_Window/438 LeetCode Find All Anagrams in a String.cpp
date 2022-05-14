@@ -1,30 +1,27 @@
 // Link: https://leetcode.com/problems/find-all-anagrams-in-a-string/
 
+// Sliding window approach: T=O(N), S=O(1)
+
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
 
+        int k = p.size();
         if (p.size()>s.size()) return vector<int>();
 
-        // initialization
-        vector<char> Map(26,0), slidingWindow(26,0);
-        vector<int> ret; int n=p.size();
+        vector<char> Map(128), window(128); vector<int> result;
+        for (auto c:p) Map[c]++;
 
-        // update the mapping for p
-        for (auto c:p) Map[c%26]++;
+        // cover the first window
+        for (int i=0; i<k; i++) window[s[i]]++;
+        if (Map == window) result.push_back(0); // O(1) check
 
-        // update the sliding window mapping for s
-        for (int i=0; i<n; i++) slidingWindow[s[i]%26]++;
-
-        // move the sliding window from left to right
-        for (int i=0; i<s.size()-n; i++){
-
-            if (Map == slidingWindow) ret.push_back(i); // O(1) check
-
-            slidingWindow[s[i]%26]--;
-            slidingWindow[s[i+n]%26]++;
+        // slide the window
+        for (int i=k; i<s.size(); i++){
+            window[s[i-k]]--;
+            window[s[i]]++;
+            if (Map == window) result.push_back(i-k+1); // O(1) check
         }
-        if (Map == slidingWindow) ret.push_back(s.size()-n);
-        return ret;//
+        return result;
     }
 };

@@ -20,9 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Tree/1008 LeetCode Construct Binary Search Tree from Preorder Traversal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/1315 LeetCode Sum of Nodes with Even-Valued Grandparent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/680 LeetCode Valid Palindrome II.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/Pointer_Arithmetics.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search/270 LeetCode Closest Binary Search Tree Value .cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary_Search/702 LeetCode Search in a Sorted Array of Unknown Size.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/1721 LeetCode Swapping Nodes in a Linked List.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursion/680 LeetCode Valid Palindrome II.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sliding_Window/567 LeetCode Permutation in String.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1522 LeetCode Diameter of N-Ary Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1740 LeetCode Find Distance in a Binary Tree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backtracking/Sample2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/Sample2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sliding_Window/438 LeetCode Find All Anagrams in a String.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sliding_Window/438 LeetCode Find All Anagrams in a String.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +51,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Binary_Search" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Binary_Search" />
       <recent name="$PROJECT_DIR$/Tree" />
-      <recent name="$PROJECT_DIR$/Dynamic_Programming" />
-      <recent name="$PROJECT_DIR$/Binary_Heap" />
-      <recent name="$PROJECT_DIR$/GraphSearch" />
       <recent name="$PROJECT_DIR$/Array" />
+      <recent name="$PROJECT_DIR$/Recursion" />
+      <recent name="$PROJECT_DIR$/Sliding_Window" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GraphSearch" />
@@ -125,15 +134,14 @@
       <screen x="43" y="0" width="1397" height="900" />
     </state>
     <state x="318" y="177" key="Vcs.Push.Dialog.v2/43.0.1397.900@43.0.1397.900" timestamp="1643836626987" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/46.0.1394.900@46.0.1394.900" timestamp="1643830532875" />
     <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1643945661363">
       <screen x="46" y="0" width="1394" height="900" />
     </state>
     <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/46.0.1394.900@46.0.1394.900" timestamp="1643945661363" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1648089373445">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1652473487904">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1648089373445" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1652473487904" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
