@@ -12,42 +12,29 @@ public:
     vector<string> reorderLogFiles(vector<string>& logs) {
 
         vector<string> digitLogs;
-        vector<pair<string,string>> letterLogs; // parse the identifier and content
+        vector<pair<string,string>> letterLogs;
 
-        for (auto& it:logs){
-            int i=0;
-            while(it[i] != ' ') i++;
+        // record the logs
+        for (auto s:logs){
+            int i=0; while(!isspace(s[i])) i++; // bypass the identifier
 
-            if (isdigit(it[i+1])) {
-                digitLogs.push_back(it);
+            if (isdigit(s[i+1])) {  // record digit logs
+                digitLogs.push_back(s);
             }
-            else {
-                string identifier = it.substr(0,i);
-                string content = it.substr(i+1,it.length());
-
+            else { // record letter logs
+                string identifier = s.substr(0,i);
+                string content = s.substr(i+1);
                 letterLogs.push_back(make_pair(identifier, content));
             }
         }
+
+        // lexicographically sort the letterLogs
         sort(letterLogs.begin(), letterLogs.end(), cmp());
 
-        /*
-        // print utility
-        printf("digit logs:\n");
-        for (auto& it:digitLogs)
-            printf("%s %s\n", it.first.c_str(), it.second.c_str());cout<<endl;
-        printf("letter logs:\n");
-        for (auto& it:letterLogs)
-            printf("%s %s\n", it.first.c_str(), it.second.c_str());cout<<endl;*/
-
-        vector<string> ret;
-        for (auto& it:letterLogs){
-            string s = it.first + " " + it.second;
-            ret.push_back(s);
-        }
-        for (auto& it:digitLogs){
-            ret.push_back(it);
-        }
-
-        return ret;
+        // extract the result
+        vector<string> result;
+        for (auto s:letterLogs) result.push_back(s.first + " " + s.second);
+        for (auto s:digitLogs)  result.push_back(s);
+        return result;
     }
 };

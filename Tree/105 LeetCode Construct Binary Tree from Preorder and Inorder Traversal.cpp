@@ -13,29 +13,29 @@
  */
 
 // Approach: Exploit the relationship between inorder & preorder traversal vector to recursively build the BST.
-
-using vi = vector<int>;
-using um = unordered_map<int,int>;
-
 class Solution {
-public: int j = 0;
-    TreeNode* helper(int start, int end, vi& preorder, vi& inorder, um& Map) {
-
-        if (start>end){ j--; return NULL; }
-
-        int i = Map[preorder[j]];
-        TreeNode* root = new TreeNode(inorder[i]);
-        j++; root->left = helper(start, i-1, preorder, inorder, Map);
-        j++; root->right = helper(i+1, end, preorder, inorder, Map);
-        return root;
-    }
-
-    TreeNode* buildTree(vi& preorder, vi& inorder) {
-        um Map;
+public:
+    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
         for (int i=0; i<inorder.size(); i++){
             Map[inorder[i]] = i;
         }
-        return helper(0, inorder.size()-1, preorder, inorder, Map);
+        return helper(0, inorder.size()-1, preorder, inorder);
+    }
+private:
+    unordered_map<int,int> Map;
+    int j = 0;
+
+    TreeNode* helper(int start, int end, vector<int>& preorder, vector<int>& inorder) {
+
+        if (start>end){
+            j--; return nullptr;
+        }
+
+        int i = Map[preorder[j]];
+        TreeNode* root = new TreeNode(inorder[i]);
+        j++; root->left = helper(start, i-1, preorder, inorder);
+        j++; root->right = helper(i+1, end, preorder, inorder);
+        return root;
     }
 };
 
