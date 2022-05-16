@@ -14,6 +14,7 @@ public:
         auto it = Map[key];
         int value = it->second;
         l.erase(Map[key]);
+
         l.push_front(make_pair(key,value));
         Map[key] = l.begin();
 

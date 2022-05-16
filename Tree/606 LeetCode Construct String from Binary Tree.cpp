@@ -1,4 +1,4 @@
-// Link: https://leetcode.com/problems/symmetric-tree/
+// Link: https://leetcode.com/problems/construct-string-from-binary-tree/
 
 /**
  * Definition for a binary tree node.
@@ -13,13 +13,14 @@
  */
 class Solution {
 public:
-    bool isSymmetric(TreeNode* root) {
-        return helper(root->left, root->right);
-    }
-private:
-    bool helper(TreeNode* l, TreeNode* r){
-        if (!l && !r) return true;
-        if (!l || !r) return false;
-        return ((l->val == r->val) && helper(l->left,r->right) && helper(l->right,r->left));
+    string tree2str(TreeNode* root) {
+        if (!root) return "";
+
+        string s = to_string(root->val);
+        if (root->left) s += '(' + tree2str(root->left) + ')';
+        if (!root->left && root->right) s += "()";
+        if (root->right) s += '(' + tree2str(root->right) + ')';
+
+        return s;
     }
 };

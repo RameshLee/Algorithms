@@ -3,35 +3,37 @@
 // 1) using dfs: T=O(N), S=O(1)
 
 class Solution {
-private: int row,col, x[4]={1,-1,0,0}, y[4]={0,0,1,-1};
-         enum Area{Water='0', Land='1', Visited='2'};
 public:
-
-    bool isSafe(int i, int j) { return (i>=0 && j>=0 && i<row && j<col) ? true : false; }
-
-    void dfs(int i, int j, vector<vector<char>>& grid){
-        if (grid[i][j] == Land){
-            grid[i][j] = Visited;
-            for (int k=0; k<4; k++){
-                if (isSafe( i+x[k], j+y[k] ))
-                    dfs(i+x[k], j+y[k], grid);
-            }
-        }
-    }
-
     int numIslands(vector<vector<char>>& grid) {
-        row = grid.size(), col = grid[0].size();
+        this->row = grid.size(), this->col = grid[0].size();
+
         int count = 0;
         for (int i=0; i<row; i++)
             for (int j=0; j<col; j++)
                 if (grid[i][j] == Land){
-                    dfs(i,j,grid); count++;
+                    dfs(i,j,grid);
+                    count++;
                 }
         return count;
     }
+private:
+    int row,col, dir[5]={1,0,-1,0,1}; enum Area{Water='0', Land='1', Visited='2'};
+
+    bool isSafe(int i, int j) {
+        return (i>=0 && j>=0 && i<row && j<col) ? true : false;
+    }
+
+    void dfs(int i, int j, vector<vector<char>>& grid){
+        if (grid[i][j] != Land) return;
+
+        grid[i][j] = Visited;
+        for (int k=0; k<4; k++)
+            if (isSafe( i+dir[k], j+dir[k+1] ))
+                dfs(i+dir[k], j+dir[k+1], grid);
+    }
 };
 
-// 1) using disjoint set: T=O(N), S=O(N)
+// 2) using disjoint set: T=O(N), S=O(N)
 
 struct Node
 {

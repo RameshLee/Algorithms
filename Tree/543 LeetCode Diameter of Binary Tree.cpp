@@ -18,19 +18,19 @@
 // diameter of any node is the sum of max heights of their left & right subtree
 
 class Solution{
-private: int maxDiameter = INT_MIN;
 public:
+    int diameterOfBinaryTree(TreeNode* root) {
+        helper(root);
+        return maxDiameter;
+    }
+private:
+    int maxDiameter = 0;
     int helper(TreeNode* root){
         if (!root) return 0;
         int l = helper(root->left); // height of left subtree
         int r = helper(root->right); // height of right subtree
         maxDiameter = max(maxDiameter, l+r); // record diameter
-        return max(l,r)+1;
-    }
-
-    int diameterOfBinaryTree(TreeNode* root) {
-        helper(root);
-        return maxDiameter;
+        return max(l,r)+1; // return height of largest subtree plus one
     }
 };
 

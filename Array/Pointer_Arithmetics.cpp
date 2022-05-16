@@ -30,15 +30,15 @@ public:
         int *A = ptr;
         for (i=0; i<5; i++) ptr[i] = (i+1)*(i+1);   // [1,4,9,16,25]
         print(A);
-        printf("Ans: %d, ", *ptr++);    // post-increment the pointer ptr
+        printf("Ans: %d, ", *ptr++);    // post-increment the pointer ptr and dereference it
         print(A);
         printf("Ans: %d, ", (*ptr)++);  // post-increment the value pointed by ptr
         print(A);
-        printf("Ans: %d, ", *ptr);      //
+        printf("Ans: %d, ", *ptr);      // deference the ptr
         print(A);
-        printf("Ans: %d, ", *++ptr);    //
+        printf("Ans: %d, ", *++ptr);    // preincrement the ptr and deference it
         print(A);
-        printf("Ans: %d, ", ++*ptr);    //
+        printf("Ans: %d, ", ++*ptr);    // preincrement the value pointed by ptr
         print(A);
 
 
