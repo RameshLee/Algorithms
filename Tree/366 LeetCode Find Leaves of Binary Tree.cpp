@@ -13,6 +13,7 @@
  */
 
 // 1) dfs: find the pairs of heights and node values; update result. T=O(N), S=O(N)
+// Record node values at all heights using hashmap
 
 class Solution {
 public:
