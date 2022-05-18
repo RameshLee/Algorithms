@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Backtracking/Sample4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/Sample5.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion/273 LeetCode Integer to English Words.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/510 LeetCode Inorder Successor in BST II.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/366 LeetCode Find Leaves of Binary Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/366 LeetCode Find Leaves of Binary Tree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backtracking/Sample5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/Sample5.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +42,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Backtracking" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tree" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tree" />
       <recent name="$PROJECT_DIR$/Backtracking" />
       <recent name="$PROJECT_DIR$/Recursion" />
-      <recent name="$PROJECT_DIR$/Tree" />
       <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>

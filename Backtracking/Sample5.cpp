@@ -49,7 +49,7 @@ list<string> List = {"river", "rover", "range", "blade",....}
 
 void initialize() {
     for (auto curr : List) {
-        Map[curr] = iterator position;
+        Map[curr] = iteratorPosition;
     }
 }///
 
@@ -57,6 +57,7 @@ void initialize() {
 void guess(string Word) { // player makes a guess to system
     if (Map.find(Word) != Map.end()) { // guessed word is wrong... // O(1)
         list.erase(Map[Word]); // O(1)
+        Map.erase(Word); // O(1)
     }
 }
 //////////////////////
