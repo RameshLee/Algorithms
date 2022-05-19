@@ -11,41 +11,29 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-// 1) brute force: encode every subtree as a string, and compare two strings.
-
+// 1) recursive approach (brute force)
 class Solution {
-private: string a,b; bool decision = false;
 public:
-    void helper(TreeNode* root){
-        if (!root) return;
-        if (decision) return;
-
-        b.clear();
-        dfs(root,b);
-        if (b==a) decision = true;
-
-        helper(root->left);
-        helper(root->right);
-    }
-
-    void dfs(TreeNode* root, string &s){
-        if (!root) {
-            s += "N ";
-            return;
-        }
-
-        s += to_string(root->val);
-        s += " ( ";
-        s += "L", dfs(root->left,s);
-        s += "R", dfs(root->right,s);
-        s += ") ";
-    }
-
     bool isSubtree(TreeNode* root, TreeNode* subRoot) {
+        helper(root,subRoot);
+        return result;
+    }
+private:
+    bool result = false;
 
-        dfs(subRoot,a);
-        printf("a=%s\n",a.c_str());
-        helper(root);
-        return decision;
+    void helper(TreeNode* root, TreeNode* subRoot) {
+        if (!root) return;
+        if (!result) result = isSameTree(root, subRoot);
+
+        helper(root->left, subRoot);
+        helper(root->right, subRoot);
+    }
+
+    bool isSameTree(TreeNode* A, TreeNode* B) {
+        if (!A && !B) return true;
+        if (!A || !B) return false;
+
+        bool curr = (A->val == B->val) ? true : false;
+        return (curr && isSameTree(A->left,B->left) && isSameTree(A->right, B->right));
     }
 };
