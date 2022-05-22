@@ -20,7 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/58 LeetCode Length of Last Word.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/1762 LeetCode Buildings With an Ocean View.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/243 LeetCode Shortest Word Distance.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/244 LeetCode Shortest Word Distance II.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/369 LeetCode Plus One Linked List.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1214 LeetCode Two Sum BSTs.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1379 LeetCode Find a Corresponding Node of a Binary Tree in a Clone of That Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1676 LeetCode Lowest Common Ancestor of a Binary Tree IV.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/530 LeetCode Minimum Absolute Difference in BST.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,16 +48,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LinkedList" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Array" />
+      <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$/Tree" />
+      <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Backtracking" />
       <recent name="$PROJECT_DIR$/Recursion" />
-      <recent name="$PROJECT_DIR$/GraphSearch" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GraphSearch" />
