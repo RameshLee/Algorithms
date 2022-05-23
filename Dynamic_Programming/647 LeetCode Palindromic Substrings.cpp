@@ -1,31 +1,22 @@
 // Link: https://leetcode.com/problems/palindromic-substrings/
 
+// 1) top-down dynamic programming (recursion + memoization)
+
 class Solution {
-private: int table[1000][1000] = {0}; // memoization table
 public:
-    bool check(string& s, int l, int r){ // check palindrome
-       while (l<=r){
-            if (table[l][r]) return true; // memoization
-            if (s[l] != s[r]) return false;
-            l++, r--;
-        }
-        return true;
-    }
-
     int countSubstrings(string s) {
-
         int count = 0;
-        for (int i=0; i<s.size(); i++){
-            for (int j=i; j<s.size(); j++){
-                if (!table[i][j]){ // memoization
-                    if (check(s,i,j)) {
-                        count++;
-                        table[i][j] == 1;
-                    }
-                }
-                else count++;
-            }
-        }
+        for (auto i=0; i<s.size(); i++)
+            for (auto j=i; j<s.size(); j++)
+                if (isPalindrome(s,i,j))
+                    count++;
         return count;
+    }
+private:
+    bool Memo[1001][1001] = {false}; // memoization table
+
+    bool isPalindrome(string& s, int l, int r){
+        if (l>=r) return true;
+        return Memo[l][r] = (s[l]==s[r]) ? isPalindrome(s,l+1,r-1) : false;
     }
 };

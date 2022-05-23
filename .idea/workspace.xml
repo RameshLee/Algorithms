@@ -20,15 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/1762 LeetCode Buildings With an Ocean View.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/243 LeetCode Shortest Word Distance.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/244 LeetCode Shortest Word Distance II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/369 LeetCode Plus One Linked List.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/1214 LeetCode Two Sum BSTs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/1379 LeetCode Find a Corresponding Node of a Binary Tree in a Clone of That Tree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/1676 LeetCode Lowest Common Ancestor of a Binary Tree IV.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/530 LeetCode Minimum Absolute Difference in BST.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/1570 LeetCode Dot Product of Two Sparse Vectors.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1022 LeetCode Sum of Root To Leaf Binary Numbers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1302 LeetCode Deepest Leaves Sum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1469 LeetCode Find All The Lonely Nodes.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1490 LeetCode Clone N-ary Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1530 LeetCode Number of Good Leaf Nodes Pairs.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1602 LeetCode Find Nearest Right Node in Binary Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1612 LeetCode Check If Two Expression Trees are Equivalent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/515 LeetCode Find Largest Value in Each Tree Row.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/637 LeetCode Average of Levels in Binary Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/783 LeetCode Minimum Distance Between BST Nodes.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/965 LeetCode Univalued Binary Tree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic_Programming/647 LeetCode Palindromic Substrings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic_Programming/647 LeetCode Palindromic Substrings.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,14 +53,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/LinkedList" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/LinkedList" />
-      <recent name="$PROJECT_DIR$/Tree" />
       <recent name="$PROJECT_DIR$/Array" />
+      <recent name="$PROJECT_DIR$/Tree" />
+      <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$/Backtracking" />
       <recent name="$PROJECT_DIR$/Recursion" />
     </key>
