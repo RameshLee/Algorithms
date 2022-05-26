@@ -1,7 +1,41 @@
 // 250k+ total?
 
-// Amazon, Vancouver
+// base salary, performance bonus, stock grant
+// relocation package, signing bonus, any other perks?
+// salary at hand? any unknown deductions?
+// location: vancouver/toronto?, team: middle mile routing?, WFH?
+// question: how long it takes from sde 2 to sde 3?
+// working hours, how strict is office presence?
 
+budget problem replies:
+// based on market research, speaking to colleagues, my expected salary range for my background is this.
+// I am sure you may need to talk to higher authority. Would love to see if you can raise to this amount.
+// Just to ensure that I payback loans/PR initial amount: like to invest myself at amazon for the long run.
+// Dont want to look others. helpful for us both.
+// 1) very specialized routing experience, PHD degree, lots of experience.
+// 2) to bridge the gap: sign on bonus or any other package?
+// 3) performance review after 3-6 months and then bump the salary?
+// 4) can we adjust vacation days?
+// informal offer letter?
+
+
+// 1) salary => [minimum, happyNumber]
+// 2) talk about salary, equity, vacation time.
+// 3) Can we round that salary to whole amount? :)
+// 4) Thank you for that. But I would be really excited to accept this higher amount. considering specialized experience and fit.
+// 5) I am looking for a competitive offer. And, for me, that's around this amount. Is there any way to get closer to that? :)
+// 6) That's a little lesser than what I was expecting. I was thinking closer to 180k. Can we meet in the middle?
+// 7) How high can you go? :)
+// 8) I would love to join. This is my no.1 company. But, the compensation is too lower than my minimum.
+// 9) I am very excited about this position. But, this compensation doesn't work for me.
+// Is there anything you can do? Anyone you could talk to? Can you get back tomorrow or later this week?
+// I would really appreciate it. Thank you so much.
+// 10) with my 6 YOE and specialized experience + fit as talking with HR, I feel like I'm uniquely positioned to help routing team.
+// Is there any way we can get closer to the industry benchmark?
+
+
+
+// Amazon, Vancouver
 //  OA
 1) Palindrome linked list
 2) Check password strength

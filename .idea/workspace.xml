@@ -20,27 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Backtracking/Sample LC_Post.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/Sample6 (Amazon).cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Heap/658 LeetCode Find K Closest Elements.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/2130 LeetCode Maximum Twin Sum of a Linked List.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/2181 LeetCode Merge Nodes in Between Zeros.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/445 LeetCode Add Two Numbers II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Minimum_Spanning_Tree/1135 LeetCode Connecting Cities With Minimum Cost.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/111 LeetCode Minimum Depth of Binary Tree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/1973 LeetCode Count Nodes Equal to Sum of Descendants.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/2236 LeetCode Root Equals Sum of Children.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/257 LeetCode Binary Tree Paths.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/563 LeetCode Binary Tree Tilt.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/872 LeetCode Leaf-Similar Trees.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/897 LeetCode Increasing Order Search Tree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/993 LeetCode Cousins in Binary Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/Sample6 LC_Post.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/Sample.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/Sample (Synopsys).cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/Sample2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/Sample2 (Synopsys).cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/Sample3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/Sample3 (Synopsys).cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/Sample4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/Sample4 (Synopsys).cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/Sample5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/Sample5 (Synopsys).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backtracking/Sample LC_Post.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backtracking/Sample6 (Amazon).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/Sample6 (Amazon).cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
