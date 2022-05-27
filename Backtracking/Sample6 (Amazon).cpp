@@ -1,39 +1,39 @@
 // 250k+ total?
 
-// base salary, performance bonus, stock grant
-// relocation package, signing bonus, any other perks?
+// base salary, signing bonus, stock grant
+// relocation package and other perks?
 // salary at hand? any unknown deductions?
+
+Questions:
 // location: vancouver/toronto?, team: middle mile routing?, WFH?
 // question: how long it takes from sde 2 to sde 3?
 // working hours, how strict is office presence?
+// how is the vacation: paid, unpaid, paternity, sick leave, sabbatical?
 
 budget problem replies:
 // based on market research, speaking to colleagues, my expected salary range for my background is this.
-// I am sure you may need to talk to higher authority. Would love to see if you can raise to this amount.
 // Just to ensure that I payback loans/PR initial amount: like to invest myself at amazon for the long run.
 // Dont want to look others. helpful for us both.
 // 1) very specialized routing experience, PHD degree, lots of experience.
 // 2) to bridge the gap: sign on bonus or any other package?
-// 3) performance review after 3-6 months and then bump the salary?
-// 4) can we adjust vacation days?
 // informal offer letter?
 
-
-// 1) salary => [minimum, happyNumber]
-// 2) talk about salary, equity, vacation time.
-// 3) Can we round that salary to whole amount? :)
-// 4) Thank you for that. But I would be really excited to accept this higher amount. considering specialized experience and fit.
-// 5) I am looking for a competitive offer. And, for me, that's around this amount. Is there any way to get closer to that? :)
-// 6) That's a little lesser than what I was expecting. I was thinking closer to 180k. Can we meet in the middle?
-// 7) How high can you go? :)
-// 8) I would love to join. This is my no.1 company. But, the compensation is too lower than my minimum.
-// 9) I am very excited about this position. But, this compensation doesn't work for me.
+negotiation templates:
+// - salary => [minimum, happyNumber] how did you arrive at that number? How high can you go?:)
+// - Can we round that salary to whole amount? :)
+// - Thank you for that. But I would be really excited to accept a higher amount. considering specialized experience and fit.
+// - I am looking for a competitive offer. And, for me, that's around this amount. Is there any way to get closer to that? :)
+// - That's a little lesser than what I was expecting. I was thinking closer to 180k. Can we meet in the middle?
+// - I would love to join. This is my no.1 company. But, the compensation is too lower than my minimum.
+// - I am very excited about this position. But, this compensation doesn't work for me.
 // Is there anything you can do? Anyone you could talk to? Can you get back tomorrow or later this week?
 // I would really appreciate it. Thank you so much.
-// 10) with my 6 YOE and specialized experience + fit as talking with HR, I feel like I'm uniquely positioned to help routing team.
-// Is there any way we can get closer to the industry benchmark?
+// - with my 6 YOE and specialized experience + fit as talking with HR, I feel like I'm uniquely positioned to help routing team.
+// - Perhaps you could also consider my performance to current position. I am an IVADO laureate, winner of Canada's AI fellowship in 2020.
+// perhaps you can consider all these? Is there any way we can get closer to the industry benchmark?
+// To compensate for the range, can we perhaps increase the vacation days?
 
-
+// - Can we talk again on Monday?
 
 // Amazon, Vancouver
 //  OA
@@ -78,3 +78,64 @@ First FAANG interview.
     - Tailored 10 solid stories & tagged them with suitable amazon LPs.
     - All LPs were from here. https://leetcode.com/discuss/interview-question/437082/Amazon-Behavioral-questions-or-Leadership-Principles-or-LP
     Tips: Smile & be confident. never tell failure to any LP. tell how you exceeded expectations on each LP situation.
+
+
+System design Interview:-
+Design Instagram:
+- Social networking web/app in which people can post/share/like/comment pictures/videos/text.
+
+1) Requirements:
+    - Functional requirements:
+        - User should be able to post text, pictures, and videos.
+        - User should be able to follow other users.
+        - User should be able to like and comment on other user's posts.
+        - Retrieve all media files of a user.
+        - User news feed should be generated (based on who they follow & hot topics!)
+    - Non-functional requirements:
+        - Efficient access to media (pictures and videos).
+        - High availability.
+        - High consistency (if user has multiple devices).
+    - Extended requirements:
+        - User should be able to report/block abusive contents.
+        - User should be able to enable two-step verification. (security/permissions)
+        - Serviceability or Manageability of the system should be higher.
+        - User content should not be lost because of any system failures.
+
+2) Design considerations:
+    - System is "read-heavy". Ratio of read to write is 5:1.
+
+3) Capacity requirements:
+    - Total number of users = 5 Million in total
+    - Total active users = 1 Million per day
+    - 5 media files are posted by an user every day.
+    - 1 media file (text, pic, video) contribute to 1 MB in average.
+    - Storage estimates per day = 1M users* 5 files/user * 1 MB/file = 5*10^6 Million bytes every day
+    - Storage estimates in total = 5M users * 20 files/user * 1 MB/file * 5 years ==> (Ans) GB storage disk ==> distributed systems
+    - Read bandwidth per sec = 1M user * 20 files/user = (Ans) MBPS
+    - Write bandwidth per sec = (Ans/5) MBPS
+
+4) System APIs:
+    - postMedia(api_key, content, location, time, allowedUsers);
+    - followUser(api_key, targetUser, ... ,);
+    - interactPost(api_key, post_id, interactionType, OptionalContent, ... ,);
+    - retrieveNewsFeed(api_key, location, time,...,); // internally: followedUsers & hotUsers in instagram.
+
+5) Database schema:
+    - relational (SQL) vs non-relational (noSQL) databases.
+    ==> non-relational database (eg. key-value pair database) // scalability is a priority.
+
+6) High-level design:
+    - [Client] --[LB]--> [ProxyServer] --[LB]--> [ApplicationServer1, AS2,..,ASn]
+                                                    --[LB]--> [DataBase Server, (DRS) DS2,...,DSn]
+                                                    --[LB]--> [MetaData Server, MS2,..,MSn]
+                                 -->[AggregationServer,Cache(LRU)]<----
+                                 --> [keyGenerationServer]
+
+
+
+    - [friend of Client] <-- retrieves news feed
+
+    - postMedia() --> systemAPI
+
+7) Serviceability/Manageability
+8) Redundancy ==> improves reliability
