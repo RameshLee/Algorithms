@@ -1,19 +1,36 @@
 // 250k+ total?
 
-// base salary, signing bonus, stock grant
-// relocation package and other perks?
-// salary at hand? any unknown deductions?
+// base salary, annual bonus, stock grant => 156k + (62k, 46k) + 40 RSU => total = 224,587 (first year)
+// stocks will vest at percentages of 5,15,40,40 over 4 years.
+// amazon sde 2 base caps at 160k even after performance bonus. Switch to sde3 later to increase base cap ASAP.
+
+More questions:
+// performance bonus per year?
+// increase vacation days?
+// vancouver/toronto?
+// interview feedback? areas to improve?
+// sde vs applied scientist track? Opportunities for switching.
+// paternity, marriage and sabbatical leave?
+// working hours in amazon? Mon-Fri?
+// who is my manager? same person who interviewed me?
+// what are the next steps?
+// Anything else I should know about before signing the offer?
 
 Questions:
 // location: vancouver/toronto?, team: middle mile routing?, WFH?
-// question: how long it takes from sde 2 to sde 3?
-// working hours, how strict is office presence?
-// how is the vacation: paid, unpaid, paternity, sick leave, sabbatical?
+// work-life balance: working hours, how strict is office presence?
+// vacation: paid, unpaid, paternity, sick leave, sabbatical? (3 weeks vacation, 6 days paid + sick)
+// salary: percentage of salary at hand? any unknown deductions?
+// career trajectory: how long does it take from sde 2 to sde 3?
+// relocation package, signing bonus, and other perks? ==> max(2.5k+help + 30 days package, 6.8k)
+// 85$ per month => parking/transportation
+// 65$ per month => phone allowance
+// 10% amazon
 
 budget problem replies:
 // based on market research, speaking to colleagues, my expected salary range for my background is this.
 // Just to ensure that I payback loans/PR initial amount: like to invest myself at amazon for the long run.
-// Dont want to look others. helpful for us both.
+// Do not want to look others. helpful for us both.
 // 1) very specialized routing experience, PHD degree, lots of experience.
 // 2) to bridge the gap: sign on bonus or any other package?
 // informal offer letter?
@@ -29,9 +46,11 @@ negotiation templates:
 // Is there anything you can do? Anyone you could talk to? Can you get back tomorrow or later this week?
 // I would really appreciate it. Thank you so much.
 // - with my 6 YOE and specialized experience + fit as talking with HR, I feel like I'm uniquely positioned to help routing team.
-// - Perhaps you could also consider my performance to current position. I am an IVADO laureate, winner of Canada's AI fellowship in 2020.
+// - Perhaps you could also consider my performance at current position. I am an IVADO laureate, winner of Canada's AI fellowship in 2020.
 // perhaps you can consider all these? Is there any way we can get closer to the industry benchmark?
 // To compensate for the range, can we perhaps increase the vacation days?
+
+// specialized experience in routing + PHD degree + IVADO Laureate (one of the 20 people worldwide)
 
 // - Can we talk again on Monday?
 

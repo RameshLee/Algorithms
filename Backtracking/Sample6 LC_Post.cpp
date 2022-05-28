@@ -1,11 +1,12 @@
 **Position:** SDE 2
 **Location:** Vancouver, Canada
-**Education:** PhD
+**Date:** May 24, 2022
+**Education:** PhD in top-tier university
 **YOE:** 2 years
 
 **OA:**
-Q1: LC Medium (linked list + recursion). Solved perfectly.
-Q2: LC Medium (dynamic programming). Solved perfectly.
+1) LC Medium (linked list + recursion). Solved perfectly.
+2) LC Medium (dynamic programming). Solved perfectly.
 
 **Virtual On-site:** Signed NDA.
 **Round 1:** 30 min LP, 30 min coding (DS)
@@ -13,7 +14,7 @@ Q2: LC Medium (dynamic programming). Solved perfectly.
     - LC Medium (hashMap + set + custom comparator). Solved perfectly.
 
 **Round 2:** 20 min LP, 40 min coding (Problem-solving)
-    - LC Medium/Hard (dynamic disjoint set with path compression + graph traversal). Solved perfectly.
+    - LC Hard (dynamic disjoint set with path compression + graph traversal). Solved perfectly.
     - LC Medium (hashMap or two-pointers). Famous array problem. Immediately gave O(N^3) solution (it is not brute force), but could not come up with O(N^2) solution as we had only a few mins left.
 
 **Round 3:** 30 min LP, 30 min coding (LLD)
@@ -23,7 +24,7 @@ Q2: LC Medium (dynamic programming). Solved perfectly.
     - All LPs, and grilling follow ups on both technical & behavioral aspects of each answer. Felt like it went quite well!
 
 **Round 5:** 40 min LP, 30 min system design (HLD)
-    - Medium from Gr*kking the system design course. Solved perfectly.
+    - Medium from Grkkking the system design course. Solved perfectly.
 
 **Offer:** Received offer in 48 hours. (May 24, 2022)
 **Recruiter feedback:** Did very well in all the interviews.
@@ -53,17 +54,16 @@ This is my first FAANG interview. The overall prepping time was around 3 months.
 		-   Because, if you silently steer your code in a wrong direction, then it gets far worse for the interviewer to provide a good hint and for you to pickup that hint & redesign your solution.
 
 3) **System Design:** (duration: 1 month)
-    - Gr*kking the OOD interview and Gr*kking the system design interview.
+    - Grkkking the OOD & sys design.
     - Tips:
 		- Prepare notes & keep revising. Again, pick up the patterns between the system design questions/solutions.
 		- If you have the time, dive deep into each crucial system design components (e.g. CDN, Consistent-hashing, etc.)
-		- In case of value for money, LC subscription is far more worth than the Gr*kking course.
+		- In case of value for money, LC subscription is far more worth than the Grkkking.
 		- But alas, there is no system design course here. Besides, I do not know any other equally well-curated course on system design.
 
 4) **LPs:** (duration: 2 weeks)
-    - Dan Croitor YouTube channel helped me to get a good idea about LPs & STAR pattern.
     - Tailored 12 rock solid stories & tagged them with all suitable amazon LPs.
-    - All LPs were from here. https://leetcode.com/discuss/interview-question/437082/Amazon-Behavioral-questions-or-Leadership-Principles-or-LP
+    - All my LP questions were from the most asked amazon LPs post in leetcode.
     - Tips:
 		- Smile! Talk naturally like it is a discussion with your colleague, but not with an interviewer/manager of your dream company.
 		- Clearly highlight that you "exceeded" expectations with key performance indicators for each LP situation.
