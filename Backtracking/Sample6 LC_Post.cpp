@@ -78,3 +78,52 @@ This is my first FAANG interview. The overall prepping time was around 3 months.
 Abbreviations: OA: Online Assessment, LP: Leadership Principles, LLD: Low level design, HLD: High-level design, LC: Leetcode, DS: Data structures, OOD: Objected oriented design, STAR: Situation Task Action Result.
 
 This is my first FAANG interview. I am not a great coder. Just stayed consistent in my preparation over the last 3 months. Besides, I am from an electrical engineering background, which is why I required fullscale textbook revisions + lots of practice. If I could make it, then I believe anyone could make it to FAANG. Hereby, I would like to give back to the LC community by sharing my experience in detail. I will share offer details in a separate post. Thank you, LC community! Happy coding, and do not give up! :)
+
+
+
+
+
+**Position:** SDE 2
+**Location:** Vancouver, Canada
+**Date:** May 24, 2022
+**Education:** PhD in top-tier university
+**YOE:** 2 years
+
+**Online Assessment:**
+    - LC Medium (linked list + recursion). Solved perfectly.
+    - LC Medium (dynamic programming). Solved perfectly.
+
+**Virtual On-site:** Signed NDA.
+**Round 1:** 20 min LP, 40 min coding (DS)
+    - LC Medium (priority_queue + custom comparator). Solved perfectly.
+    - LC Medium (hashMap + set + custom comparator). Solved perfectly.
+
+**Round 2:** 20 min LP, 40 min coding (Problem-solving)
+    - LC Hard (dynamic disjoint set with path compression + graph traversal). Solved perfectly.
+    - LC Medium (hashMap or two-pointers). Famous array problem. Immediately gave O(N^3) solution (NOT brute force), but I could not come up with a follow-up O(N^2) solution as we had only a few mins left.
+
+**Round 3:** 30 min LP, 30 min coding (LLD)
+    - Medium (polymorphism + inheritance + pure virtual function). Solved perfectly.
+
+**Round 4:** 60 min LP (bar-raiser)
+    - All LPs, and grilling follow ups on both technical & behavioral aspects of each answer. Felt like it went quite well!
+
+**Round 5:** 40 min LP, 30 min system design (HLD)
+    - Medium from Grkkking the system design course. Solved perfectly.
+
+**Offer:** Received offer in 48 hours. (May 24, 2022)
+
+My Preparation (3 months):
+	- Textbook: Algorithms by Dasgupta. (1 month)
+	- Leetcode (158 easy + 196 medium + 24 hard = 378 problems, in 3 months).
+	- Attended 10 weekly LC contests to emulate the time-sensitive interview experience. (2 months)
+	- Prepared 10-12 rock solid stories & tagged them all relevant amazon LPs. ( 2 weeks).
+	- Grkkking course for the system design. (1 month)
+
+My Observations:
+	- Identifying patterns between questions rather than trying to solve a lot of questions.
+	- Consistently take part in LC weekly contests after you're somewhat confident with all DS topics.
+	- LPs are super important, especially for amazon. Do mock interviews if you're not natural speaker.
+	- System design is essential if you want to clear SDE 2, otherwise they could downgrade level.
+
+This is my first FAANG interview. I am not a great coder. Just stayed consistent in my preparation over the last 3 months. Besides, I am from an electrical engineering background, which is why I required fullscale textbook revisions + lots of practice. If I could make it, then I believe you could also crack FAANG. Hereby, I just wanted to give back to the LC community by sharing the interview experience. I will share offer details in a separate post. Thank you, LC community! Happy coding, and do not give up! :)

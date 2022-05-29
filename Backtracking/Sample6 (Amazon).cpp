@@ -1,16 +1,22 @@
 // 250k+ total?
 
 // base salary, annual bonus, stock grant => 156k + (62k, 46k) + 40 RSU => total = 224,587 (first year)
+// relocation package ==> max(2.5k+help+oneMonthRental, 6.8k)
+// 85$ per month => parking/transportation
+// 65$ per month => phone allowance
+// 10% amazon
+// vacation: (3 weeks vacation, 6 days paid + sick)
+
 // stocks will vest at percentages of 5,15,40,40 over 4 years.
 // amazon sde 2 base caps at 160k even after performance bonus. Switch to sde3 later to increase base cap ASAP.
 
 More questions:
 // performance bonus per year?
-// increase vacation days?
+// how do I receive the signing bonus?
+// increase vacation days? paternity, marriage and sabbatical leave?
 // vancouver/toronto?
+// salary: percentage of salary at hand? any unknown deductions?
 // interview feedback? areas to improve?
-// sde vs applied scientist track? Opportunities for switching.
-// paternity, marriage and sabbatical leave?
 // working hours in amazon? Mon-Fri?
 // who is my manager? same person who interviewed me?
 // what are the next steps?
@@ -18,14 +24,9 @@ More questions:
 
 Questions:
 // location: vancouver/toronto?, team: middle mile routing?, WFH?
-// work-life balance: working hours, how strict is office presence?
-// vacation: paid, unpaid, paternity, sick leave, sabbatical? (3 weeks vacation, 6 days paid + sick)
-// salary: percentage of salary at hand? any unknown deductions?
-// career trajectory: how long does it take from sde 2 to sde 3?
-// relocation package, signing bonus, and other perks? ==> max(2.5k+help + 30 days package, 6.8k)
-// 85$ per month => parking/transportation
-// 65$ per month => phone allowance
-// 10% amazon
+// work-life balance: working hours, how strict is office presence? (depends on manager; flexible usually)
+// vacation: paid, unpaid, paternity, sick leave, sabbatical?
+// career trajectory: how long does it take from sde 2 to sde 3? (manager has the veto power)
 
 budget problem replies:
 // based on market research, speaking to colleagues, my expected salary range for my background is this.
@@ -137,7 +138,7 @@ Design Instagram:
     - postMedia(api_key, content, location, time, allowedUsers);
     - followUser(api_key, targetUser, ... ,);
     - interactPost(api_key, post_id, interactionType, OptionalContent, ... ,);
-    - retrieveNewsFeed(api_key, location, time,...,); // internally: followedUsers & hotUsers in instagram.
+    - generateNewsFeed(api_key, location, time,...,); // internally: followedUsers & hotUsers in instagram.
 
 5) Database schema:
     - relational (SQL) vs non-relational (noSQL) databases.
