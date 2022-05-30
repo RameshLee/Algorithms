@@ -83,47 +83,58 @@ This is my first FAANG interview. I am not a great coder. Just stayed consistent
 
 
 
-**Position:** SDE 2
-**Location:** Vancouver, Canada
-**Date:** May 24, 2022
-**Education:** PhD in top-tier university
-**YOE:** 2 years
+// Revised post
 
-**Online Assessment:**
-    - LC Medium (linked list + recursion). Solved perfectly.
-    - LC Medium (dynamic programming). Solved perfectly.
+Position: SDE 2
+Location: Vancouver, Canada
+Date: May 24, 2022
+Education: PhD in top-tier university
+YOE: 2 years
 
-**Virtual On-site:** Signed NDA.
-**Round 1:** 20 min LP, 40 min coding (DS)
-    - LC Medium (priority_queue + custom comparator). Solved perfectly.
-    - LC Medium (hashMap + set + custom comparator). Solved perfectly.
+Online Assessment:
+- LC Medium (linked list + recursion). Solved perfectly.
+- LC Medium (dynamic programming). Solved perfectly.
 
-**Round 2:** 20 min LP, 40 min coding (Problem-solving)
-    - LC Hard (dynamic disjoint set with path compression + graph traversal). Solved perfectly.
-    - LC Medium (hashMap or two-pointers). Famous array problem. Immediately gave O(N^3) solution (NOT brute force), but I could not come up with a follow-up O(N^2) solution as we had only a few mins left.
+Virtual On-site: Signed NDA.
+Round 1: 20 min LP, 40 min coding (DS)
+- LC Medium (priority_queue + custom comparator). Solved perfectly.
+- LC Medium (hashMap + set + custom comparator). Solved perfectly.
 
-**Round 3:** 30 min LP, 30 min coding (LLD)
-    - Medium (polymorphism + inheritance + pure virtual function). Solved perfectly.
+Round 2: 20 min LP, 40 min coding (Problem-solving)
+- LC Hard (dynamic disjoint set with path compression + graph traversal). Solved perfectly.
+- LC Medium (hashMap or two-pointers). Famous array problem. Immediately gave O(N^3) solution (NOT brute force), but I could not come up with a follow-up O(N^2) solution as we had only a few mins left.
 
-**Round 4:** 60 min LP (bar-raiser)
-    - All LPs, and grilling follow ups on both technical & behavioral aspects of each answer. Felt like it went quite well!
+Round 3: 30 min LP, 30 min coding (LLD)
+- Medium (polymorphism + inheritance + pure virtual function). Solved perfectly.
 
-**Round 5:** 40 min LP, 30 min system design (HLD)
-    - Medium from Grkkking the system design course. Solved perfectly.
+Round 4: 60 min LP (bar-raiser)
+- All LPs, and grilling follow ups on both technical & behavioral aspects of each answer. Felt like it went quite well!
 
-**Offer:** Received offer in 48 hours. (May 24, 2022)
+Round 5: 40 min LP, 30 min system design (HLD)
+- Medium from Grkkking the system design course. Solved perfectly.
+
+Offer: Received offer in 48 hours. (May 24, 2022)
 
 My Preparation (3 months):
-	- Textbook: Algorithms by Dasgupta. (1 month)
-	- Leetcode (158 easy + 196 medium + 24 hard = 378 problems, in 3 months).
-	- Attended 10 weekly LC contests to emulate the time-sensitive interview experience. (2 months)
-	- Prepared 10-12 rock solid stories & tagged them all relevant amazon LPs. ( 2 weeks).
-	- Grkkking course for the system design. (1 month)
+- Textbook: Algorithms by Dasgupta. (1 month)
+- Leetcode (158 easy + 196 medium + 24 hard = 378 problems, in 3 months).
+- Completed amazon interview card + all explore cards in leetcode. Very helpful!
+- Attended 10 weekly LC contests to emulate the time-sensitive interview experience. (2 months)
+- Prepared 10-12 rock solid stories & tagged them all relevant amazon LPs. ( 2 weeks).
+- Grkkking course for the system design. (1 month)
 
 My Observations:
-	- Identifying patterns between questions rather than trying to solve a lot of questions.
-	- Consistently take part in LC weekly contests after you're somewhat confident with all DS topics.
-	- LPs are super important, especially for amazon. Do mock interviews if you're not natural speaker.
-	- System design is essential if you want to clear SDE 2, otherwise they could downgrade level.
+- Identifying patterns between questions are more important than trying to solve a lot of questions.
+- Leverage LC "list" feature to store and revisit the question/topic patterns or your favorite/tricky qns.
+- Try LC explore card; greatly helpful in picking up the patterns.
+- Consistently take part in LC weekly contests after you're somewhat confident with all DS topics.
+- Solve same questions in all possible ways (recursion/iteration, bfs/dfs/disjointset, etc).
+- After solving a question, review and implement any of top few most-voted solutions.
+- Think out loud while coding in the interviews; whatever it is, please do not stop talking.
+- LPs are super important, especially for amazon. Do mock interviews if you're not natural speaker.
+- Preparing 10-15 solid LP stories are more realistic than practicing on 50+ LP sample qns.
+- Keep a short/cheat note of those LP stories & take a glance at them during the interview if you got overwhelmed/forgot. Glancing at them will help you improvise!
+- Bar raiser can easily spot if you fake stories during the follow ups, therefore, mostly stick to the truths to articulate fluently.
+- Grkkking course is enough in most cases for system design, which is essential if you want to clear SDE 2, otherwise they could downgrade you to SDE 1.
 
-This is my first FAANG interview. I am not a great coder. Just stayed consistent in my preparation over the last 3 months. Besides, I am from an electrical engineering background, which is why I required fullscale textbook revisions + lots of practice. If I could make it, then I believe you could also crack FAANG. Hereby, I just wanted to give back to the LC community by sharing the interview experience. I will share offer details in a separate post. Thank you, LC community! Happy coding, and do not give up! :)
+This is my first FAANG interview. I am not a great coder. Just stayed consistent in my preparation over the last 3 months. Besides, I am from an electrical engineering background, which is why I required fullscale textbook revisions + lots of practice. If I could make it, then I believe you could also crack FAANG. Hereby, I just wanted to give back to the LC community by sharing the interview experience. Hope it's helpful. I will share offer details in a separate post. Thank you guys, sincerely! Happy coding, and do not give up! :)

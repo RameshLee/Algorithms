@@ -5,22 +5,21 @@
 // 85$ per month => parking/transportation
 // 65$ per month => phone allowance
 // 10% amazon
-// vacation: (3 weeks vacation, 6 days paid + sick)
+// vacation: (3 weeks paid vacation, 6 days paid + sick)
 
 // stocks will vest at percentages of 5,15,40,40 over 4 years.
 // amazon sde 2 base caps at 160k even after performance bonus. Switch to sde3 later to increase base cap ASAP.
 
 More questions:
 // performance bonus per year?
-// how do I receive the signing bonus?
-// increase vacation days? paternity, marriage and sabbatical leave?
+// what are terms for receiving the signing bonus?
+// paternity, marriage and sabbatical leave?
 // vancouver/toronto?
-// salary: percentage of salary at hand? any unknown deductions?
 // interview feedback? areas to improve?
 // working hours in amazon? Mon-Fri?
 // who is my manager? same person who interviewed me?
-// what are the next steps?
-// Anything else I should know about before signing the offer?
+// would you like to highlight anything before sending the offer?
+// next steps?
 
 Questions:
 // location: vancouver/toronto?, team: middle mile routing?, WFH?
