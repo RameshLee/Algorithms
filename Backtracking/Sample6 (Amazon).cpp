@@ -1,7 +1,7 @@
 // 250k+ total?
 
 // base salary, annual bonus, stock grant => 156k + (62k, 46k) + 40 RSU => total = 224,587 (first year)
-// relocation package ==> max(2.5k+help+oneMonthRental, 6.8k)
+// relocation package ==> max(2.5k+help+oneMonthRental, 6.8k USD)
 // 85$ per month => parking/transportation
 // 65$ per month => phone allowance
 // 10% amazon
@@ -10,16 +10,26 @@
 // stocks will vest at percentages of 5,15,40,40 over 4 years.
 // amazon sde 2 base caps at 160k even after performance bonus. Switch to sde3 later to increase base cap ASAP.
 
+Offer questions:
+// can I stop interviewing?
+// Change address
+// phone allowance not mentioned
+// vacation days not mentioned.
+// team?
+// does amazon ofc have a gym?
+// amazon pip?
+
 More questions:
 // performance bonus per year?
-// what are terms for receiving the signing bonus?
-// paternity, marriage and sabbatical leave?
-// vancouver/toronto?
-// interview feedback? areas to improve?
-// working hours in amazon? Mon-Fri?
-// who is my manager? same person who interviewed me?
-// would you like to highlight anything before sending the offer?
-// next steps?
+// what are terms for receiving the signing bonus? dist to 12 months.
+// roughly speaking, percentage of salary comes to hand? 55-65% at hand.
+// marriage, paternity and sabbatical leave? no marriage leave => unpaid leave. paternity - only after a year. sabbatical-unpaid/s.t.approval 6 months.
+// vancouver/toronto? vancouver.
+// working hours in amazon, vancouver? Mon-Fri? 9 am to 5 pm. (not strict!)
+// who is my manager? same person who interviewed me? yes, Brandon Mitchell. get the deliverables in writing.
+// percentage of time: research, coding, presentation/documentation? 60-80% coding+research, 10-30% documentation.
+// would you like to highlight anything before sending the offer? do not resign until you get visa.
+// when will you send me the offer letter? next steps?
 
 Questions:
 // location: vancouver/toronto?, team: middle mile routing?, WFH?
@@ -153,7 +163,6 @@ Design Instagram:
 
 
     - [friend of Client] <-- retrieves news feed
-
     - postMedia() --> systemAPI
 
 7) Serviceability/Manageability
