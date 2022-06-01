@@ -20,12 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Tree/1257 LeetCode Smallest Common Region.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/1430 LeetCode Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/1506 LeetCode Find Root of N-Ary Tree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/2049 LeetCode Count Nodes With the Highest Score.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphSearch/277 LeetCode Find the Celebrity.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1325 LeetCode Delete Leaves With a Given Value.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1448 LeetCode Count Good Nodes in Binary Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/513 LeetCode Find Bottom Left Tree Value.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/814 LeetCode Binary Tree Pruning.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backtracking/Sample6 (Amazon).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/Sample6 (Amazon).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphSearch/785_LeetCode_Is_Graph_Bipartite.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSearch/785_LeetCode_Is_Graph_Bipartite.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +53,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tree" />
-      <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/GraphSearch" />
+      <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Backtracking" />
       <recent name="$PROJECT_DIR$/Binary_Heap" />
     </key>

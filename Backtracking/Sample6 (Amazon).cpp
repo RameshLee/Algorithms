@@ -10,14 +10,28 @@
 // stocks will vest at percentages of 5,15,40,40 over 4 years.
 // amazon sde 2 base caps at 160k even after performance bonus. Switch to sde3 later to increase base cap ASAP.
 
+// Compensation details:
+Salary: 156,000 CAD (caps at 160k)
+Signing Bonus: 62,000 CAD first year, 46,000 CAD second year
+Stock bonus: 40 RSU vested over 4 years (5%, 15%, 40%, 40%)
+Total comp (Salary + Bonus + Stock): ~224,000 CAD (first year)
+Benefits: standard benefits
+Relocation: 6.8k USD
+Transport/Parking allowance: 85 CAD monthly
+Phone allowance: 65 CAD monthly
+Vacation: 3 weeks annually + 6 days sick leave + paternity/absence/etc
+Workhours: 9am-5pm, Mon-Fri
+Other details: Negotiated to boost the salary from 214k to 224k CAD.
+
 Offer questions:
-// can I stop interviewing?
-// Change address
 // phone allowance not mentioned
-// vacation days not mentioned.
-// team?
-// does amazon ofc have a gym?
+// how does vacation chart work? 15 days at a stretch? or 1.25 days per month only?
+// is this middle-mile routing team?
 // amazon pip?
+// promotion criteria to become sde 3?
+// top 3 LPs to get excelled in sde 2?
+// top 3 LPs that sde 3 should possess?
+// interview feedback? should i concentrate on something?
 
 More questions:
 // performance bonus per year?
