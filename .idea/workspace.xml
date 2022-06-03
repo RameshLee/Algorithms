@@ -20,13 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Array/186 LeetCode Reverse Words in a String II.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/System_Design/362 LeetCode Design Hit Counter.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/1123 LeetCode Lowest Common Ancestor of Deepest Leaves.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/623 LeetCode Add One Row to Tree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/865 LeetCode Smallest Subtree with all the Deepest Nodes.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/1874 LeetCode Minimize Product Sum of Two Arrays.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/1265 LeetCode Print Immutable Linked List in Reverse.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/582 LeetCode Kill Process.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/189_LeetCode_Rotate_Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/189_LeetCode_Rotate_Array.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,16 +43,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tree" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Array" />
       <recent name="$PROJECT_DIR$/Tree" />
+      <recent name="$PROJECT_DIR$/Array" />
+      <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$/System_Design" />
       <recent name="$PROJECT_DIR$/GraphSearch" />
-      <recent name="$PROJECT_DIR$/Backtracking" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GraphSearch" />
