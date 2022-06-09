@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d602471-9d6b-42c7-9129-293825033bbf" name="Default Changelist" comment="BFS added in graph.h!">
-      <change afterPath="$PROJECT_DIR$/Tree/1609 LeetCode Even Odd Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1261 LeetCode Find Elements in a Contaminated Binary Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/1376 LeetCode Time Needed to Inform All Employees.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/654 LeetCode Maximum Binary Tree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
