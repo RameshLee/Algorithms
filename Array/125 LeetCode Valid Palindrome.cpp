@@ -8,22 +8,15 @@ public:
     bool isPalindrome(string s) {
 
         // in-place erase everything except digits & characters
-        int i = 0;
-        while(1){
-            if (i>=s.size()) break;
-            if (std::isalpha(s[i]) || std::isdigit(s[i])) {
-                 s[i] = std::tolower(s[i]);
-            }
-            else {
-                s.erase(s.begin()+i);
-                i--;
-            }
-            i++;
+        auto index = 0;
+        for (auto i=0; i<s.size(); i++) {
+            if (std::isalpha(s[i]) || std::isdigit(s[i]))
+                s[index++] = std::tolower(s[i]);
         }
 
         // check palindrome
-        int l=0, r=s.size()-1;
-        while (l<=r){
+        auto l=0, r=index-1;
+        while (l<=r) {
             if (s[l] != s[r]) return false;
             l++, r--;
         }

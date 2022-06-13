@@ -2,28 +2,26 @@
 
 // Approach: BFS to find shortest path from source to destination
 
+// Approach: BFS to find shortest path from source to destination
+
 class Solution {
 public:
     int openLock(vector<string>& deadends, string target) {
         unordered_set<string> deadSet(deadends.begin(), deadends.end());
         if (deadSet.find("0000") != deadSet.end()) return -1;
+
         queue<string> q; q.push("0000");
-        int breadth = 0;
-        while (!q.empty()) {
+        for (int breadth = 0; !q.empty(); breadth++) { // level-order-traversal/BFS
             int sz = q.size();
-            for (auto loop=0; loop<sz; loop++) { // level-order-traversal/BFS
-                auto code = q.front(); q.pop();
-                if (code == target) return breadth;
+            for (auto loop=0; loop<sz; loop++) {
+                auto curr = q.front(); q.pop();
+                if (curr == target) return breadth;
 
                 // rotate each button on clockwise/counterclockwise directions
-                for (auto neighbor : getNeighbors(code)) {
-                    if (deadSet.find(neighbor) == deadSet.end()) {
-                        q.push(neighbor);
-                        deadSet.insert(neighbor);
-                    }
-                }
+                for (auto neighbor : getNeighbors(curr))
+                    if (deadSet.find(neighbor) == deadSet.end())
+                        q.push(neighbor),  deadSet.insert(neighbor);
             }
-            breadth++;
         }
         return -1;
     }
