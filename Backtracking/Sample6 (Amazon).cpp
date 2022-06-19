@@ -19,8 +19,10 @@ Benefits: standard benefits
 Relocation: 6.8k USD
 Transport/Parking allowance: 85 CAD monthly
 Phone allowance: 65 CAD monthly
+Amazon purchase: 10% discount or reimburse upto 150 CAD per year
 Vacation: 3 weeks annually + 6 days sick leave + paternity/absence/etc
 Workhours: 9am-5pm, Mon-Fri
+Performance bonus: Possible to bump stocks/base-salary based on yearly performance.
 Other details: Negotiated to boost the salary from 214k to 224k CAD.
 
 Offer questions:
