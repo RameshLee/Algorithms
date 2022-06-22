@@ -17,8 +17,8 @@ Stock bonus: 40 RSU vested over 4 years (5%, 15%, 40%, 40%)
 Total comp (Salary + Bonus + Stock): ~224,000 CAD (first year)
 Benefits: standard benefits
 Relocation: 6.8k USD
-Transport/Parking allowance: 85 CAD monthly
-Phone allowance: 65 CAD monthly
+Transport/Parking allowance: 85 CAD per month
+Phone allowance: 65 CAD per month
 Amazon purchase: 10% discount or reimburse upto 150 CAD per year
 Vacation: 3 weeks annually + 6 days sick leave + paternity/absence/etc
 Workhours: 9am-5pm, Mon-Fri
