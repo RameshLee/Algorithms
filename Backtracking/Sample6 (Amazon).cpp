@@ -12,7 +12,7 @@
 
 // Compensation details:
 Salary: 156,000 CAD (caps at 160k)
-Signing Bonus: 62,000 CAD first year, 46,000 CAD second year
+Signing Bonus: 62,000 CAD firsst year, 46,000 CAD second year
 Stock bonus: 40 RSU vested over 4 years (5%, 15%, 40%, 40%)
 Total comp (Salary + Bonus + Stock): ~224,000 CAD (first year)
 Benefits: standard benefits
